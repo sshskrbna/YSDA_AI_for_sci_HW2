@@ -1,0 +1,4 @@
+sample_id	source	original_source	sha256
+KU361241.1	homework/data/KU361241.1.fasta	tarax/fasta_tarax/genomes/KU361241.1.fasta	459a8ed4c9de4800a0cda7cea355c4d9aa2ddaa3286c72f5e40da8115bcb535e
+KU736960.1	homework/data/KU736960.1.fasta	tarax/fasta_tarax/genomes/KU736960.1.fasta	7726b606b42b27ac561623dcc94649cedd144639b5efa6fa191aebda84160fe3
+NC_032056.1	homework/data/NC_032056.1.fasta	tarax/fasta_tarax/genomes/NC_032056.1.fasta	5dd58eab82bd45118f7052e203f14fe7353564d1380f42aed461173a2e978dde

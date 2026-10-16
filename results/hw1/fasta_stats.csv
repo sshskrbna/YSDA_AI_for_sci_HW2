@@ -1,0 +1,4 @@
+sample_id,source,length_bp,a_count,c_count,g_count,t_count,ambiguous_count,gc_percent
+KU361241.1,homework/data/KU361241.1.fasta,151324,47065,28355,28673,47231,0,37.68602469
+KU736960.1,homework/data/KU736960.1.fasta,151307,47048,28368,28660,47231,0,37.69025888
+NC_032056.1,homework/data/NC_032056.1.fasta,151282,46924,28085,28916,47357,0,37.67863989
