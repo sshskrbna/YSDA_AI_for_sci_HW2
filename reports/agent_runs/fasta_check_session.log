@@ -1,0 +1,411 @@
+PROMPT: Задача «Статистика FASTA» из раздела 0 AGENTS.md, сессия 1 из 2: независимая проверка. В этой сессии разрешено создать только один файл — checks/check_hw1_fasta.py. Расчёт не пиши, папку scripts/ не трогай.
+
+Что делает проверка (только стандартная библиотека Python 3, ничего не импортировать из scripts/):
+1. Читает homework/inputs.tsv: столбцы sample_id, source, original_source, sha256. Для каждой строки сверяет SHA-256 файла source и файла original_source со значением sha256.
+2. Сама разбирает каждый FASTA: строка заголовка начинается с '>', остальные строки — последовательность, регистр не важен. Считает length_bp, a_count, c_count, g_count, t_count, ambiguous_count (все символы, кроме A/C/G/T), gc_percent = 100*(G+C)/(A+C+G+T).
+3. Читает results/hw1/fasta_stats.csv или путь из аргумента --result. Требует столбцы ровно в порядке sample_id,source,length_bp,a_count,c_count,g_count,t_count,ambiguous_count,gc_percent и ровно три строки с sample_id из манифеста. Целые числа должны совпасть точно, gc_percent — с допуском 1e-6.
+4. Всё совпало — печатает строку, начинающуюся с OK, код 0. Иначе печатает список расхождений, код 1. Нет файла результата — сообщение об этом, код 1.
+
+Затем запусти python3 checks/check_hw1_fasta.py. Результата ещё нет, поэтому ожидается код 1 с сообщением об отсутствии файла; сообщи фактический код.
+Допиши в конец diary.md запись: дата, запрос, что сделано, результат, точка проверки, итог проверки. Каждый файл записывай один раз. Больше ничего не делай.
+
+
+    __( O)>  ● new session · служебная подготовка gpt://[REDACTED]/deepseek-v4-flash/latest
+   \____)    20261016_51 · /Users/alexandraskryabina/Desktop/YSDA/ai_ag/HW1_submission
+     L L     goose is ready
+Начну с чтения договора проекта и структуры.
+  ────────────────────────────────────────
+  ▸ shell
+    command: cd /Users/alexandraskryabina/Desktop/YSDA/ai_ag/HW1_submission && ls -la && echo "---" && cat AGENTS.md 2>/dev/null | head -5
+
+
+  ────────────────────────────────────────
+  ▸ tree
+    path: /Users/alexandraskryabina/Desktop/YSDA/ai_ag/HW1_submission
+    depth: 3
+
+total 184
+drwxr-xr-x@ 26 alexandraskryabina  staff    832 Oct 16 19:58 .
+drwxr-xr-x@ 17 alexandraskryabina  staff    544 Oct 16 18:58 ..
+drwxr-xr-x@ 12 alexandraskryabina  staff    384 Oct 16 19:58 .git
+-rw-r--r--@  1 alexandraskryabina  staff    155 Oct 16 16:47 .gitattributes
+-rw-r--r--@  1 alexandraskryabina  staff    444 Oct 16 16:47 .gitignore
+drwxr-xr-x@  4 alexandraskryabina  staff    128 Oct 16 16:47 .obsidian
+-rw-r--r--@  1 alexandraskryabina  staff   9942 Oct 16 19:50 AGENTS.md
+-rw-r--r--@  1 alexandraskryabina  staff   3536 Oct 16 16:47 INDEX.md
+-rw-r--r--@  1 alexandraskryabina  staff   3288 Oct 16 16:47 README.md
+-rw-r--r--@  1 alexandraskryabina  staff   2303 Oct 16 16:47 STATUS.md
+-rw-r--r--@  1 alexandraskryabina  staff   6773 Oct 16 19:57 cascade.sh
+drwxr-xr-x@  2 alexandraskryabina  staff     64 Oct 16 19:58 checks
+-rw-r--r--@  1 alexandraskryabina  staff  19483 Oct 16 16:47 diary.md
+-rw-r--r--@  1 alexandraskryabina  staff  18575 Oct 16 16:47 graph_view.md
+drwxr-xr-x@  4 alexandraskryabina  staff    128 Oct 16 19:47 homework
+drwxr-xr-x@  3 alexandraskryabina  staff     96 Oct 16 16:47 library
+drwxr-xr-x@  6 alexandraskryabina  staff    192 Oct 16 19:59 memory
+drwxr-xr-x@ 40 alexandraskryabina  staff   1280 Oct 16 16:47 notes
+drwxr-xr-x@ 17 alexandraskryabina  staff    544 Oct 16 16:47 ontology
+-rw-r--r--@  1 alexandraskryabina  staff   8206 Oct 16 16:47 ontology.yaml
+drwxr-xr-x@  4 alexandraskryabina  staff    128 Oct 16 19:57 paper
+drwxr-xr-x@  7 alexandraskryabina  staff    224 Oct 16 19:47 reports
+drwxr-xr-x@  3 alexandraskryabina  staff     96 Oct 16 19:58 results
+drwxr-xr-x@  2 alexandraskryabina  staff     64 Oct 16 19:58 scripts
+drwxr-xr-x@  3 alexandraskryabina  staff     96 Oct 16 16:47 tarax
+drwxr-xr-x@ 12 alexandraskryabina  staff    384 Oct 16 16:47 tasks
+---
+# AGENTS.md — филогения Taraxacum по пластомам и ITS
+
+## 0. Цель и образ результата
+
+Проект изучает родственные связи видов Taraxacum. Мы сравниваем дерево поПроверю содержимое homework/inputs.tsv и структуру данных.
+  ────────────────────────────────────────
+  ▸ shell
+    command: cd /Users/alexandraskryabina/Desktop/YSDA/ai_ag/HW1_submission && echo "=== inputs.tsv ===" && cat homework/inputs.tsv && echo "=== data files ===" && ls -la homework/data/ && echo "=== checks dir ===" && ls -la checks/ && echo "=== results/hw1 ===" && ls -la results/hw1/
+
+=== inputs.tsv ===
+sample_id	source	original_source	sha256
+KU361241.1	homework/data/KU361241.1.fasta	tarax/fasta_tarax/genomes/KU361241.1.fasta	459a8ed4c9de4800a0cda7cea355c4d9aa2ddaa3286c72f5e40da8115bcb535e
+KU736960.1	homework/data/KU736960.1.fasta	tarax/fasta_tarax/genomes/KU736960.1.fasta	7726b606b42b27ac561623dcc94649cedd144639b5efa6fa191aebda84160fe3
+NC_032056.1	homework/data/NC_032056.1.fasta	tarax/fasta_tarax/genomes/NC_032056.1.fasta	5dd58eab82bd45118f7052e203f14fe7353564d1380f42aed461173a2e978dde
+=== data files ===
+total 912
+drwxr-xr-x@ 5 alexandraskryabina  staff     160 Oct 16 18:21 .
+drwxr-xr-x@ 4 alexandraskryabina  staff     128 Oct 16 19:47 ..
+-rw-r--r--@ 1 alexandraskryabina  staff  153909 Oct 16 16:47 KU361241.1.fasta
+-rw-r--r--@ 1 alexandraskryabina  staff  153892 Oct 16 16:47 KU736960.1.fasta
+-rw-r--r--@ 1 alexandraskryabina  staff  153515 Oct 16 16:47 NC_032056.1.fasta
+=== checks dir ===
+total 0
+drwxr-xr-x@  2 alexandraskryabina  staff   64 Oct 16 19:58 .
+drwxr-xr-x@ 26 alexandraskryabina  staff  832 Oct 16 19:58 ..
+=== results/hw1 ===
+total 0
+drwxr-xr-x@ 2 alexandraskryabina  staff  64 Oct 16 19:58 .
+drwxr-xr-x@ 3 alexandraskryabina  staff  96 Oct 16 19:58 ..Проверю формат FASTA и наличие результата. Результата нет (results/hw1 пуст). Посмотрю на FASTA.
+  ────────────────────────────────────────
+  ▸ shell
+    command: cd /Users/alexandraskryabina/Desktop/YSDA/ai_ag/HW1_submission && head -3 homework/data/KU361241.1.fasta && echo "..." && grep -c '^>' homework/data/*.fasta
+
+>KU361241.1 Taraxacum officinale chloroplast, complete genome
+CTTTGGGCGAACGACGGGAATTGAACCCGCGCATGGTGGATTCACAATCCACTGCCTTGA
+TCCACTTGGCTACATCCGCCCCTCTAGTATTTTCTAGTATTTCTATATTTTTCCATTAAC
+...
+homework/data/KU361241.1.fasta:1
+homework/data/KU736960.1.fasta:1
+homework/data/NC_032056.1.fasta:1Всё ясно. Теперь напишу проверочный скрипт `checks/check_hw1_fasta.py` — единственный файл, который разрешено создать в этой сессии.
+  ────────────────────────────────────────
+  ▸ write
+    path ~/D/Y/a/H/checks/check_hw1_fasta.py
+    content: #!/usr/bin/env python3
+"""Независимая проверка статистики FASTA (ДЗ 1).
+
+Источник данных: homework/inputs.tsv (sample_id, source, original_source, sha256).
+Что делает:
+  1. Для каждой строки манифеста сверяет SHA-256 файлов source и original_source
+     со значением sha256.
+  2. Самостоятельно разбирает каждый FASTA (заголовок '>', остальное —
+     последовательность, регистр не важен) и считает length_bp, a_count,
+     c_count, g_count, t_count, ambiguous_count, gc_percent.
+  3. Читает results/hw1/fasta_stats.csv (или путь из --result), требует
+     столбцы ровно в порядке sample_id,source,length_bp,a_count,c_count,
+     g_count,t_count,ambiguous_count,gc_percent и ровно три строки с
+     sample_id из манифеста. Целые — точно, gc_percent — с допуском 1e-6.
+  4. Всё совпало — печатает строку с OK, код 0. Иначе — список расхождений,
+     код 1. Нет файла результата — сообщение, код 1.
+
+Используется только стандартная библиотека Python 3.
+"""
+
+import argparse
+import csv
+import hashlib
+import os
+import sys
+
+# Порядок столбцов результата, требуемый заданием.
+RESULT_COLUMNS = [
+    "sample_id", "source", "length_bp", "a_count", "c_count",
+    "g_count", "t_count", "ambiguous_count", "gc_percent",
+]
+
+# Символы, считающиеся каноническими нуклеотидами (регистр не важен).
+CANONICAL = set("ACGT")
+
+
+def sha256_file(path):
+    """SHA-256 файла в hex."""
+    h = hashlib.sha256()
+    with open(path, "rb") as f:
+        for chunk in iter(lambda: f.read(65536), b""):
+            h.update(chunk)
+    return h.hexdigest()
+
+
+def parse_fasta(path):
+    """Разбирает FASTA: возвращает (length_bp, a, c, g, t, ambiguous, gc_percent).
+
+    Строка заголовка начинается с '>', остальные строки — последовательность.
+    Регистр не важен. ambiguous — все символы, кроме A/C/G/T.
+    gc_percent = 100*(G+C)/(A+C+G+T).
+    """
+    a = c = g = t = amb = 0
+    in_seq = False
+    with open(path, "r", encoding="utf-8", errors="replace") as f:
+        for line in f:
+            line = line.strip()
+            if not line:
+                continue
+            if line.startswith(">"):
+                in_seq = True
+                continue
+            if not in_seq:
+                # Строка до первого заголовка — не последовательность.
+                continue
+            for ch in line.upper():
+                if ch == "A":
+                    a += 1
+                elif ch == "C":
+                    c += 1
+                elif ch == "G":
+                    g += 1
+                elif ch == "T":
+                    t += 1
+                else:
+                    amb += 1
+    length_bp = a + c + g + t
+    denom = a + c + g + t
+    gc_percent = 100.0 * (g + c) / denom if denom else 0.0
+    return length_bp, a, c, g, t, amb, gc_percent
+
+
+def read_manifest(path):
+    """Читает homework/inputs.tsv -> список dict."""
+    rows = []
+    with open(path, "r", encoding="utf-8") as f:
+        reader = csv.DictReader(f, delimiter="\t")
+        for row in reader:
+            rows.append(row)
+    return rows
+
+
+def read_result(path):
+    """Читает CSV результата -> (headers, rows)."""
+    with open(path, "r", encoding="utf-8") as f:
+        reader = csv.reader(f)
+        rows = list(reader)
+    if not rows:
+        return [], []
+    return rows[0], rows[1:]
+
+
+def main():
+    ap = argparse.ArgumentParser(description=__doc__)
+    ap.add_argument(
+        "--result",
+        default="results/hw1/fasta_stats.csv",
+        help="путь к CSV результата (по умолчанию results/hw1/fasta_stats.csv)",
+    )
+    ap.add_argument(
+        "--manifest",
+        default="homework/inputs.tsv",
+        help="путь к манифесту (по умолчанию homework/inputs.tsv)",
+    )
+    args = ap.parse_args()
+
+    problems = []
+
+    # 1. Манифест.
+    if not os.path.exists(args.manifest):
+        print(f"Нет файла манифеста: {args.manifest}")
+        return 1
+    manifest = read_manifest(args.manifest)
+    if not manifest:
+        print("Манифест пуст.")
+        return 1
+
+    # 2. Сверка SHA-256 source и original_source.
+    for row in manifest:
+        sid = row.get("sample_id", "")
+        expected = row.get("sha256", "").strip().lower()
+        for key in ("source", "original_source"):
+            path = row.get(key, "")
+            if not path:
+                problems.append(f"{sid}: отсутствует путь {key}")
+                continue
+            if not os.path.exists(path):
+                problems.append(f"{sid}: нет файла {key} -> {path}")
+                continue
+            actual = sha256_file(path)
+            if actual != expected:
+                problems.append(
+                    f"{sid}: SHA-256 {key} не совпадает "
+                    f"(ожидалось {expected}, получено {actual})"
+                )
+
+    # 3. Самостоятельный расчёт статистики по FASTA.
+    expected_stats = {}
+    for row in manifest:
+        sid = row.get("sample_id", "")
+        path = row.get("source", "")
+        if not path or not os.path.exists(path):
+            if path:
+                problems.append(f"{sid}: нет файла source для расчёта -> {path}")
+            continue
+        length_bp, a, c, g, t, amb, gc = parse_fasta(path)
+        expected_stats[sid] = {
+            "length_bp": length_bp,
+            "a_count": a,
+            "c_count": c,
+            "g_count": g,
+            "t_count": t,
+            "ambiguous_count": amb,
+            "gc_percent": gc,
+        }
+
+    # 4. Чтение результата.
+    if not os.path.exists(args.result):
+        print(f"Нет файла результата: {args.result}")
+        return 1
+    headers, rows = read_result(args.result)
+
+    if headers != RESULT_COLUMNS:
+        problems.append(
+            f"Столбцы результата не совпадают: ожидалось {RESULT_COLUMNS}, "
+            f"получено {headers}"
+        )
+
+    # Сопоставление строк результата по sample_id.
+    result_by_id = {}
+    for r in rows:
+        if not r:
+            continue
+        d = dict(zip(headers, r))
+        result_by_id[d.get("sample_id", "")] = d
+
+    manifest_ids = [row.get("sample_id", "") for row in manifest]
+    if len(result_by_id) != len(manifest_ids):
+        problems.append(
+            f"Число строк результата ({len(result_by_id)}) не равно числу "
+            f"образцов в манифесте ({len(manifest_ids)})"
+        )
+
+    # 5. Сверка значений.
+    for sid in manifest_ids:
+        if sid not in expected_stats:
+            continue
+        exp = expected_stats[sid]
+        if sid not in result_by_id:
+            problems.append(f"{sid}: нет строки в результате")
+            continue
+        got = result_by_id[sid]
+        for col in ("length_bp", "a_count", "c_count", "g_count", "t_count",
+                    "ambiguous_count"):
+            try:
+                gv = int(got.get(col, ""))
+            except (TypeError, ValueError):
+                problems.append(f"{sid}: {col} не целое число: {got.get(col)!r}")
+                continue
+            if gv != exp[col]:
+                problems.append(
+                    f"{sid}: {col} не совпадает (ожидалось {exp[col]}, "
+                    f"получено {gv})"
+                )
+        # gc_percent с допуском 1e-6.
+        try:
+            gg = float(got.get("gc_percent", ""))
+        except (TypeError, ValueError):
+            problems.append(f"{sid}: gc_percent не число: {got.get('gc_percent')!r}")
+            continue
+        if abs(gg - exp["gc_percent"]) > 1e-6:
+            problems.append(
+                f"{sid}: gc_percent не совпадает (ожидалось "
+                f"{exp['gc_percent']:.9f}, получено {gg:.9f})"
+            )
+
+    if problems:
+        print("FAIL")
+        for p in problems:
+            print("  - " + p)
+        return 1
+
+    print("OK: все проверки пройдены")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
+
+Created /Users/alexandraskryabina/Desktop/YSDA/ai_ag/HW1_submission/checks/check_hw1_fasta.py (238 lines)Скрипт создан. Запускаю проверку — результата ещё нет, ожидаю код 1 с сообщением об отсутствии файла.
+  ────────────────────────────────────────
+  ▸ shell
+    command: cd /Users/alexandraskryabina/Desktop/YSDA/ai_ag/HW1_submission && python3 checks/check_hw1_fasta.py; echo "EXIT_CODE=$?"
+
+Нет файла результата: results/hw1/fasta_stats.csv
+EXIT_CODE=1Фактический код 1, сообщение об отсутствии файла результата — как и ожидалось. Теперь допишу запись в diary.md.
+  ────────────────────────────────────────
+  ▸ shell
+    command: cd /Users/alexandraskryabina/Desktop/YSDA/ai_ag/HW1_submission && tail -5 diary.md
+
+- Фактические результаты повторной проверки записываются в reports/HW1_CHECK.json и отчётах отдельных проверок.
+
+- Результат внешней проверки: GitHub API без авторизации подтвердил public, default_branch=HW1 и HTTP 200 для README/AGENTS/отчёта/проверки.
+- Анонимное клонирование с credential.helper= выполнено; check_submission.py и check_publication.py дали код 0, git status после проверок пуст.
+- Подготовлена метка публикации hw1-submission-v1; свидетельства сохранены в reports/HW1_PUBLIC_ACCESS.json.
+
+
+  ────────────────────────────────────────
+  ▸ shell
+    command: cd /Users/alexandraskryabina/Desktop/YSDA/ai_ag/HW1_submission && cat >> diary.md << 'EOF'
+
+## 2026-10-16 — ДЗ 1, сессия 1 из 2: независимая проверка (скрипт)
+
+- Запрос: создать checks/check_hw1_fasta.py (единственный файл сессии) и запустить его; результата ещё нет.
+- Что сделано: написан checks/check_hw1_fasta.py — независимая проверка на стандартной библиотеке Python 3. Сверяет SHA-256 source и original_source из homework/inputs.tsv, сам разбирает каждый FASTA (length_bp, a/c/g/t/ambiguous, gc_percent), читает results/hw1/fasta_stats.csv (или --result) с требуемым порядком столбцов и ровно тремя строками, сверяет целые точно и gc_percent с допуском 1e-6.
+- Результат: запуск `python3 checks/check_hw1_fasta.py` вернул код 1 с сообщением «Нет файла результата: results/hw1/fasta_stats.csv» — ожидаемо, файла результата ещё нет.
+- Точка проверки: код 1 при отсутствии файла результата.
+- Итог проверки: фактический код 1, сообщение об отсутствии файла результата — соответствует ожиданию.
+EOF
+echo "appended"; tail -8 diary.md
+
+appended
+
+## 2026-10-16 — ДЗ 1, сессия 1 из 2: независимая проверка (скрипт)
+
+- Запрос: создать checks/check_hw1_fasta.py (единственный файл сессии) и запустить его; результата ещё нет.
+- Что сделано: написан checks/check_hw1_fasta.py — независимая проверка на стандартной библиотеке Python 3. Сверяет SHA-256 source и original_source из homework/inputs.tsv, сам разбирает каждый FASTA (length_bp, a/c/g/t/ambiguous, gc_percent), читает results/hw1/fasta_stats.csv (или --result) с требуемым порядком столбцов и ровно тремя строками, сверяет целые точно и gc_percent с допуском 1e-6.
+- Результат: запуск `python3 checks/check_hw1_fasta.py` вернул код 1 с сообщением «Нет файла результата: results/hw1/fasta_stats.csv» — ожидаемо, файла результата ещё нет.
+- Точка проверки: код 1 при отсутствии файла результата.
+- Итог проверки: фактический код 1, сообщение об отсутствии файла результата — соответствует ожиданию.Готово. Сессия 1 из 2 завершена.
+
+**Что сделано:**
+1. Создан единственный файл сессии — `checks/check_hw1_fasta.py` (только стандартная библиотека Python 3, ничего из `scripts/` не импортируется):
+   - сверяет SHA-256 файлов `source` и `original_source` из `homework/inputs.tsv` со значением `sha256`;
+   - сам разбирает каждый FASTA (заголовок `>`, регистр не важен), считает `length_bp`, `a/c/g/t_count`, `ambiguous_count`, `gc_percent`;
+   - читает `results/hw1/fasta_stats.csv` (или `--result`), требует столбцы ровно в порядке `sample_id,source,length_bp,a_count,c_count,g_count,t_count,ambiguous_count,gc_percent` и ровно три строки; целые — точно, `gc_percent` — с допуском 1e-6;
+   - совпадение → строка с `OK`, код 0; расхождения → список, код 1; нет файла результата → сообщение, код 1.
+
+2. Запуск `python3 checks/check_hw1_fasta.py`:
+   ```
+   Нет файла результата: results/hw1/fasta_stats.csv
+   EXIT_CODE=1
+   ```
+   **Фактический код 1** — соответствует ожиданию (файла результата ещё нет).
+
+3. В `diary.md` дописана запись: дата, запрос, что сделано, результат, точка проверки, итог проверки.
+
+Больше ничего не создано и не изменено.
+
+  ─── AI4Science ───────────────────────────────────────────────
+    ИИ-ассистент исследователя
+    Инференс  →  Контекст  →  Верификация
+  ─────────────────────────────────────────────────────────────
+    Модель:    deepseek-v4-flash/latest (Yandex AI Studio)
+    Контекст:  1M токенов, сжатие истории при 99k
+    Режим:     auto
+    Lean 4:    отключён
+    Бюджет:    3,481,711 / 8,000,000 токенов сегодня
+  ─────────────────────────────────────────────────────────────
+    Курс ШАД «ИИ-ассистенты для исследователя. AI4Science»
+    Модель:    /model <алиас> — qwen qwen235 deepseek gptoss junior
+    Команды:   /status  /mode <режим>  /plan <задача>  /compact  /help  /exit
+
+exit 0

@@ -1,0 +1,6 @@
+# Preserve exact bytes for hashed FASTA inputs and existing metadata tables.
+*.fasta -text
+*.csv -text
+*.tsv text eol=lf
+*.md text eol=lf
+*.py text eol=lf

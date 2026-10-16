@@ -1,0 +1,7 @@
+{
+  "timestamp": "2026-10-13T12:37:21.186025+03:00",
+  "command": "ai4science doctor",
+  "exit_code": 0,
+  "output": "=== AI4Science doctor ===\n.env: OK (/Users/alexandraskryabina/Desktop/YSDA/ai_ag/AI4Science/.env)\nYANDEX_CLOUD_API_KEY: задан (40 символов)\nYANDEX_CLOUD_FOLDER: [скрыто]\nмодель: deepseek-v4-flash/latest\nмодель для /plan: qwen3-235b-a22b-fp8/latest\nданные Goose (сессии, журналы): /Users/alexandraskryabina/Desktop/YSDA/ai_ag/AI_tarax/homework/agent_runtime\nОС: darwin, Python 3.14.3\ngoose: 1.50.0\npython venv: Python 3.14.3\nMCP ai4science: OK (17 инструментов: token_budget, load_artifact, list_skills, load_skill, lean_check, lean_health, lean_search_engines, lean_search_loogle, lean_search_leansearch, lean_search_moogle, lean_search_scilib, web_search, web_fetch, pdf_download, pdf_info, pdf_read, pdf_search)\nlean-checker: недоступен (https://scilibai.ru/grag); lean_check вернёт сообщение об ошибке\nбюджет: 0 / 3,000,000 (осталось 3,000,000)\n",
+  "note": "Goose diagnostics placed under homework/agent_runtime; folder identifier redacted"
+}

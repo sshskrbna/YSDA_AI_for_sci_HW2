@@ -1,0 +1,8 @@
+{
+  "source": "paper/angiosperm_2026/source.pdf",
+  "sha256": "12eaf44c5134a132ec4f15675e717ba1d6e8ddde984946a9d89a378f16b8911a",
+  "pages": 30,
+  "words": 23364,
+  "extraction": "pdftotext UTF-8, default reading order; page numbers are PDF viewer indices",
+  "original_local_source": "literature/J of Systematics Evolution - 2026 -  - Large‐scale nuclear and plastid phylogenomic analyses inform an updated Angiosperm.pdf"
+}

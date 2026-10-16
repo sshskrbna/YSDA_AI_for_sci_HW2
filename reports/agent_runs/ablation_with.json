@@ -1,0 +1,56 @@
+{
+  "case": "ablation_with",
+  "started": "2026-10-14T23:23:47.197641+03:00",
+  "command": "ai4science --no-lean --mode auto run <prompt>",
+  "prompt": "Прочитай только AGENTS.md и results/hw1/fasta_stats.csv. Создай reports/order.md: краткая таблица sample_id, length_bp, gc_percent по готовому CSV. Соблюдай порядок отчёта из AGENTS.md, если он задан; иначе выбери порядок сам. Не изменяй CSV и входы. Достаточно чтения двух файлов одним вызовом shell и записи одной таблицы. Никаких сети, исследований и других файлов. После записи сразу сообщи итог.",
+  "model_alias": "qwen",
+  "agent_exit_code": 0,
+  "agent_reported_error": false,
+  "timed_out": false,
+  "elapsed_seconds": 6.7,
+  "inputs_unchanged": true,
+  "checks_unchanged": true,
+  "course_step_markers": 3,
+  "usage": [
+    {
+      "timestamp": "2026-10-14T20:23:44.589826+00:00",
+      "prompt_tokens": 522,
+      "completion_tokens": 1476,
+      "total_tokens": 1998
+    },
+    {
+      "timestamp": "2026-10-14T20:23:45.363998+00:00",
+      "prompt_tokens": 5557,
+      "completion_tokens": 204,
+      "total_tokens": 5761
+    },
+    {
+      "timestamp": "2026-10-14T20:23:46.722119+00:00",
+      "prompt_tokens": 6118,
+      "completion_tokens": 312,
+      "total_tokens": 6430
+    },
+    {
+      "timestamp": "2026-10-14T20:23:47.175350+00:00",
+      "prompt_tokens": 6479,
+      "completion_tokens": 76,
+      "total_tokens": 6555
+    }
+  ],
+  "context_measurement": "provider usage.prompt_tokens per inference; includes system/tool context, not daily token spend",
+  "stdout": "\n    __( O)>  ● new session · служебная подготовка gpt://[REDACTED]/qwen3.6-35b-a3b/latest\n   \\____)    20261014_7 · /Users/alexandraskryabina/Desktop/YSDA/ai_ag/hw1_agent_runs/ablation_with\n     L L     goose is ready\n\n  ────────────────────────────────────────\n  ▸ shell\n    command: cat /Users/alexandraskryabina/Desktop/YSDA/ai_ag/hw1_agent_runs/ablation_with/AGENTS.md\n\n\n  ────────────────────────────────────────\n  ▸ shell\n    command: cat /Users/alexandraskryabina/Desktop/YSDA/ai_ag/hw1_agent_runs/ablation_with/results/hw1/fasta_stats.csv\n\n# AGENTS.md\n\nВыполни только учебную FASTA-задачу. Правило GC и команды есть в homework/HW1_PLAN.md.\nВходы и проверки не менять. Работа ограничена этой копией.\n\n## Чего агент не может знать сам\nДля краткого отчёта reports/order.md используй порядок NC_032056.1, KU361241.1, KU736960.1 независимо от порядка манифеста.sample_id,source,length_bp,a_count,c_count,g_count,t_count,ambiguous_count,gc_percent\nKU361241.1,homework/data/KU361241.1.fasta,151324,47065,28355,28673,47231,0,37.68602469\nKU736960.1,homework/data/KU736960.1.fasta,151307,47048,28368,28660,47231,0,37.69025888\nNC_032056.1,homework/data/NC_032056.1.fasta,151282,46924,28085,28916,47357,0,37.67863989\n\nПорядок из AGENTS.md: NC_032056.1 → KU361241.1 → KU736960.1. Пишу отчёт.\n  ────────────────────────────────────────\n  ▸ write\n    path ~/D/Y/a/h/a/reports/order.md\n    content: # FASTA Report — Order\n\n| sample_id   | length_bp | gc_percent |\n|-------------|-----------|------------|\n| NC_032056.1 | 151282    | 37.67863989 |\n| KU361241.1  | 151324    | 37.68602469 |\n| KU736960.1  | 151307    | 37.69025888 |\n\nCreated /Users/alexandraskryabina/Desktop/YSDA/ai_ag/hw1_agent_runs/ablation_with/reports/order.md (7 lines)\n\nГотово. `reports/order.md` создан с таблицей из 3 строк в порядке NC_032056.1 → KU361241.1 → KU736960.1 (согласно AGENTS.md). CSV не изменён.\n\n  ─── AI4Science ───────────────────────────────────────────────\n    ИИ-ассистент исследователя\n    Инференс  →  Контекст  →  Верификация\n  ─────────────────────────────────────────────────────────────\n    Модель:    qwen3.6-35b-a3b/latest (Yandex AI Studio)\n    Контекст:  256k токенов, сжатие истории при 99k\n    Режим:     auto\n    Lean 4:    отключён\n    Бюджет:    2,600,290 / 3,000,000 токенов сегодня\n  ─────────────────────────────────────────────────────────────\n    Курс ШАД «ИИ-ассистенты для исследователя. AI4Science»\n    Модель:    /model <алиас> — qwen qwen235 deepseek gptoss junior\n    Команды:   /status  /mode <режим>  /plan <задача>  /compact  /help  /exit\n\n",
+  "check_exit_code": 0,
+  "check_output": "OK: состав выборки, исходные файлы и все числовые значения проверены\n",
+  "expected_report_order": [
+    "NC_032056.1",
+    "KU361241.1",
+    "KU736960.1"
+  ],
+  "actual_report_order": [
+    "NC_032056.1",
+    "KU361241.1",
+    "KU736960.1"
+  ],
+  "order_rule": "Для краткого отчёта reports/order.md используй порядок NC_032056.1, KU361241.1, KU736960.1 независимо от порядка манифеста.",
+  "order_match": true
+}

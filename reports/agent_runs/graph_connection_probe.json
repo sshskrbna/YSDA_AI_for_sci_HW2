@@ -1,0 +1,17 @@
+{
+  "case": "graph_connection_probe",
+  "started": "2026-10-14T23:02:12.212580+03:00",
+  "command": "ai4science --no-lean --mode auto run <prompt>",
+  "prompt": "Ответь одним словом: работает. Инструменты не вызывай.",
+  "model_alias": "qwen",
+  "agent_exit_code": 0,
+  "agent_reported_error": true,
+  "timed_out": false,
+  "elapsed_seconds": 7.95,
+  "inputs_unchanged": true,
+  "checks_unchanged": true,
+  "course_step_markers": 0,
+  "usage": [],
+  "context_measurement": "provider usage.prompt_tokens per inference; includes system/tool context, not daily token spend",
+  "stdout": "\n    __( O)>  ● new session · служебная подготовка gpt://[REDACTED]/qwen3.6-35b-a3b/latest\n   \\____)    20261014_4 · /Users/alexandraskryabina/Desktop/YSDA/ai_ag/hw1_agent_runs/graph_connection_probe\n     L L     goose is ready\nRan into this error: Server error: Server error (502 Bad Gateway) at http://127.0.0.1:57035/v1/chat/completions: .\n\nPlease retry if you think this is a transient or recoverable error.\n\n  ─── AI4Science ───────────────────────────────────────────────\n    ИИ-ассистент исследователя\n    Инференс  →  Контекст  →  Верификация\n  ─────────────────────────────────────────────────────────────\n    Модель:    qwen3.6-35b-a3b/latest (Yandex AI Studio)\n    Контекст:  256k токенов, сжатие истории при 99k\n    Режим:     auto\n    Lean 4:    отключён\n    Бюджет:    0 / 3,000,000 токенов сегодня\n  ─────────────────────────────────────────────────────────────\n    Курс ШАД «ИИ-ассистенты для исследователя. AI4Science»\n    Модель:    /model <алиас> — qwen qwen235 deepseek gptoss junior\n    Команды:   /status  /mode <режим>  /plan <задача>  /compact  /help  /exit\n\n"
+}

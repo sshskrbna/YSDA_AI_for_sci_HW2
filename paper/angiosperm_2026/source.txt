@@ -1,0 +1,3484 @@
+Journal of Systematics
+JSE and
+Evolution
+
+doi: 10.1111/jse.70096
+
+Review
+
+Large‐scale nuclear and plastid phylogenomic analyses inform
+an updated Angiosperm Phylogeny Group classiﬁcation: APG V
+The Angiosperm Phylogeny Group
+
+Recommended citation: APG V (2026). This paper was compiled by James W. Byng1 , Mark W. Chase2* ,
+Maarten J. M. Christenhusz1,3 , Michael F. Fay2 , De‐Zhu Li4,5 , Hong Ma6 , David J. Mabberley7,8,9 ,
+Douglas E. Soltis10,11,12,13 , Pamela S. Soltis11,12,13 , and Peter F. Stevens14, who are equally responsible and
+listed here in alphabetical order, with contributions, also in alphabetical order, from William J. Baker2,15 ,
+Steven Dodsworth3 , Félix Forest2 , Olivier Maurin2,16,17 , Lisa Pokorny18 , Stephen A. Smith19 , and
+Alexandre R. Zuntini2
+1
+
+Faculty of Architecture and the Built Environment, Hortus Botanicus, University of Technology, Delft, The Netherlands
+Royal Botanic Gardens, Kew, Richmond TW9 3AE, UK
+3
+Institute of Structural and Molecular Biology, School of Natural Sciences, Birkbeck, University of London, London WC1E 7HX, UK
+4
+Center for Interdisciplinary Biodiversity Research and College of Forestry, Shandong Agricultural University, Tai′an 271018, China
+5
+Germplasm Bank of Wild Species and Yunnan Key Laboratory of Crop Wild Relative Omics, Kunming Institute of Botany, Chinese Academy of
+Sciences, Kunming 650201, China
+6
+Department of Biology, Eberly College of Science and Huck Institutes of the Life Sciences, Pennsylvania State University, University Park,
+State College, PA 16802, USA
+7
+Wadham College, University of Oxford, Oxford, UK
+8
+School of Natural Resources, Macquarie University, Sydney, New South Wales, Australia
+9
+Australian Institute of Botanical Science (National Herbarium of New South Wales), Sydney, New South Wales, Australia
+10
+Department of Biology, University of Florida, Gainesville, FL 32611, USA
+11
+Florida Museum of Natural History, University of Florida, Gainesville, FL 32611, USA
+12
+Genetics Institute, University of Florida, Gainesville, FL 32611, USA
+13
+Biodiversity Institute, University of Florida, Gainesville, FL 32611, USA
+14
+Missouri Botanical Garden, PO Box 299, St Louis, MO 63166‐0299, USA
+15
+Department of Biology, Aarhus University, Aarhus, Denmark
+16
+Meise Botanic Garden, Meise 1860, Belgium
+17
+Fédération Wallonie‐Bruxelles, Service Général de l′Enseignement supérieur et de la Recherche scientiﬁque, Bruxelles 1080, Belgium
+18
+Real Jardín Botánico (RJB‐CSIC), Madrid 28014, Spain
+19
+Department of Ecology & Evolutionary Biology, University of Michigan, 830 North University Avenue, Ann Arbor, MI 48109‐1048, USA
+*Author for correspondence. E‐mail: m.chase@kew.org
+Received 11 December 2025; Accepted 4 June 2026
+2
+
+Abstract We present here a revision of the APG classiﬁcation that considers the extensive recent analyses of hundreds
+of nuclear and plastid genes for many angiosperm species. Although previous versions of the APG classiﬁcation were
+largely based on uniparentally inherited markers (plastid DNA, typically maternally inherited), there has emerged since
+APG IV extensive evidence of widespread hybridization and inheritance of ancestral polymorphisms. Despite this
+evidence of gene‐tree discordance, most of the APG IV classiﬁcation is supported by both plastid and nuclear analyses,
+and only a few revisions are required in this update to make the classiﬁcation parallel phylogenetic results in the
+literature. At the ordinal level, few changes in circumscription are required relative to the last APG version, although the
+fabids now comprise only the four nitrogen‐ﬁxing orders (Cucurbitales, Fabales, Fagales, and Rosales) and the malvids
+now include the former COM clade (Celastrales, Malpighiales, and Oxalidales), which, in nuclear DNA analyses, is no
+longer monophyletic. Oncothecales (with only Oncothecaceae) and Cardiopteridales (with Cardiopteridaceae and
+Stemonuraceae) are newly recognized, and Icacinales are restricted to Icacinaceae. Restriction of Aquifoliales and
+Bruniales to just Aquifoliaceae/Helwingiaceae and Bruniaceae, respectively, is also proposed. Huaceae and Columelliaceae
+are unplaced to order among the malvids and campanulids, respectively. At the family level, expanded circumscriptions
+include Tecophilaeaceae (including Ixioliriaceae, Asparagales), Frankeniaceae (including Tamaricaceae, Caryophyllales),
+This is an open access article under the terms of the Creative Commons Attribution License, which permits use, distribution and
+reproduction in any medium, provided the original work is properly cited.
+
+September 2026 | Volume 64 | Issue 5 | 845–874
+
+© 2026 The Author(s). Journal of Systematics and Evolution published by John
+Wiley & Sons Australia, Ltd on behalf of Institute of Botany, Chinese Academy
+of Sciences.
+
+The Angiosperm Phylogeny Group
+Phytolaccaceae (including Agdestidaceae and Sarcobataceae, Caryophyllales), Helwingiaceae (including Phyllonomaceae,
+Aquifoliales), Gesneriaceae (including Calceolariaceae and Peltantheraceae, Lamiales), Pentaphylacaceae (including
+Sladeniaceae, Ericales), and Orobanchaceae (including Mazaceae, Paulowniaceae, Phrymaceae, and Wightiaceae,
+Lamiales). In Santalales, the limits of Santalaceae and Olacaceae are revised, and Erythropalaceae and Strombosiaceae
+are recognized as distinct from Olacaceae; Balanophoraceae are maintained as distinct from Santalaceae, but this is a
+tentative placement. Generic relationships in Dioscoreales require more analyses before a revised family classiﬁcation can
+be proposed, so we maintain the APG IV families of this order.
+Key words: angiosperms, classiﬁcation, molecular systematics, nuclear DNA, organellar DNA.
+
+1 Introduction
+The goal of modern biological classiﬁcation is to translate
+phylogenetic knowledge into an explicit system for communicating about biological taxa, and the challenges involved in
+conveying incomplete and imperfect knowledge through a
+universal system are faced by systematists working across the
+tree of life. Moreover, competing classiﬁcations for a group of
+organisms can impede communication and stiﬂe use of any of
+these. Thus, the issues of which taxa to recognize and name—
+and the criteria governing these decisions—are common to
+classiﬁcation of all organismal groups, and successful strategies
+and methods developed for one group may be applicable to
+other groups. Here, we present an updated version of the
+Angiosperm Phylogeny Group (APG) classiﬁcation, a system ﬁrst
+published almost three decades ago with explicit criteria and a
+community‐based approach to classiﬁcation. The principle of
+generating a classiﬁcation through developing consensus of
+many specialists was a new concept at that time in the ﬁeld
+of classiﬁcation, which by and large had single authors,
+especially in the last 100 years. APG (1998) was the ﬁrst such
+classiﬁcation to involve numerous authors and broad community input and has served as an exemplar for many other
+ﬁelds (e.g., Pteridophyte Phylogeny Group, 2016); now, APG V
+provides a framework for incorporation of taxonomically broad
+studies of nuclear genes as the basis for a revised classiﬁcation
+of angiosperms, a model that other groups may wish to follow.
+Previous classiﬁcations of ﬂowering plants from the
+Angiosperm Phylogeny Group (APG I–IV; 1998, 2003, 2009,
+2016) relied almost exclusively on molecular phylogenetic studies
+of DNA regions from the plastid genome, ﬁrst rbcL and then atpB
+(Chase et al., 1993; Savolainen et al., 2000a, 2000b). Plastid
+markers were chosen because there are many plastids per cell
+with a single genome per plastid, and they have a rate of
+molecular evolution appropriate for phylogenetic inference of
+higher‐order relationships (Palmer, 1987; Ritland & Clegg, 1987).
+The availability of free, universal rbcL PCR and sequencing
+primers also made it inexpensive and easy to amplify and
+sequence this gene (Zurawski & Clegg, 1987). In contrast, most
+nuclear genes were diﬃcult to sequence at that time, resulting in
+a focus on the highly repeated nuclear ribosomal RNA genes,
+which were included in some early studies (e.g., Hamby &
+Zimmer, 1992; Soltis et al., 1997). However, ribosomal trees
+showed lower resolution and support than the plastid trees,
+given the slower rate of evolution of ribosomal DNA (as opposed
+to the more rapidly evolving spacers such as nuclear ribosomal
+ITS). Because these early nuclear phylogenetic trees were largely
+congruent with inferences based on plastid genes (Nickrent &
+Soltis, 1995; Kuzoﬀ et al., 1998), they were often combined with
+
+J. Syst. Evol. 64(5): 845–874, 2026
+
+plastid gene sequences (e.g., Soltis et al., 2000). Ultimately, a
+17‐gene data set (Soltis et al., 2011) in concert with other
+published analyses, many involving numerous plastid (Yang
+et al., 2014; Sun et al., 2016) and mitochondrial (Zhu et al., 2007)
+genes, formed the backbone tree compiled for APG IV (2016).
+Although inherited as a single unit with phylogenetically
+negligible levels of recombination (Doyle, 2022; but see Li
+et al., 2025, for a rare exception), plastid genomes (and to a
+lesser extent mitochondrial genomes) are nevertheless a rich
+source of phylogenetic information. However, we have long
+dealt with the reality that organellar genomes eﬀectively mask
+evidence of hybridization and other potentially confounding
+processes (e.g., incomplete lineage sorting, ILS). Compounding
+this problem was that, historically, the main sources of nuclear
+gene trees were those of nuclear ribosomal RNA/DNA, which are
+generally subject to concerted evolution (Hills & Dixon, 1991) and
+thus also concealed evidence of reticulation.
+Although the general congruence of plastid, mitochondrial,
+and nuclear topologies has long been noted, it has been
+recognized that ultimately, the APG classiﬁcation would need
+to encompass results from an extensive sampling of nuclear
+genes (APG, 2016). During the past decade, the rapid
+accumulation of large data sets obtained from transcriptomes
+(e.g., Zeng et al., 2014, 2017; One Thousand Plant Transcriptomes Initiative, 2019; Yang et al., 2020; Zhang et al., 2020;
+Xiang et al., 2024), target sequence capture (e.g., Baker
+et al., 2022; Zuntini et al., 2024; Kates et al., 2024), and
+complete or near‐complete genome assemblies (e.g., Guo
+et al., 2021; Kress et al., 2022; Lewin et al., 2022; Darwin Tree of
+Life Project Consortium, 2022) has provided a broad sampling
+of nuclear genes across angiosperms. These massive and
+rapidly growing nuclear data sets have brought us to a pivotal
+moment in the history of APG: a shift toward reliance on the
+nuclear genome to inform classiﬁcation. In general, congruence of analyses of large numbers of nuclear and
+organellar genes provides greater conﬁdence in proposing a
+revised classiﬁcation, and if incongruence is detected,
+examination of nuclear genes is essential for understanding
+the evolutionary processes behind this discordance.
+As a general summary of the novelties in this update of
+APG, we have observed well‐supported relationships in
+multiple nuclear gene trees (e.g., Zuntini et al., 2024) that
+mostly agree with previous plastid trees (e.g., Li et al., 2021;
+reviewed in Zhang & Ma, 2024), despite the presence of
+incongruence and evidence of deep reticulation at various
+points (Stull et al., 2020, 2023; Zuntini et al., 2024). We wish
+to make it clear that, as with all previous APG iterations, APG
+V is a summary of published studies and is not based on any
+single or set of available analyses, and the tree in Fig. 1 is a
+
+www.jse.ac.cn
+
+17596831, 2026, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jse.70096 by Cochrane Russian Federation, Wiley Online Library on [11/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+846
+
+Fig. 1. Summary APG V tree showing relationships of orders based on nuclear gene sequences (e.g., One Thousand Plant
+Transcriptomes Initiative, 2019; Stull et al., 2020; Yang et al., 2020; Xiang et al., 2024; Zuntini et al., 2024).
+
+17596831, 2026, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jse.70096 by Cochrane Russian Federation, Wiley Online Library on [11/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+J. Syst. Evol. 64(5): 845–874, 2026
+
+www.jse.ac.cn
+
+847
+The Angiosperm Phylogeny Group
+
+The Angiosperm Phylogeny Group
+
+synopsis and therefore not based on an analysis of a speciﬁc
+DNA data set. However, before moving on to changes
+needed in APG IV to produce an update (APG V), we ﬁrst
+revisit the two general principles under which APG has
+operated.
+In addition to the APG classiﬁcation of angiosperms, there
+have been similar recent eﬀorts, for example, that of the
+Bryophyte Phylogeny Group (BPG; Li et al., 2024) and the
+Pteridophyte Phylogeny Group for lycopods and ferns
+(PPG, 2016). Both, however, have been almost entirely based
+on plastid DNA data, and in this respect, APG is leading the
+eﬀorts to incorporate the large amount of nuclear gene data
+being produced during the “genomic era.” Similar eﬀorts
+have been made in several angiosperm families, for example,
+the Legume Phylogeny Working Group (LPWG; 2017), the
+Grass Phylogeny Working Group (GPWG, 2001, 2012, 2025),
+and orchids (Chase et al., 2015), among many.
+
+2 General Principles of
+Classiﬁcation (a reprise)
+
+the
+
+APG
+
+The authors of the previous APG classiﬁcations have
+recognized that multiple classiﬁcations may be derived
+from published evidence, and the choice of which to accept
+has always depended on the author′s taxonomic philosophy
+and approach. There is more than one way to cut up a
+phylogenetic tree, and authors have varied opinions on how
+best to do this to produce a classiﬁcation. In APG (1998), the
+authors explained the process used to determine the number
+of orders to recognize and the criteria that were considered
+important. APG (1998) previously recognized the families and
+orders that had been in the prevailing morphologically based
+classiﬁcations of that time to provide stability and familiarity,
+but these did not always have the traditional composition.
+This task was made easier because in the 1970s, substantial
+agreement had developed among the systems being
+proposed. However, the authors of APG (1998) made a
+conscious eﬀort to minimize the number of orders to keep
+the system as simple as possible. Thus, the general
+arrangements of the monocot orders and families were
+those proposed by Dahlgren et al. (1985). The original APG
+(1998) for all angiosperms was similar in structure to that
+proposed by Dahlgren (1975), which was notable in the
+use of morphological cladistics to provide a picture of
+angiosperm relationships. Dahlgren (1975) recognized
+roughly 30 superorders, which is similar in number and
+names to the 40 orders in APG (1998). This general structure
+has been maintained in all subsequent APG iterations, which
+have merged traditional concepts with the results of modern
+DNA analyses informed by the input of experts. To maintain
+stability and mediate diverse opinions when changes have
+been proposed, a set of general guiding principles was
+established, which we reiterate below.
+2.1 Monophyly
+Monophyly has been the most important principle since the
+ﬁrst version of APG (1998; published without a number).
+Before this, paraphyly and polyphyly in angiosperm classiﬁcations based on morphology were addressed by Judd et al.
+(1994), who proposed a series of revised family limits for
+
+J. Syst. Evol. 64(5): 845–874, 2026
+
+cases of non‐monophyly, which were incorporated into APG
+(1998). Other cases of paraphyly, that is, Amaranthaceae/
+Chenopodiaceae, Boraginaceae/Hydrophyllaceae, and Sapindaceae/Aceraceae/Hippocastanaceae, were resolved in APG
+(1998). Since then, circumscriptions of several other
+problematic families have been substantially revised to
+accommodate new results of molecular phylogenetic studies,
+for example, Acanthaceae, Aristolochiaceae, Lamiaceae,
+Orobanchaceae, Scrophulariaceae, and Verbenaceae (APG
+IV, 2016). At the ordinal level, there have been fewer
+problems with non‐monophyly; however, given that the APG
+orders were mostly based on DNA results and unique to APG,
+such problems should not have been expected.
+Monophyly as a guiding principle becomes more complicated when faced with evidence of species/clades created by
+hybridization, generating numerous instances of gene‐tree
+discordance that led to a lack of clear evidence of
+relationships (Jeﬀroy et al., 2006; Steenwyk et al., 2023).
+Speciation events are real and have been empirically
+demonstrated (reviewed in Hernández‐Hernández et al., 2021).
+However, some genomes have been shown to be “porous,”
+with a few loci subject to extensive gene ﬂow (Lexer
+et al., 2009; Campbell et al., 2018), whereas most genes in
+these same species do not show gene ﬂow. We must,
+therefore, expect to encounter discordant gene trees in some
+groups despite no other evidence of hybridization. Nonetheless, some tests may help to determine which gene trees
+have signs of incomplete lineage sorting (also referred to as
+hemiplasy, deep coalescence, retention of ancestral polymorphisms, or trans‐species polymorphisms) or introgression
+(e.g., resulting from horizontal gene transfer or hybridization;
+Smith et al., 2020; Morales‐Briones et al., 2021; Singhal
+et al., 2021; Komarova & Lavrenchenko, 2022), the former
+being unreliable for phylogeny reconstruction and the latter
+being directly responsible for gene‐tree discordance.
+Addressing reticulation in classiﬁcation is problematic at any
+level, but despite evidence of hybridization in the ancestry of
+some older clades (recognized as higher taxa, such as orders
+and families), these clades are generally monophyletic, even
+though we expect that in some gene trees, they may be
+otherwise. Taxa with a hybrid origin can be named on this basis
+(e.g., Knapp et al., 2004, for allotetraploids in Nicotiana,
+Solanaceae). We do not propose to assign taxa of hybrid origin
+to the same taxon as one of their parents, even if the hybrid
+genome has retained more genes from that parent. Instead, we
+recommend naming them in the same manner as any family or
+order, but note their putative hybrid origin (e.g., as we have for
+Ericales in this classiﬁcation, which appears to be hybrid in
+origin; Stull et al., 2020). However, understanding more general
+patterns of diversiﬁcation when both parental and hybrid clades
+are included is less straightforward, but purely for the purposes
+of a classiﬁcation, understanding the causes for incongruence is
+not strictly essential. Other naming strategies are possible (e.g.,
+use of the PhyloCode approach; de Queiroz et al., 2020), but
+these are beyond the scope of the APG classiﬁcation.
+We now know that there is substantial nuclear gene‐tree
+and nuclear‐plastid discordance for interrelationships of
+some APG orders and other informally named clades (e.g.,
+demise of the COM clade), but at present, we cannot
+ascertain their parentage or other potential processes
+leading to incongruence (e.g., paralogy, poor taxonomic
+
+www.jse.ac.cn
+
+17596831, 2026, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jse.70096 by Cochrane Russian Federation, Wiley Online Library on [11/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+848
+
+sampling, or gene‐tree discordance due to population
+processes). It is important to reiterate that, although
+hybridization and ILS appear to be widespread in most
+groups of ﬂowering plants, gene‐tree discordance aﬀects
+only a few of the taxonomic categories on which APG is
+focused (as discussed below).
+2.2 Stability
+The APG stability principle states that if a currently accepted
+APG family or order has been shown to be monophyletic, it
+will not be subsequently split. Although not an issue in the
+ﬁrst two iterations of APG (1998, 2003), stability soon became
+nearly as important as monophyly. Incorporation of DNA
+sequence data into classiﬁcation has in some cases, changed
+names and families of commercially important plants. There
+are few scientiﬁc ﬁelds in which advances in understanding
+fundamental subjects, in this case understanding phylogenetic
+relationships, have had such unlucky shortcomings and real
+economic costs (Valleau, 2004; Mabberley, 2017).
+Achieving consistency in the application of names requires
+that APG family and order names should not be altered
+unless (i) new results demonstrate non‐monophyly or (ii)
+small families (often monogeneric/monotypic) are better
+treated as members of their sister families (e.g., expansion of
+Orobanchaceae to include several recently proposed small
+families with only brief histories of recognition/use).
+However, any such changes are likely to result in altered
+distributions of apomorphies for families/orders, and therefore, it is essential to balance these often‐conﬂicting issues
+when contemplating changes.
+The users of the APG classiﬁcation are varied and cover
+numerous scientiﬁc ﬁelds beyond phylogenetics, systematics,
+and taxonomy, including agriculture, anatomy, biochemistry,
+conservation, developmental biology, ecology, ﬂoristics,
+horticulture, linguistics, paleobotany, pharmacognosy, physiology, and plant/animal/microbial interactions. Stability aids
+in literature searches by non‐systematist users who are
+unfamiliar with the history of plant classiﬁcation. Naturally,
+the APG system of classiﬁcation is of great relevance to
+taxonomists and systematists, but changes in a classiﬁcation
+aﬀect numerous stakeholders across many other ﬁelds, for
+whom the ﬁne details of phylogenetic relationships may be
+less important. It is nonetheless vital to carefully assess the
+broader impacts of any proposed changes (Mabberley, 2017).
+APG has a long history of using the advice of experts and
+results of phylogenetic studies produced by the phylogenetics community, particularly in the ﬁrst two versions
+(1998, 2003), and this community‐based content has been
+retained and predominates in the subsequent updates.
+However, it has not always been possible to reconcile
+some classiﬁcations proposed by experts with the principles
+that govern the APG classiﬁcation. There are solutions to this
+dilemma (see below) that permit stability to be maintained
+while providing a more thorough and perhaps more
+synapomorphy‐rich classiﬁcation that many users will ﬁnd
+valuable.
+In the various iterations of APG, the number of families
+recognized has generally decreased over time as relationships have been clariﬁed: 462 families in APG (1998) versus
+416 families in APG IV (2016). APG V accepts 407 families.
+Reduction was especially obvious when the bracketed
+
+www.jse.ac.cn
+
+849
+
+system in APG II (2003), which allowed users to choose
+between narrower or wider family limits, was abandoned in
+APG III (2009). This dual system was instituted so that
+experts could use narrower limits if they wished and still
+follow APG, while permitting other more general, nonsystematist users to recognize more broadly deﬁned families.
+The elimination of choice in APG III (2009) was due to many
+non‐systematist users saying that they could not make these
+decisions based on their limited knowledge and wanting the
+APG compilers to abandon this option. In nearly all cases, the
+broader circumscriptions replaced the narrower ones, again
+with feedback from many users, and subsequently, the
+number of families recognized decreased: 457 families in APG
+II (2003) to 413 families in APG III (2009). Recognition of
+monofamilial orders was accepted since APG IV (2016), and
+these have been maintained in APG V. This adjustment in APG
+philosophy (since APG II, 2003) has been fundamental to
+maintaining stability of orders. In contrast to the number of
+families, the number of orders has increased, from 60 orders
+in APG II (2003) to 66 in APG V, largely due to an increase in
+those that are monofamilial.
+With APG III (2009), stability became paramount, and APG
+IV (2016) and APG V (this paper) have involved only carefully
+assessed alterations of APG III, informed by the extensive
+nuclear and largely congruent plastid DNA evidence that
+provides the framework of APG V. In an assessment of the
+eﬀects of APG on treatments of the ﬂora of New Caledonia,
+Gotty & Pillon (2025) found that since 2012 (when the APG
+III, 2009, classiﬁcation was implemented), family‐level
+changes have been reduced to zero. This stability led these
+authors to conclude that “this classiﬁcation can now be
+safely applied outside the world of scientiﬁc publication.”
+
+3 Operational Guidance and Clade‐speciﬁc
+Issues
+An alternative approach for specialists who believe that the
+broader family limits in APG are unsatisfactory is that taken
+for Asparagales, in which APG III used broad limits for
+Amaryllidaceae, Asparagaceae, and Xanthorrhoeaceae (now
+Asphodelaceae due to subsequent conservation; Klopper
+et al., 2018). For those interested in the ﬁner details of
+relationships in these clades, Chase et al. (2009) published a
+subfamily classiﬁcation of Amaryllidaceae, Asparagaceae, and
+Asphodelaceae (as Xanthorrhoeaceae). Chase et al. (2009)
+admitted that there were no morphological synapomorphies
+for some of the more broadly delimited families, but equally,
+there are no readily apparent non‐DNA synapomorphies for
+many of the subfamilies of Chase et al. (2009). Thus, neither
+approach resulted in easily identiﬁable families/subfamilies. If
+family circumscriptions are going to be diﬃcult to explain,
+then fewer, more broadly deﬁned families may be easier for
+non‐specialist users to remember and use than many, more
+diﬃcult to explain families. Of course, many well‐established
+families have had to be morphologically recircumscribed
+when DNA results showed them to include more morphologically divergent genera or genera formerly placed in other
+families (e.g., Acanthaceae, Gesneriaceae, Lamiaceae, and
+Scrophulariaceae). This resulted in families that are diﬃcult
+to circumscribe morphologically in some cases, despite their
+
+J. Syst. Evol. 64(5): 845–874, 2026
+
+17596831, 2026, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jse.70096 by Cochrane Russian Federation, Wiley Online Library on [11/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+The Angiosperm Phylogeny Group
+
+The Angiosperm Phylogeny Group
+
+monophyly, and the search for non‐DNA synapomorphies
+remains a pressing need for many such clades in Asparagales,
+Lamiales, and other novel APG families without synapomorphies. It should also be noted that some non‐DNA
+synapomorphies (such as phytochemistry or details of ﬂoral
+development, as opposed to general morphology) may be of
+little use in general family‐level identiﬁcation.
+3.1 APG‐based subfamily and suborder classiﬁcations
+Classiﬁcations are conventions, and APG classiﬁcations are
+not exempt from this observation. APG was originally
+established to facilitate communication about phylogenetics
+of the angiosperms. Words and names are always subject to
+changes of meaning, but unnecessary modiﬁcations impede
+communication. An alternative to advocating the recognition
+of non‐APG orders and families, which complements rather
+than conﬂicts with APG, would be to develop infra‐ordinal
+and infra‐familial classiﬁcations. These can provide specialists
+and interested general users with a framework reﬂecting ongoing discoveries of new clades requiring recognition,
+following the models of Colli‐Silva et al. (2025) for Malvales
+(especially Malvaceae sensu APG), Larridon et al. (2021) for
+Cyperaceae, Buerki et al. (2021) for Sapindaceae, GPWG
+(2001, 2012, 2025) for Poaceae, LPWG (2017) and Koenen
+et al. (2020) for Fabaceae, and Pillon et al. (2024) for
+Oxalidales. In addition, monophyly of most subfamilies in
+several of the largest angiosperm families, including
+Asteraceae (Mandel et al., 2019; Zhang et al., 2021; Zhang
+et al., 2024), Orchidaceae (Zhang et al., 2023; Pérez‐Escobar
+et al., 2024), Fabaceae (Koenen et al. 2020; Zhao et al., 2021),
+and Poaceae (Huang et al., 2022; Zhang et al. 2022; GPWG
+III, 2025), has been supported by large‐scale nuclear gene
+analyses. Of course, recognition of distinct segregate families
+may draw the attention of more general users, but it often
+results in less attention for some groups because, for
+students and generalist users, the number of families
+becomes too large to grasp easily and causes confusion.
+Smaller families are typically not covered in systematic
+botany and plant identiﬁcation courses because the textbooks that cover these topics (e.g., Spichiger et al., 2004;
+Judd et al., 2015; Pandey & Kasana, 2021) cover roughly only a
+quarter of the APG families (i.e., never more than 100
+families, mostly the larger ones). However, local ﬂora
+courses or wild‐ﬂower guides often include some small
+families as a local component. As an example of the problem
+caused by splitting a family, in most courses on plant
+taxonomy, Boraginaceae s.l. (roughly 1800 species) are
+covered, but if split in up to 11 families (Luebert et al., 2016),
+not more than one of these families (eight with fewer than
+ﬁve genera) is likely to be included. Input from nonBoraginaceae specialists in an on‐line survey (Christenhusz
+et al., 2015) revealed a preference for a single family for
+teaching purposes.
+3.2 Condensation of small orders/families
+A minor caveat to this principle of stability is when a
+monogeneric family or monofamilial order is found to be
+sister to another APG family or order and the two can be
+combined, especially when families share synapomorphies
+(e.g., combining Ixioliriaceae with Tecophilaeaceae and
+Frankeniaceae with Tamaricaceae; Backlund & Bremer, 1998).
+
+J. Syst. Evol. 64(5): 845–874, 2026
+
+These actions are taken to increase the phylogenetic content
+of the system and reduce redundancy. This is not a new
+procedure, and it was also a tradition established in many
+past morphological classiﬁcations, for example, Cronquist
+(1981), to avoid assigning the rank of family to small groups if
+they can be accommodated in a related larger group. A
+higher taxon, for example, family or order, for a monospeciﬁc genus or monogeneric family was termed a
+“pseudon” by Corner (1981); it is thus a “pseudotaxon” or
+supererogatory taxon. In some cases, there is no choice in
+this matter (e.g., Amborella and Ceratophyllum), but these
+should be avoided. The shifting synapomorphies involved
+when combining orders are usually unclear at this point
+because many existing APG orders lack shared characteristics, but these are cases on which future studies could be
+focused.
+3.3 Branching dates as guides for determining taxonomic
+ranks
+The use of ages has been invoked by some authors as a
+criterion for determining an appropriate rank for clades and
+has been widely discussed in the taxonomic literature. The
+use of “time or temporal banding” to standardize ranks was
+supported in some cases by Vences et al. (2013) and for more
+general use by Avise & Mitchell (2007) and Kraichak et al.
+(2017). Angiosperm families have been demonstrated to have
+evolved at many diﬀerent times (Wikström et al., 2001;
+Magallón et al. 2015, Zuntini et al., 2024), and any attempt to
+equalize the ages of families and orders recognized would
+result in massive, chaotic changes to the APG classiﬁcation.
+Furthermore, as demonstrated in Magallón et al. (2015),
+diﬀerent molecular dating methods have continued to
+provide divergent age estimates, and some models have
+led to widely diﬀering age estimates for the same family. We
+consider attempts to equalize ages of families to be
+inappropriate (Lücking, 2019), and this procedure is not
+considered further here.
+3.4 Conﬂicts in tree topologies
+For purposes of classiﬁcation, unambiguous, well‐supported
+large‐scale nuclear genomic trees are to be favored over
+plastid results if topologies conﬂict. As mentioned above,
+earlier versions of APG were primarily plastid‐based by
+necessity, and general congruence among results using the
+three plant genomes has been noted and considered
+corroborative, albeit with some exceptions. Nuclear data
+sets analyzing general relationships across angiosperms such
+as Zeng et al. (2014) based on a relatively small number of
+taxa (61) and genes (59) ﬁrst identiﬁed possible incongruence between nuclear and plastid topologies, as have
+other more focused studies, such as the analysis of
+mitochondrial genes for rosids by Sun et al. (2015) and all
+angiosperms in Lin et al. (2025). The much larger sampling of
+taxa and genes aﬀorded by the 1KP project (410 nuclear
+orthologs; One Thousand Plant Transcriptomes Initiative, 2019), angiosperm‐wide target sequence capture
+analyses of the Plant and Fungal Trees of Life (PAFTOL)
+project (Zuntini et al., 2024), and other studies of taxonomically less extensive datasets of nuclear genes (e.g., Stull
+et al., 2020; Guo et al., 2021; Alzate et al. 2024; Kates
+et al. 2024) have further reinforced the early indications of
+
+www.jse.ac.cn
+
+17596831, 2026, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jse.70096 by Cochrane Russian Federation, Wiley Online Library on [11/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+850
+
+plastid versus nuclear incongruence at various levels across
+angiosperms. In addition to the discordance between
+organellar and nuclear trees, studies have also highlighted
+conﬂicting relationships identiﬁed with multiple nuclear
+genes (e.g., Escobar et al., 2011; Som, 2015; Sun et al., 2015).
+Although noise, error, and paralogy probably contribute to
+some discordance between genes in the nuclear genomes,
+there has also been increasing support for biological causes
+of incongruence, including ILS, gene ﬂow via hybridization/
+introgression, extensive rate heterogeneity, and possibly
+others. Genomic data have revealed multiple instances of
+deep incongruence in the angiosperms (Stull et al., 2023;
+Zuntini et al., 2024), although few of these phenomena aﬀect
+the classiﬁcation of families and orders, which are the focus
+of APG. The position of Ericales has been unresolved due to
+them likely being a product of ancient hybridization between
+ancestors of Cornales and the larger asterid clade (c. 120 Ma;
+Stull et al., 2020). Likewise, Guo et al. (2021) found evidence
+that ancient hybridization could account for the incongruent
+phylogenetic placement of Chloranthales and magnoliids in
+nuclear and plastid analyses (Table 1).
+3.5 Plastid and nuclear trees
+In APG V, we base alterations of APG IV (2016) on wellsupported nuclear results, particularly if also supported by
+large analyses of plastome data (Li et al., 2021). The results
+on which circumscription of APG V orders and families are
+based have been generally consistent across phylogenetic
+methods and assumptions, and are parallel in coalescent,
+concatenated (combined), and most forms of weighted
+analyses. If extensive nuclear gene‐tree incongruence has
+been detected, such that the position of a group is
+unresolved or only weakly supported, then we indicate
+uncertainty of result by considering them as “unplaced” to
+order or major clade (e.g., fabids, asterids). Likewise, if a set
+
+851
+
+of relationships varies depending on the method used, we
+also indicate this as a polytomy for the groups concerned,
+unless noted in the section below on speciﬁc problematic
+parts of APG V (e.g., placement of Dasypogonaceae in
+Arecales, which has considerable gene‐tree discordance at
+that node, that is, no portion of identical gene trees greater
+than 50% or, out of three possible quartet topologies, no
+more than two above one‐third). Positions of some taxa in
+some plastid analyses should simply be discarded if they
+conﬂict with well‐supported relationships from analyses of
+multiple nuclear genes. From an evolutionary standpoint,
+plastid trees are informative of, for example, the parentage
+of hybrids and phylogeographic population structure.
+However, if there is evidence of considerable nuclear genetree discordance (some of it perhaps agreeing with plastid
+results, but no congruent result in greater than 50% of
+nuclear gene trees) and/or if the source of discordance
+remains unclear, then, we propose to treat relationships as
+uncertain/preliminary, showing them as polytomies in the
+APG V summary tree (Fig. 1). We provide a summary of some
+examples (Table 1) and indicate the source of incongruence,
+if known. Many require further investigation before the
+source(s) of discordance can be clariﬁed.
+3.6 Reproducibility
+Reproducibility in a classiﬁcation is a desirable attribute (i.e.,
+diﬀerent authors reaching the same ideas of taxon delimitation
+based on the same data), but the idiosyncratic nature of plant
+classiﬁcation makes this a diﬃcult goal to achieve. The initial
+APG classiﬁcation (1998) did not start with a clean slate, and all
+iterations of APG have been mixtures of historical concepts
+and new ideas about relationships. Many small family pairs, for
+example, Ancistrocladaceae–Dioncophyllaceae, Aextoxicaceae–
+Berberidopsidaceae, Curtisiaceae–Grubbiaceae, Asteropeiaceae–
+Physenaceae, and others, have been considered for merger in
+
+Table 1 Examples of incongruence among trees for ancient clades
+Citation
+
+Clade(s)
+
+Cause
+
+Cai et al. (2021)
+Sun et al. (2015)
+Stull et al. (2020)
+Larson et al. (2020)
+Guo et al. (2021)
+Sun et al. (2024)
+
+Malpighiales
+Rosids
+Ericales
+
+Morales‐Briones
+et al. (2021)
+Smith et al. (2015)
+
+Amaranthaceae
+
+ILS, hybridization
+Hybridization, introgression
+Hybridization, allopolyploidy, rapid
+radiation
+Hybridization
+Hybridization, allopolyploidy, ILS,
+homoploid introgression
+ILS, rapid lineage diversiﬁcation
+
+Wang et al. (2021)
+Joyce et al. (2023)
+Feng et al. (2024)
+Wang et al. (2019)
+
+Caprifoliaceae
+Sapindales
+Caryophyllaceae
+Anacampserotaceae, Cactaceae, Didiereaceae,
+Montiaceae, Portulacaceae
+Ancistrocladaceae, Droseraceae, Drosophyllaceae,
+Nepenthaceae
+Oleaceae
+Hydrostachyaceae, Cornales
+Sladeniaceae, Pentaphylacaceae
+
+Walker et al. (2017)
+Dong et al. (2022)
+Thomas et al. (2021)
+Yu et al. (2025)
+
+www.jse.ac.cn
+
+Magnoliids, Chloranthaceae, eudicots, monocots
+Malvaceae
+
+Caryophyllales
+
+ILS, hybridization, polyploidy, gene
+duplication
+Hybridization
+Polyploidy, hybridization
+Polyploidy
+Polyploidy
+Polyploidy
+Introgression, hybridization
+Hybridization
+ILS
+
+J. Syst. Evol. 64(5): 845–874, 2026
+
+17596831, 2026, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jse.70096 by Cochrane Russian Federation, Wiley Online Library on [11/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+The Angiosperm Phylogeny Group
+
+The Angiosperm Phylogeny Group
+
+the past and were judged not to share any characters,
+diagnosable or otherwise. Many of these small families have
+not been studied in suﬃcient detail beyond gross morphology
+to make such decisions, and until such time as they are more
+thoroughly investigated, their continued recognition in the APG
+classiﬁcations marks them as requiring more study. These four
+small‐family pairs are not a complete list, and there are many
+more that could be considered. We have attempted to address
+these when we have had the opportunity, and undoubtedly,
+there are others that will be addressed in future iterations as
+their relationships become clearer and characters studied in
+greater detail (developmentally and genomically). Every such
+case of potential merger is unique and must be based on a
+combination of history, current knowledge of the genera/
+families in question, advice of specialists, and whether there are
+diagnostic characters or other, less obvious synapomorphies
+(e.g., phytochemistry, pollen morphology). However, given that
+this issue aﬀects few families and is highly idiosyncratic (as
+discussed above), a general philosophy of when condensation
+should be invoked is impractical.
+3.7 The parasite/holomycotroph problem
+Parasites and holomycotrophs generally have been unsatisfactorily placed in the past based on organellar DNA analyses
+because the typical genes used are absent or highly modiﬁed in
+these groups. In the nuclear DNA sequencing results of Zuntini
+et al. (2024), these taxa were often frustratingly diﬃcult to
+incorporate into matrices due to the low recovery of highly
+divergent genes. It can reasonably be expected that ﬂowering
+plants with modiﬁed plastomes (i.e., parasites and holomycotrophs) will see reduced recovery of nuclear genes associated
+with organellar function, as is the case for many Angiosperms353
+target genes (Johnson et al., 2019). The same applies to highly
+reduced aquatics, such as Ceratophyllaceae, Hydrostachyaceae,
+and Podostemaceae. Even with reasonable recovery, the highly
+divergent genes sequenced may possibly disrupt evidence of
+relationships with other families in these orders. We propose
+treating placements of several of these families as equivocal and
+position them only tentatively in orders, in some cases removing
+them from families in which they were formerly placed based
+solely on plastid and/or mitochondrial studies. In another case
+(Dioscoreales), we note the lack of resolution and support and
+propose to retain the APG IV classiﬁcation, which includes
+families likely to prove non‐monophyletic (see below).
+
+4 Linear Classiﬁcation and Poster
+Orders in the summary tree (Fig. 1) and the list below are in a
+phylogenetic sequence if nuclear gene tree agreement and
+consistent results were obtained with diﬀerent methods of
+analysis in the taxonomically well‐sampled results of Zuntini
+et al. (2024). Listing of families in orders is in an alphabetical
+sequence in the Classiﬁcation (Appendix A). In the Linear
+Classiﬁcation (Appendix B), both orders and families in
+each order are in a phylogenetic sequence based on the
+results of Zuntini et al. (2024), with the convention of placing
+smaller families before the larger clade (or family) to which
+they are sister. A poster suitable for use in teaching is
+provided in the following link: https://www.tudelft.nl/en/
+hortus-botanicus/education/posters.
+
+J. Syst. Evol. 64(5): 845–874, 2026
+
+5 Discussion
+Previous APG classiﬁcations, which were based almost solely
+on plastid DNA analyses, have been largely conﬁrmed by
+recent studies with large‐scale taxonomically informed
+sampling of hundreds of nuclear genes. As with other
+iterations of APG, we intend APG V to serve as a framework
+for communication not only among specialists but also more
+general users across diverse areas of biology in the broadest
+sense and other ﬁelds. Specialists may wish to propose
+alternative classiﬁcations for families and orders; we do not
+intend that APG should impede such proposals and
+discussions. Indeed, other classiﬁcations should be published
+and used as needed. However, we advocate that these
+should refer to the APG V classiﬁcation so that interested
+general readers can follow the discussions and controversies.
+As stated above, the current composition of families and
+orders in APG V will remain unchanged unless an APG family
+or order is shown not to be monophyletic, with the caveat
+noted above for condensation of small families with their
+close relatives. However, we note that the relative arrangement of orders, especially in the core eudicots, is susceptible
+to change. Familial relationships in orders are also likely to
+change as new evidence emerges, and these are listed here
+(Appendix A) in an alphabetical sequence. In a few cases, we
+note below some remaining issues that may require
+modiﬁcation of current circumscriptions when clariﬁed.
+
+6 Notes on Problematic Groups and
+Changes
+1. Dioscoreaceae are a prime example of phylogenetic
+analysis problems caused by holomycotrophs, which
+mostly have reduced and altered plastid and mitochondrial genes/genomes (Shepeleva et al., 2020; Garrett
+et al., 2023). Gene recovery with target sequence
+capture has been lower than that for photosynthetic
+genera (Zuntini et al., 2024), most likely due to the
+divergent nature of these genes. Additionally, the
+nuclear genes that have been sequenced diverge
+considerably from those in the photosynthetic taxa
+(Soto Gomez et al., 2025). This introduces two problems:
+(i) uncertain placement and (ii) disruption of the
+relationships among the photosynthetic taxa because
+of putative long‐branch attraction problems and uneven
+sampling of genes in the data sets. The species of
+Afrothismia Schltr. are especially problematic regarding
+(i) and (ii) above (Soto Gomez et al., 2025). Formerly
+treated as a member of Thismiaceae, Afrothismia was
+recently proposed as a family, Afrothismiaceae, by Cheek
+et al. (2024), who focused their work on the
+mitochondrial study of Lin et al. (2022). Based on the
+topology of that study, monogeneric Dioscoreaceae,
+Trichopodaceae, and Taccaceae were also recognized
+(Stenomeris Planch. was not included there). Cheek et al.
+(2024) listed the morphological diﬀerences between the
+dioscoreoid genera and argued that they are too
+diﬀerent to be included in a single family. These views
+reﬂect an interpretation of what are “signiﬁcant
+
+www.jse.ac.cn
+
+17596831, 2026, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jse.70096 by Cochrane Russian Federation, Wiley Online Library on [11/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+852
+
+characters” and furthermore, the mitochondrial relationships shown by Lin et al. (2022), although important, are
+only part of the story. Support for interrelationships of
+these groups in Zuntini et al. (2024) and Soto Gomez
+et al. (2025) is poor, perhaps because of the divergent
+gene‐sequence problems mentioned above. We propose
+to retain the classiﬁcation of Dioscoreales from APG IV
+(2016), placing all thismioid genera in Dioscoreaceae s.l. until
+the relationships of these genera become better understood. We acknowledge that Burmanniaceae and Dioscoreaceae sensu APG IV (2016) appear non‐monophyletic
+in some recent studies, depending on their circumscription.
+This type of approach was previously used for the families
+of Santalales in APG IV, which have at least been partially
+resolved at this point.
+2. Ixiolirion Fisch. ex Herb. is supported as sister to
+Tecophilaeaceae in nuclear analyses, but its placement
+has been equivocal in some plastid analyses (e.g., Chase
+et al., 2006), and a sister relationship of these two in
+analyses of nuclear DNA is concordant with their similar
+morphology (leafy stems, bulbs, and ﬂowers with mostly
+inferior ovaries). Tecophilaeaceae are therefore expanded here to include Ixioliriaceae. Morphologically,
+Doryanthes Correa (Doryanthaceae; two species) also ﬁts
+well in Tecophilaeaceae, despite its large plant size, but
+without clear support from nuclear DNA analyses, we
+refrain from making this change.
+3. In plastid trees (Barrett et al., 2016), Dasypogonaceae
+are a strongly supported sister of Arecaceae, but in the
+nuclear results (Zuntini et al., 2024), the position of the
+former is associated with gene‐tree discordance. As in
+APG IV (2016), we include Dasypogonaceae in Arecales,
+but we acknowledge that this is a problematic placement that may yet need adjustment.
+4. Piperales are another order in which holoparasites, that
+is, Hydnoraceae, have been problematic. Hydnoraceae
+have been shown in many analyses to be embedded in
+a broadly circumscribed Aristolochiaceae (reviewed in
+Naumann et al., 2013, and conﬁrmed in Jost et al., 2021),
+when using genes from all three genomic compartments, but in Helmstetter et al. (2025), the favored
+topology for Hydnoraceae (coalescent analyses) was as
+a well‐supported sister to the rest of Piperales.
+However, considerable gene‐tree discordance was
+noted (35% of gene trees favored the embedded
+position in Aristolochiaceae), and some analyses (e.g.,
+the concatenated matrix) supported the APG IV (2016)
+classiﬁcation. The two genera of Hydnoraceae, Hydnora
+Thunb. and Prosopanche de Bary, share diagnostic
+characters with Aristolochia L. and Asarum L.: trimerous
+ﬂowers with uniseriate perianth, inferior ovaries, and
+stamens fused with the style (gynostemium). We
+continue to treat Hydnoraceae here as members of
+Aristolochiaceae, but note that more research is
+required to clarify their relationships. Lactoris Phil. is
+embedded in Aristolochiaceae in the analyses of Zuntini
+et al. (2024) and Helmstetter et al. (2025), conﬁrming
+their placement in APG IV (2016). If Lactoridaceae were
+to be recognized (as in Jost et al., 2021), then Asaraceae
+would also need to be recognized, breaking with a long
+tradition of their placement in Aristolochiaceae. We
+
+www.jse.ac.cn
+
+853
+
+consider it preferable to keep Aristolochiaceae in their
+broad sense and use a subfamily classiﬁcation to
+represent this diversity.
+5. Relationships of Chloranthaceae have long been problematic, but they are well supported as sister to magnoliids in
+several recent nuclear DNA analyses (Guo et al., 2021;
+Zuntini et al., 2024), necessitating continued recognition
+of Chloranthales. A series of studies revealed incongruence between nuclear and plastid DNA topologies
+regarding the placement of magnoliids + Chloranthaceae
+relative to other members of the large mesangiosperm
+clade. Plastid trees place magnoliids + Chloranthaceae as
+sister to monocots plus eudicots, whereas nuclear genes
+usually recover monocots as sister to a large clade of
+magnoliids, Chloranthales, and eudicots (reviewed in Stull
+et al., 2023). Based on complete nuclear genomesequence analyses, Guo et al. (2021) found evidence
+that ancient hybridization is the likely source of
+discordance over the position of Chloranthales +
+magnoliids relative to eudicots and monocots.
+6. Although placement of Ceratophyllaceae was considered
+problematic in some early analyses with only a few
+genes or a few taxa, a series of both plastid and nuclear
+gene analyses has provided moderate to strong support
+for the family as sister to eudicots (e.g., Soltis et al., 2011;
+One Thousand Plant Transcriptomes Initiative, 2019;
+Yang et al., 2020; Guo et al., 2021), a placement that
+we follow here. However, Zuntini et al. (2024) recovered
+Ceratophyllum L. (but with little support) as sister to all
+angiosperms, except the ANA grade (Amborellales,
+Nymphaeales, and Austrobaileyales), a relationship also
+recovered in four nuclear gene analyses using 457 to 922
+genes, but not in three others (Xiang et al., 2024). In
+analyses of nuclear data using model‐based methods,
+Wang et al. (2025) placed Ceratophyllum as sister to the
+monocots, but changing the model in this study changed
+the placement, leading to little conﬁdence in the
+monocots sister to Ceratophyllum result. The diﬃculty
+in placing Ceratophyllum may be due to early and rapid
+radiation of the mesangiosperms, as noted by Li et al.
+(2019). We include Ceratophyllaceae under the informal
+category of “ceratophyllids” in the classiﬁcation (below)
+rather than including them in the eudicots and note that
+the position of Ceratophyllum requires further investigation before it can be classiﬁed conﬁdently.
+7. Apodanthaceae were ﬁrmly placed in Cucurbitales
+with plastid DNA (Li et al., 2021), as was the case in
+Filipowicz & Renner (2010) with mitochondrial (matR)
+and nuclear ribosomal DNA. In Zuntini et al. (2024),
+Apodanthaceae are positioned as sister to most if not
+all Malpighiales, but gene recovery was noted to be
+poor. However, in Alzate et al. (2024), who included
+more than 1000 nuclear loci, Apodanthaceae are well
+supported as sister to Raﬄesiaceae, although with the
+sparse taxonomic sampling in this paper, it is unclear
+exactly where they go in Malpighiales. Historically,
+Apodanthaceae were considered members of Raﬄesiaceae, with which they share many morphological
+characteristics, and we return them here to this
+position. It may be that lateral transfers of plastids
+and mitochondria from the host were responsible for
+
+J. Syst. Evol. 64(5): 845–874, 2026
+
+17596831, 2026, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jse.70096 by Cochrane Russian Federation, Wiley Online Library on [11/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+The Angiosperm Phylogeny Group
+
+The Angiosperm Phylogeny Group
+
+their earlier placement in Cucurbitales (Filipowicz &
+Renner, 2010). Cai et al. (2025) used 2135 nuclear genes
+with several phylogenetic methods and found Rafﬂesiaceae (including Apodanthes Poit. and Pilostyles
+Guill.) to be variously placed with Euphorbiaceae,
+Peraceae, Putranjivaceae, and Pandaceae. Cai et al.
+(2025) suggested that parasitic taxa like Raﬄesiaceae
+pose “a phylogenetic ‘danger zone’ where simulation
+suggests that current methods and genomic data will
+never provide a tidy phylogenetic resolution.”
+8. Peraceae (ﬁve genera, 106 species; POWO, 2025) were
+segregated from Euphorbiaceae in APG IV (2016) due to
+the interdigitation of Raﬄesiaceae, but in Zuntini et al.
+(2024), Peraceae (represented by Clutia L. and Chaetocarpus Thwaites) are again sister to Euphorbiaceae, so
+we return the former to synonymy of the latter. As
+noted above, multiple nuclear loci place Raﬄesiaceae
+(including Apodanthaceae) as sister to the rest of
+Malpighiales (Alzate et al., 2024).
+9. Huaceae were formerly placed in Oxalidales (APG IV), but
+this position was not always well supported in plastid‐only
+trees. In Li et al. (2021; plastomes only), they were a
+member of the larger COM (Celastrales/Oxalidales/
+Malpighiales) clade (as in APG IV, 2016), but the interrelationships of these orders were unclear. In Zuntini et al.
+(2024), Huaceae were closely related to Celastrales and
+Malpighiales, but not Oxalidales (see point 18 below);
+however, their speciﬁc placement is not well supported.
+Until relationships are better resolved, Huaceae should be
+considered a family unplaced to order. Recognition of
+Huales Doweld in Li et al. (2021), which was followed by
+Zuntini et al. (2024), is not followed here, due to the
+uncertain placement of Huaceae.
+10. Relationships in Celastrales were studied by Simmons
+et al. (2023) using a combined analysis of DNA sequences
+and morphology; they recommended recognition of two
+families, Parnassiaceae (Parnassia L. and Lepuropetalon
+Elliott) and Celastraceae, but this classiﬁcation is not
+followed here because Celastraceae s.l. have been a
+consistent feature since APG III (2009).
+11. Santalales have continued to be problematic. In Zuntini
+et al. (2024), taxon sampling was limited, and previous
+results with a small number of plastid genes and nuclear
+18S rDNA were not reproduced; some of the narrowly
+circumscribed families (summarized in Nickrent et al., 2010;
+updated in Su et al., 2015; and Nickrent et al., 2019) were
+not monophyletic. Olacaceae and Santalaceae sensu APG
+IV were known to be polyphyletic, but APG IV refrained
+from accepting the numerous small families proposed by
+Nickrent at al. (2010) because these were proposed
+without knowing their inter‐relationships, which, if known,
+might make other options with fewer families viable. The
+families of Nickrent et al. (2010) were stated by the authors
+to be largely without obvious synapomorphies, and in such
+cases, fewer poorly circumscribed families would be
+preferable. Cauz‐Santos et al. (2026) realigned the Su
+et al. (2015) matrix and found good support (83%
+bootstrap) for an Olacaceae clade (including Aptandraceae,
+Coulaceae, Octoknemaceae, and Ximeniaceae; all sensu
+Nickrent et al., 2010). Anderson et al. (2025), using Hyb‐Seq
+nuclear data, found results similar to those in Cauz‐Santos
+
+J. Syst. Evol. 64(5): 845–874, 2026
+
+et al. (2026), but slightly less resolved. We leave
+Balanophoraceae s.l. unplaced in Santalales, despite the
+maximum likelihood results showing them to be well
+supported as embedded in Santalaceae (98% bootstrap;
+Cauz‐Santos et al., 2026) because Anderson et al. (2025)
+found monophyletic Balanophoraceae s.l. not embedded in
+Santalaceae, but we note that there are considerable
+problems with gene recovery reported in the nuclear gene
+analyses (Anderson et al., 2025). This topic will need further
+consideration when more taxon sampling and better
+nuclear gene recovery have been achieved.
+12. In Caryophyllales, Corbichoniaceae Thulin were proposed
+as a new family (Thulin et al., 2016) because of the
+morphological distinctiveness of Corbichonia Scop. relative
+to Lophiocarpus (Kunth) Miq. (Lophiocarpaceae). Lophiocarpus is wind‐pollinated, and Corbichonia is insectpollinated, syndromes common in larger families such as
+Caryophyllaceae and Amaranthaceae, to name a few, so
+this seems likely to be the cause of their dissimilarity and
+not the basis for separation. We continue to treat
+Corbichonia in Lophiocarpaceae despite the lack of
+morphological synapomorphies with Lophiocarpus.
+13. Frankeniaceae comprise just Frankenia L., which is
+distinguished from Tamaricaceae (four genera) by
+opposite versus alternate leaves, respectively. They
+share small leaves with salt‐excreting glands, basally
+clawed petals with a scale‐like appendage or ligule on
+the upper side of the claw, secondary chemistry, and
+pollen morphology. They have always been considered a
+closely related family pair (e.g., Cronquist, 1981) and to
+reduce redundancy, we combine them under Frankeniaceae, which has nomenclatural priority.
+14. In earlier iterations of APG, we failed to note that
+Schäferhoﬀ et al. (2009) showed with two plastid
+markers that Agdestis Moç. & Sessé ex DC. is sister to
+Sarcobatus Nees, apart from Phytolaccaceae. A recent
+study using whole plastomes of Caryophyllales (Yao
+et al., 2019) conﬁrmed these relationships, and Zuntini
+et al. (2024) found a similar result with nuclear DNA
+data. We must therefore either place Sarcobataceae
+(including Agdestis) in Phytolaccaceae or accept Agdestidaceae as an additional family. Here, we include
+Agdestis and Sarcobatus in Phytolaccaceae, despite the
+lack of clear synapomorphies linking Sarcobatus to
+Phytolaccaceae, because Agdestis sits comfortably in
+Phytolaccaceae on morphological grounds.
+15. If the placement and identiﬁcation of Stixis Lour. in
+Zuntini et al. (2024) can be veriﬁed, then Stixaceae could
+be recognized as distinct from Resedaceae, but gene
+recovery for the Stixis sample was low. Therefore, we
+think that the detailed study of Zhao et al. (2015) based
+on ﬁve plastid markers plus the nuclear ribosomal ITS
+region is more reliable because it includes several
+samples of Stixis and Borthwickia W.W.Sm. Zhao et al.
+(2015) also included Neothorelia Gagnep., Forchhammeria
+Liebm., and Tirania Pierre, all of which are critical in
+delimitation of Resedaceae. These collectively (but not
+Borthwickia) were sister to Resedaceae. However, the
+position of Forchhammeria in Zhao et al. (2015) vis‐à‐vis
+Resedaceae and Stixis/Neothorelia/Tirania was poorly
+supported. Rather than recognizing Borthwickiaceae,
+
+www.jse.ac.cn
+
+17596831, 2026, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jse.70096 by Cochrane Russian Federation, Wiley Online Library on [11/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+854
+
+Stixaceae, and perhaps a new family for Forchhammeria,
+an enlarged Resedaceae would be preferable. More
+nuclear gene sampling and morphological study of the
+component genera should be conducted before any
+changes are made.
+16. As noted above, Swanepoel et al. (2020) showed that
+Batis P.Brown., the sole genus of Bataceae, was well
+supported as sister to Azima Lam. (Salvadoraceae) and
+this pair sister to Salvadora, on which basis, we enlarge
+Salvadoraceae to include Batis. These taxa also share
+many morphological (inﬂorescence) features, making
+this a more reasonable change. Sampling in Zuntini et al.
+(2024) was not adequate to assess these relationships,
+but the position of Batis in Salvadoraceae has been
+consistent in all other analyses.
+17. The position of the newly described Tiganophytaceae
+(Swanepoel et al., 2020) has diﬀered depending on the
+genome/loci sequenced. They are either sister to Salvadoraceae (including Bataceae; Swanepoel et al., 2020) or
+embedded with Bataceae in a paraphyletic Salvadoraceae
+(Zuntini et al., 2024). Not all genera of Salvadoraceae have
+been included; most notably, Dobera Raf. is missing, but
+unpublished analyses by the PAFTOL project at Royal
+Botanic Gardens, Kew, place Dobera as sister to Salvadora
+Garcin ex L. (O. Maurin, pers., comm.). Morphologically,
+the three families share many ﬂoral characteristics and
+could be united, but given what is known thus far,
+recognition of Tiganophytaceae is appropriate.
+18. In rosids, plastid results (e.g., Li et al., 2021) recovered
+the malvids and fabids as sister clades, but mitochondrial
+and nuclear results demonstrated a more complicated
+evolutionary scenario. Sun et al. (2015) ﬁrst provided
+evidence that deep reticulation may have occurred in the
+early divergence of rosid clades; members of the COM
+families as deﬁned in the plastid analyses (Celastrales,
+Oxalidales, Malpighiales) do not form a clade in Zuntini
+et al. (2024), and all three fall in the malvids rather than
+the fabids (the plastid tree placement). The nuclear trees
+of Zeng et al. (2017) further called into question the
+circumscriptions of these two large clades. Other, more
+recent nuclear DNA trees (e.g., One Thousand Plant
+Transcriptomes Initiative, 2019; Yang et al., 2020; Xiang
+et al., 2024; Zuntini et al., 2024; Zhao et al., 2025) have
+indicated that fabids should be limited just to the
+nitrogen‐ﬁxing members, Cucurbitales, Rosales, Fagales,
+and Fabales. This result was also obtained in the large
+mitochondrial analysis of Lin et al. (2025). In the malvids,
+there remains a core, well‐supported clade of Malvales,
+Brassicales, Sapindales, and Oxalidales, but nuclear and
+mitochondrial results also place with them Huerteales,
+Picramniales, Huaceae, Malpighiales, and Celastrales
+(Zuntini et al., 2024; Lin et al., 2025). These additional
+orders plus Huaceae could be included in an enlarged
+malvid clade, but placements of Crossosomatales,
+Geraniales, Myrtales, and Zygophyllales are less clear,
+appearing in some trees as sister to both the
+reconﬁgured fabids and expanded malvids. Apart from
+the placement of Huaceae, none of these altered
+placements aﬀects family or ordinal circumscriptions of
+APG IV, and our summary tree (Fig. 1) reﬂects these
+altered relationships found in the nuclear‐gene analyses.
+
+www.jse.ac.cn
+
+855
+
+19. A similar problem to point 18 above occurs with the
+positions of Caryophyllales and Santalales, which, in
+plastid results (Li et al., 2021), were included in the
+superasterid clade along with Berberidopsidales and the
+asterids, but in nuclear and mitochondrial results, it is
+unclear where Caryophyllales and Santalales should be
+placed. Berberidopsidales are still sister to the large
+asterid clade and thus can be included in the superasterid clade, but we consider Caryophyllales and
+Santalales unplaced in the larger informally named
+superrosids and superasterids. Again, none of this
+uncertainty in placements aﬀects the familial or ordinal
+circumscriptions of APG IV.
+20. In APG IV, Vitales and Saxifragales were included in the
+rosids and superrosids, respectively, reﬂecting their
+positions in the plastid results (Zhang et al., 2016). In
+the mitochondrial trees, they are sister orders placed
+outside both the rosids and asterids (Lin et al., 2025).
+However, in the nuclear trees (Xiang et al., 2024; Zuntini
+et al., 2024; Zhao et al., 2025), their positions are reversed
+relative to the plastid results, with Vitales and Saxifragales
+successively sister to the rosids. We therefore include
+both here in the superrosids, as close relatives of the
+rosids. As for the orders and families discussed in points
+18 and 19, this does not aﬀect circumscriptions in APG IV.
+21. APG V continues to recognize Boraginaceae in the
+broadest sense, synonymous with the monofamilial
+order Boraginales (APG IV, 2016). The split of Boraginaceae into 11 or nine families was argued by Luebert et al.
+(2016) and Vasile et al. (2025), respectively, to be the
+most conservative and consistent (less disruptive) with
+past treatments of the group. In both Vasile et al. (2025)
+and Cohen et al. (2025), there were shown to be
+problems with both the families as circumscribed by
+Luebert et al. (2016) and placement of some relative to
+the others (e.g., the position of Namaceae is weakly
+supported). For most botanists and other users of APG,
+nearly all the segregate families of Luebert et al. (2016)
+are unfamiliar. For example, in the treatment of
+Boraginaceae for the ﬂora of New Caledonia, Heine
+(1976) and Gotty & Pillon (2025) rejected segregate
+families, the former stating (translated from the French)
+that “The family is understood here in its traditional
+sense (A.P. De Candolle, Bentham & J.D. Hooker, Gürke
+& Engler); the dismemberments often proposed from R.
+Brown ex Dumortier (Cordiaceae, 1829) and by Lindley
+(Ehretiaceae, 1830) are not taken into consideration,
+given that they are of little theoretical interest and their
+acceptance would ruin the incontestable homogeneity
+of this group of gamopetalous phanerogams with very
+natural systematic and phylogenetic relationships that
+are easy to bring together in the original conception of
+the Boraginaceae family (Jussieu 1789).” We agree with
+these sentiments, despite their age, and hence continue
+to follow the traditional treatment of Boraginaceae in
+the broad sense outlined in APG IV. We acknowledge
+that a subfamilial classiﬁcation for Boraginaceae would
+be useful to incorporate what is known about relationships of the proposed separate families.
+22. Recent work continues to support placement of monogeneric Hydrostachyaceae in Cornales (Thomas
+
+J. Syst. Evol. 64(5): 845–874, 2026
+
+17596831, 2026, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jse.70096 by Cochrane Russian Federation, Wiley Online Library on [11/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+The Angiosperm Phylogeny Group
+
+The Angiosperm Phylogeny Group
+
+et al. 2021), perhaps most closely related to Loasaceae
+(Xu et al., 2024) or sister to the rest of Cornales (Zuntini
+et al., 2024), but Thomas et al. (2021) identiﬁed the
+involvement of ancient reticulation or ILS as aﬀecting
+the position of Hydrostachys Thouars.
+23. The position of Ficalhoa Hiern with respect to Sladenia
+Kurz (Sladeniaceae) and Pentaphylacaceae was unresolved in Zuntini et al. (2024), but in Yu et al. (2025), the
+former is well supported as sister to Pentaphylacaceae in
+analyses of nuclear DNA data (but not in their plastid
+trees). A merger of these two families under the older
+name Pentaphylacaceae is thus appropriate, given the
+lack of clear morphological apomorphies separating
+Sladenia from Ficalhoa and other Pentaphylacaceae
+(provided in Yu et al., 2025). Previously, Gilg &
+Werdermann (1925) and Robson (1962) considered
+Sladenieae and Ficalhoeae as tribes of Pentaphylacaceae, and Weitzman et al. (2004) also included them in
+Pentaphylacaceae. These proposals are complemented
+by the nuclear genomic analyses.
+24. The families related to Orobanchaceae have experienced
+an ever‐shifting number and generic composition since
+this family was recircumscribed to include several former
+genera of traditionally recognized Scrophulariaceae.
+Several small new families forming a grade to crown
+Orobanchaceae have been proposed, including Mazaceae, Paulowniaceae, Phrymaceae, Rehmanniaceae, and
+Wightiaceae (Beardsley & Olmstead, 2002; Reveal, 2011, 2012; Liu et al., 2020; Xia et al., 2021). As
+data became available for additional genera (Xia
+et al., 2009), unexpected relationships have been
+discovered, and new families have been proposed. For
+example, Wightia Spreng. ex DC. had been included in
+Paulowniaceae on morphological grounds until it was
+sequenced and found not to be sister to Paulownia
+Siebold & Zucc., resulting in a new family, Wightiaceae,
+being described (Liu et al., 2020). Furthermore, Xia et al.
+(2019) proposed that Wightia may be of hybrid origin
+between Phrymaceae and Paulowniaceae, and should
+thus be considered incertae sedis. Another genus
+previously thought to be a member of Paulowniaceae,
+Brandisia Hook.f. & Thomson, has now been shown to be
+a member of Orobanchaceae (Xia et al., 2019). Material
+of Shiuyinghua silvestrii (Pamp. & Bonati) Paclt
+(described as a species of Catalpa Scop.) has not been
+available for sequencing, so it remains with Paulownia,
+where the specimen (in Florence, FI) ﬁts morphologically
+(JW Byng, unpubl.). Given that morphology has failed to
+facilitate an accurate assessment of relationships among
+these genera, continuing instability of family circumscriptions is likely. Although the problems with placement and circumscription of Paulowniaceae present
+intriguing evolutionary problems, they represent threats
+to stability. Rehmanniaceae were already included in
+Orobanchaceae (APG IV, 2016; Xia et al., 2021), and we
+continue this trend and expand Orobanchaceae here to
+include Mazaceae, Paulowniaceae, Phrymaceae, and
+Wightiaceae, which will stabilize the circumscription of
+Orobanchaceae while the process of establishing generic
+phylogenetic relationships and erection of new subfamilies/tribes continues.
+
+J. Syst. Evol. 64(5): 845–874, 2026
+
+25. In APG IV (2016), Peltanthera Benth. was tentatively left
+unplaced in the clade with Gesneriaceae and Calceolariaceae. However, immediately after publication of APG IV,
+Molinari‐Novoa (2016) published Peltantheraceae, but not
+based on any additional information or data. Peltanthera
+has usually been associated with Gesneriaceae (Oxelman
+et al., 1999; Clark et al., 2010), and Luna et al. (2019) found
+Peltanthera closer to Gesneriaceae than Calceolariaceae,
+but with poor support, unlike Refulio‐Rodríguez &
+Olmstead (2014), who recovered Peltanthera as sister to
+Gesneriaceae + Calceolariaceae. The broader clade here is
+consistent in all recent phylogenetic studies, and therefore, the most stable solution is to unite all three into the
+single family Gesneriaceae, perhaps with a subfamily
+classiﬁcation that includes Calceolarioideae Luerss. and
+Peltantheroideae Molinari in addition to Didymocarpoideae Arnott, Gesnerioideae Link, and Sanangoideae
+A.Weber, J.L.Clark & Mich.Möller (Weber et al., 2013).
+An enlarged Gesneriaceae are united by inﬂorescence
+morphology, the ultimate units of the inﬂorescence being
+pair‐ﬂowered cymes omnipresent in Calceolariaceae and
+almost all Gesneriaceae (Weber, 2013). However, these
+are not found in Peltanthera, which has axillary, manyﬂowered panicles, but not all Gesneriaceae have pairﬂowered cymes, exceptions being Sinningia Nees (singleﬂowered) and Loxonia Jack and Stauranthera Benth.
+(single species of each having ordinary cymes;Weber, 2013), so inclusion of Peltanthera and Calceolariaceae, the latter with pair‐ﬂowered cymes, would not
+add otherwise unrepresented morphological diversity to
+Gesneriaceae.
+26. The positions of Escalloniaceae and Paracryphiaceae
+require more study. In Zuntini et al. (2024), Escalloniaceae formed a grade to Paracryphiaceae, but this was
+weakly supported, and gene‐tree discordance exists at
+these nodes. We continue to recognize Paracryphiales
+and Escalloniales but note here that changes may be
+needed in the future.
+27. Oncothecaceae are well supported as an isolated
+campanulid family (Stull et al., 2020; Zhang et al., 2020)
+excluded from the other orders, and thus, we recognize
+Oncothecales Doweld.
+28. Cassinopsis Sond. has been transferred from Icacinaceae to
+Metteniusaceae, which illustrates plastid–nuclear discordance (Stull et al., 2020); nuclear analyses correlate well
+with micromorphological synapomorphies. Cassinopsis was
+morphologically out of place in Icacinaceae.
+29. In the plastid results of Li et al. (2021) and others,
+Cardiopteridales were included in Aquifoliales, but here,
+they are accepted as a separate order because they are
+sister to the larger lamiid clade (Zhang et al., 2020;
+Zuntini et al., 2024). They include Stemonuraceae and
+Cardiopteridaceae.
+30. Expanding monogeneric Helwingiaceae to include
+monogeneric Phyllonomaceae (both Aquifoliales in APG
+IV, 2016) would then have epiphyllous inﬂorescences as a
+potential synapomorphy. Merging this sister pair would
+decrease redundancy in the system and has been
+consistent with the plastid results of several studies
+(Savolainen et al., 2000b; Li et al. 2021) and the more
+recent nuclear results of Zuntini et al. (2024).
+
+www.jse.ac.cn
+
+17596831, 2026, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jse.70096 by Cochrane Russian Federation, Wiley Online Library on [11/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+856
+
+31. Columelliaceae (including Desfontainia Ruiz & Pav.) are
+no longer part of Bruniales and are treated here as an
+unplaced family close to Dipsacales and Escalloniales
+(Zhang et al., 2020; Zuntini et al., 2024). If a position
+sister to both these orders can be established for
+Columelliaceae, then recognition of Columelliales Mart.
+would be logical. The name Columelliales has priority
+over Desfontainiales Takht., and although priority does
+not apply above the rank of family, we would prefer to
+use priority as the primary criterion in the case of
+multiple, rarely used ordinal names.
+32. Bruniales (without Columelliaceae) are unresolved in the
+campanulids (Zuntini et al. (2024), along with Oncothecales and Metteniusales, and thus, they are no longer
+close to Dipsacales/Apiales, as in plastid analyses
+(Li et al., 2021).
+33. In Dipsacales, Viburnaceae has been conserved over
+Adoxaceae of APG II, III, and IV (Turland et al., 2018). If
+Adoxa L. s.l. is included in this family, the name
+Viburnaceae is now to be used.
+
+7 Taxa incertae sedis
+APG IV (2016) listed seven taxa as unplaced (incertae sedis).
+These were:
+1. Atrichodendron tonkinense Gagnep. was placed in
+Solanaceae based on a poorly preserved specimen. It is
+certainly not Solanaceae in morphological terms, but
+characters are unclear in the single known specimen, and
+it has never been sequenced. It therefore remains
+unplaced to family.
+2. Coptocheile macrorrhiza Hoﬀmanns. is a synonym of
+Sinningia bulbosa (Ker.Gawl.) Wiehler (Gesneriaceae), a
+species from southeastern Brazil (POWO, 2025).
+3. Gumillea auriculata Ruiz & Pav. might belong to Picramniaceae, as suggested by Shipunov et al. (2020) and
+Christenhusz et al. (2017). It was described and illustrated
+from Peru, but no specimens are known. It is generally
+similar in morphology to Picramnia, but the ﬂowers are
+bisexual, and the illustration shows stipules, which
+resemble pseudostipules of some species of Picramnia
+and some Huerteales. However, the genus will remain
+unplaced to family because no specimens are known.
+4. Hirania rosea Thulin was conﬁrmed as Sapindaceae by
+Buerki et al. (2021).
+5. Keithia brasiliensis Spreng. remains unplaced. Suitable
+material for DNA analysis remains to be found. It was
+described as having a single sepal, ﬁve petals, and eight
+stamens, which does not match characters needed for
+inclusion in Capparaceae as originally suggested.
+6. Poilanedora unijuga Gagnep. is similar to Keithia (above),
+but there are known specimens. It has leaves with
+two pinnae and ﬁve petals, like some Zygophyllaceae.
+However, the herbarium specimens have not yet yielded
+usable DNA data (F. Forest, pers. comm.), so its position
+has yet to be conﬁrmed.
+7. Rumphia amboinensis L. has been shown most likely to be
+a synonym of Canarium strictum Roxb. (Burseraceae) by
+Mabberley (2016), who based this on the text and
+
+www.jse.ac.cn
+
+857
+
+illustration of the original in Van Rheede′s Hortus
+malabaricus.
+
+Acknowledgements
+We thank the hundreds of people who commented on an
+earlier draft of the manuscript and classiﬁcation via an on‐line
+survey. We received 234 responses: 33% from Europe, 26%
+from Asia, 23% from South America, 13% from North America,
+3% from Australasia/Oceania, and 3% from Africa. Respondents
+were associated with a university (62%), herbarium (32%),
+botanical garden (30%), or museum (8%) (note that these
+categories were not mutually exclusive). Overall, 62% of the
+respondents were more than 80% in agreement with the APG
+V classiﬁcation, 14% agreed with 50%–80%, and only 7% agreed
+with less than 50%; 17% had no opinion. Most of the
+disagreements were focused on Boraginales and Gesneriaceae/Calceolariaceae/Peltantheraceae. Both issues are discussed at length above. We gratefully acknowledge a grant
+from the Calleva Foundation to the Royal Botanic Gardens,
+Kew, for supporting an in‐person meeting in October 2022, at
+which the substance of this update was discussed.
+
+Authors Contributions
+Mark W. Chase, Pamela S. Soltis, and Douglas E. Soltis led the
+writing with major contributions from James W. Byng,
+Maarten J. M. Christenhusz, Michael F. Fay, Peter F. Stevens,
+David J. Mabberley, De‐Zhu Li, and Hong Ma. Contributions
+on their areas of speciality and/or advance information on
+upcoming publications were provided by William J. Baker,
+Steven Dodsworth, Felix Forest, Olivier Maurin, Lisa Pokorny,
+Stephen A. Smith, and Alexandre. R. Zuntini. James W. Byng
+created Figure 1.
+
+Conﬂicts of Interest
+The authors declare no conﬂict of interest.
+
+References
+Alzate JF, González FA, Pabón‐Mora N. 2024. Back together: Over
+1000 single‐copy nuclear loci and reproductive features support
+the holoendoparasitic Apodanthaceae as sister to the Rafﬂesiaceae in the order Malpighiales. Molecular Phylogenetics and
+Evolution 201: 108217.
+Anderson B, Edlund M, James S, Lepschi B, Nickrent D, Sultan A, Tate
+J, Petersen G. 2025. Evolutionary relationships in Santalales
+inferred using target capture with Angiosperms353, focusing on
+Australasian Santalaceae sensu lato. Australian Systematic
+Botany 38: SB24026.
+Angiosperm Phylogeny Group (APG). 1998. An ordinal classiﬁcation
+for the families of ﬂowering plants. Annals of the Missouri
+Botanical Garden 85: 531–553.
+Angiosperm Phylogeny Group (APG). 2003. An update of the
+Angiosperm Phylogeny Group classiﬁcation for the orders and
+families of ﬂowering plants: APG II. Botanical Journal of the
+Linnean Society 141: 399–436.
+Angiosperm Phylogeny Group (APG). 2009. An update of the
+Angiosperm Phylogeny Group classiﬁcation for the orders and
+
+J. Syst. Evol. 64(5): 845–874, 2026
+
+17596831, 2026, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jse.70096 by Cochrane Russian Federation, Wiley Online Library on [11/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+The Angiosperm Phylogeny Group
+
+The Angiosperm Phylogeny Group
+
+families of ﬂowering plants: APG III. Botanical Journal of the
+Linnean Society 161: 105–121.
+Angiosperm Phylogeny Group (APG). 2016. An update of the
+Angiosperm Phylogeny Group classiﬁcation for the orders and
+families of ﬂowering plants: APG IV. Botanical Journal of the
+Linnean Society 181: 1–20.
+Avise JC, Mitchell D. 2007. Time to standardize taxonomies.
+Systematic Biology 56: 130–133.
+Backlund A, Bremer K. 1998. To be or not to be: Principles of
+classiﬁcation and monotypic plant families. Taxon 47: 391–400.
+Baker WJ, Bailey P, Barber V, Barker A, Bellot S, Bishop D, Botigué
+LR, Brewer G, Carruthers T, Clarkson JJ, Cook J, Cowan RS,
+Dodsworth S, Epitawalage N, Françoso D, Gallego B, Johnson
+MG, Kim JT, Leempoel K, Maurin O, Mcginnie C, Pokorny L, Roy
+R, Stone M, Toledo E, Wickett NJ, Zuntini AR, Eiserhardt WL,
+Kersey PJ, Leitch IJ, Forest F. 2022. A comprehensive
+phylogenomic platform for exploring the angiosperm tree of
+life. Systematic Biology 71: 301–319.
+Barrett CF, Baker WJ, Comer JR, Conran JG, Lahmeyer SC, LeebensMack JH, Li J, Lim GS, Mayﬁeld‐Jones DR, Perez L, Medinz J,
+Pires JC, Santos C, Stevenson DW, Zomlefer WB, Davis JI. 2016.
+Plastid genomes reveal support for deep phylogenetic relationships and extensive rate variation among palms and other
+commelinid monocots. New Phytologist 209: 855–870.
+Beardsley PM, Olmstead RG. 2002. Redeﬁning Phrymaceae: The
+placement of Mimulus, tribe Mimuleae, and Phryma. American
+Journal of Botany 89: 1093–1102.
+Buerki S, Callmander MW, Acevedo‐Rodriguez P, Lowry PP,
+Munzinger J, Bailey P, Maurin O, Brewer GE, Epitawalage N,
+Baker WJ, Forest F. 2021. An updated infra‐familial classiﬁcation
+of Sapindaceae based on targeted enrichment data. American
+Journal of Botany 108: 1234–1251.
+Cai L, Pabón‐Mora N, Alzate JF, Liu L, Davis CC. 2025. The danger
+zone: The joint trap of incomplete lineage sorting and longbranch attraction in resolving the Gondwanan origin of
+Raﬄesiaceae and Apodanthaceae. American Journal of Botany
+113: e70201.
+Cai L, Xi Z, Lemmon EM, Lemmon AR, Mast A, Buddenhagen CE, Liu
+L, Davis CC. 2021. The perfect storm: Gene tree estimation error,
+incomplete lineage sorting, and ancient gene ﬂow explain the
+most recalcitrant ancient angiosperm clade, Malpighiales.
+Systematic Biology 70: 491–507.
+Campbell CR, Poelstra JW, Yoder AD. 2018. What is speciation
+genomics? The roles of ecology, gene ﬂow, and genomic
+architecture in the formation of species. Biological Journal of
+the Linnean Society 124: 561–583.
+Cauz‐Santos LA, Byng JW, Chase MW, Christenhusz MJ. 2026.
+Puzzling parasitic plants: phylogenetics and classiﬁcation of
+Santalales revisited. Phytotaxa 765: 18–34.
+Chase MW, Cameron KM, Freudenstein JV, Pridgeon AM, Salazar G,
+Van den Berg C, Schuiteman A. 2015. An updated classiﬁcation
+of Orchidaceae. Botanical Journal of the Linnean Society 177:
+151–174.
+Chase MW, Fay MF, Devey DS, Maurin O, Rønsted N, Davies J, Pillon
+Y, Petersen G, Seberg O, Tamura MN, Asmussen CB, Hilu K,
+Borsch T, Davis JI, Stevenson DW, Pires JC, Givnish TJ, Sytsma KJ,
+Graham SW, McPherson MA, Rai HS. 2006. Multigene analyses of
+monocot relationships. Aliso 22: 63–75.
+Chase MW, Reveal JL, Fay MF. 2009. A subfamilial classiﬁcation for
+the expanded asparagalean families, Amaryllidaceae, Asparagaceae and Xanthorrhoeaceae. Botanical Journal of the Linnean
+Society 161: 132–136.
+
+J. Syst. Evol. 64(5): 845–874, 2026
+
+Chase MW, Soltis DE, Olmstead RG, Morgan D, Les DH, Mishler B,
+Duval MRl, Price RA, Hills HG, Qiu YL, Kron KA, Rettig JH, Conti E,
+Palmer JD, Manhart JR, Sytsma KJ, Michaels HJ, Kress WJ, Karol
+KG, Clark WD, Hedrén M, Gaut BS, Jansen RK, Kim KJ, Wimpee
+cf, Smith JF, Furnier GR, Straus SH, Xiang KY, Plunkett GM, Soltis
+PS, Swensen SM, Williams SE, Gadek PA, Quinn CJ, Eguiarte L,
+Golenberg E, Learn GH, Graham SW, Barrett SCH, Dayanandan S,
+Albert VA. 1993. Phylogenetics of seed plants: An analysis of
+nucleotide sequences from the plastid gene rbcL sequence.
+Annals of the Missouri Botanical Garden 80: 528–580.
+Cheek M, Soto Gomez M, Graham SW, Rudall PJ. 2024.
+Afrothismiaceae (Dioscoreales), a new fully mycoheterotrophic
+family endemic to tropical Africa. Kew Bulletin 79: 55–73.
+Christenhusz MJM, Fay MF, Chase MW. 2017. Plants of the World, an
+illustrated encyclopedia of vascular plant families. Richmond: Kew
+Publishing.
+Christenhusz MJ, Vorontsova MS, Fay MF, Chase MW. 2015. Results
+from an online survey of family delimitation in angiosperms and
+ferns: recommendations to the Angiosperm Phylogeny Group
+for thorny problems in plant classiﬁcation. Botanical Journal of
+the Linnean Society 78: 501–528.
+Clark JL, Neill DA, Weber A, Gruhn JA, Katan K. 2010. Shuaria
+(Gesneriaceae), an arborescent new genus from the Cordillera del
+Cóndor and Amazonian Ecuador. Systematic Botany 35: 662–674.
+Cohen JI. 2025. Phylogenomics of Boraginaceae and Boraginales
+using lineage‐speciﬁc and Angiosperms353 loci. Systematic
+Botany 49: 749–767.
+Colli‐Silva M, Pérez‐Escobar OA, Ferreira CDM, Costa MTR, Gerace S,
+Silva‐Coutinho T, Yoshikawa VN, Antonio‐Domingues H,
+Hernández‐Gutiérrez R, Bovini MG, Duarte MC, Cheek M, Chase
+MW, Fay MF, Christenhusz MJM, Dorr LJ, Schoeplein C, Corcoran
+M, Roy S, Cable S, McLay T, Maurin O, Forest F, Baker WJ,
+Antonelli A. 2025. Taxonomy in the light of incongruence: An
+updated classiﬁcation of Malvales and Malvaceae based on
+phylogenomic data. TAXON 74: 361–385.
+Corner EJH. 1981. Angiosperm classiﬁcation and phylogeny: A
+criticism. Botanical Journal of the Linnean Society 82: 81–87.
+Cronquist A. 1981. An integrated system of classiﬁcation of ﬂowering
+plants. New York: Columbia University Press.
+Dahlgren RMT. 1975. A system of classiﬁcation of the angiosperms to
+be used to demonstrate the distribution of characters. Botaniska
+Notiser 128: 119–147.
+Dahlgren RMT, Cliﬀord HT, Yeo PF. 1985. The families of the
+monocotyledons. Berlin: Springer.
+Darwin Tree of Life Project Consortium. 2022. Sequence locally, think
+globally: The Darwin tree of life project. Proceedings of the
+National Academy of Sciences of the United States of America 119:
+e2115642118.
+Dong W, Li E, Liu Y, Xu C, Wang Y, Liu K, Cui X, Sun J, Suo Z, Zhang Z,
+Wen J. 2022. Phylogenomic approaches untangle early divergences and complex diversiﬁcations of the olive plant family.
+BMC Biology 20: 92.
+Doyle JJ. 2022. Deﬁning coalescent genes: Theory meets practice in
+organelle phylogenomics. Systematic Biology 71: 476–489.
+Escobar JS, Scornavacca C, Cenci A, Guilhaumon C, Santoni S,
+Douzery EJ, Ranwez V, Glémin S, David J. 2011. Multigenic
+phylogeny and analysis of tree incongruences in Triticeae
+(Poaceae). BMC Evolutionary Biology 11: 1–8.
+Feng K, Walker JF, Marx HE, Yang Y, Brockington SF, Moore MJ,
+Rabeler RK, Smith SA. 2024. The link between ancient wholegenome duplications and cold adaptations in the Caryophyllaceae. American Journal of Botany 111: e16350.
+
+www.jse.ac.cn
+
+17596831, 2026, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jse.70096 by Cochrane Russian Federation, Wiley Online Library on [11/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+858
+
+Filipowicz N, Renner SS. 2010. The worldwide holoparasitic
+Apodanthaceae conﬁdently placed in the Cucurbitales by nuclear
+and mitochondrial gene trees. BMC Evolutionary Biology 10: 1–8.
+Garrett N, Viruel J, Klimpert N, Soto Gomez M, Lam VK, Merckx VS,
+Graham SW. 2023. Plastid phylogenomics and molecular
+evolution of Thismiaceae (Dioscoreales). American Journal of
+Botany 110: e16141.
+Gilg E, Werdermann E. 1925. Actinidiaceae. In: Engler A, Prantl K eds. Die
+natürlichen Pﬂanzenfamilien. 2nd ed. Leipzig: Engelmann21: 36–47.
+Gotty K, Pillon Y. 2025. The family classiﬁcation of the New
+Caledonian angiosperms has become more stable with the
+application of the APG system. Cladistics 41: 463–469.
+GPWG II. 2012. New grass phylogeny resolves deep evolutionary
+relationships and discovers C4 origins. New Phytologist 193:
+304–312.
+GPWG III. 2025. A nuclear phylogenomic tree of grasses (Poaceae)
+recovers current classiﬁcation despite gene tree incongruence.
+New Phytologist 245: 818–834.
+Grass Phylogeny Working Group (GPWG), Barker NP, Clark LG, Davis
+JI, Duvall MR, Guala GF, Hsiao C, Kellogg EA, Linder HP, MasonGamer RJ, Mathews SY, Simmons MP, Soreng RJ, Spangler RE.
+2001. Phylogeny and subfamilial classiﬁcation of the grasses
+(Poaceae). Annals of the Missouri Botanical Garden 88: 373–457.
+Guo X, Fang D, Sahu SK, Yang S, Guang X, Folk R, Smith SA,
+Chanderbali AS, Chen S, Liu M, Yang T, Zhang S, Liu X, Xu X, Soltis
+PS, Soltis DE, Liu H. 2021. Chloranthus genome provides insights
+into the early diversiﬁcation of angiosperms. Nature Communications 12: 6930.
+Hamby RK, Zimmer EA. 1992. Ribosomal RNA as a phylogenetic tool
+in plant systematics. In: Soltis PS, Soltis DE, Doyle JJ eds.
+Molecular systematics of plants. Boston: Springer. 50–91.
+Heine H. 1976. Boraginacées. In: Aubréville A, Leroy JF eds. Flore de la
+Nouvelle‐Calédonie et Dépendances. Paris: Muséum National d′
+Histoire Naturelle. 7: 95–118.
+Helmstetter AJ, Ezedin Z, Lirio EJ, Oliveira SM, Chatrou LW, Erkens
+RH, Larridon I, Leempoel K, Maurin O, Roy S, Zuntini AR, Baker
+WJ, Couvreur TLP, Forest F, Sauquet H. 2025. Towards a
+phylogenomic classiﬁcation of Magnoliidae. American Journal
+of Botany 112: e16451.
+Hernández‐Hernández T, Miller EC, Román‐Palacios C, Wiens JJ. 2021.
+Speciation across the tree of life. Biological Reviews 96:
+1205–1242.
+Hillis DM, Dixon MT. 1991. Ribosomal DNA: Molecular evolution and
+phylogenetic inference. The Quarterly Review of Biology 66:
+411–453.
+Huang W, Zhang L, Columbus JT, Hu Y, Zhao Y, Tang L, Guo Z, Chen W,
+McKain M, Bartlett M, Huang CH, Li DZ, Ge S, Hong M. 2022. A
+well‐supported nuclear phylogeny of Poaceae and implications for
+the evolution of C4 photosynthesis. Molecular Plant 15: 755–777.
+Jeﬀroy O, Brinkmann H, Delsuc F, Philippe H. 2006. Phylogenomics:
+The beginning of incongruence? Trends in Genetics 22: 225–231.
+Johnson MG, Pokorny L, Dodsworth S, Botigué LR, Cowan RS, Devault
+A, Eiserhardt WL, Epitawalage N, Forest F, Kim JT, Leebens‐Mack
+JH. 2019. A universal probe set for targeted sequencing of 353
+nuclear genes from any ﬂowering plant designed using k‐medoids
+clustering. Systematic Biology 68: 594–606.
+Jost M, Samain MS, Marques I, Graham SW, Wanke S. 2021.
+Discordant phylogenomic placement of Hydnoraceae and
+Lactoridaceae within Piperales using data from all three
+genomes. Frontiers in Plant Science 12: 642598.
+Joyce EM, Appelhans MS, Buerki S, Cheek M, De Vos JM, Pirani JR,
+Zuntini AR, Bachelier JB, Bayly MJ, Callmander MW, Devecchi
+
+www.jse.ac.cn
+
+859
+
+MF, Pell SK, Groppo M, Lowry II, PP, Mitchell J, Siniscalchi CM,
+Munzinger J, Orel HK, Pannell CM, Nauheimer L, Sauquet H,
+Weeks A, Muellner‐Riehl AN, Leitch IJ, Maurin O, Forest F, Nargar
+K, Thiele KR, Baker WJ, Crayn DM. 2023. Phylogenomic analyses
+of Sapindales support new family relationships, rapid MidCretaceous hothouse diversiﬁcation, and heterogeneous histories of gene duplication. Frontiers in Plant Science 14: 1063174.
+Judd WS, Campbell CS, Kellogg EA, Stevens PF, Donoghue MJ. 2015.
+Plant systematics: A phylogenetic approach. 4th edition.
+Massachusetts: Sinauer.
+Judd WS, Sanders RW, Donoghue MJ. 1994. Angiosperm family pairs:
+Preliminary phylogenetic analyses. Harvard Papers in Botany
+1: 1–51.
+Kates HR, O'Meara BC, LaFrance R, Stull GW, James EK, Liu SY, Tian
+Q, Yi TS, Conde D, Kirst M, Ané JM. 2024. Shifts in evolutionary
+lability underlie independent gains and losses of root‐nodule
+symbiosis in a single clade of plants. Nature Communications
+15: 4262.
+Klopper RR, Smith GF, Van Wyk AE. 2018. Proposal to conserve the
+family name Asphodelaceae (Spermatophyta: Magnoliidae:
+Asparagales). Taxon 62: 402–403.
+Knapp S, Chase MW, Clarkson JJ. 2004. Nomenclatural changes and a
+new sectional classiﬁcation in Nicotiana (Solanaceae). Taxon
+52: 73–82.
+Koenen EJ, Ojeda DI, Steeves R, Migliore J, Bakker FT, Wieringa JJ,
+Kidner C, Hardy OJ, Pennington RT, Bruneau A, Hughes CE. 2020.
+Large‐scale genomic sequence data resolve the deepest
+divergences in the legume phylogeny and support a nearsimultaneous evolutionary origin of all six subfamilies. New
+Phytologist 225: 1355–1369.
+Komarova VA, Lavrenchenko LA. 2022. Approaches to the detection
+of hybridization events and genetic introgression upon
+phylogenetic incongruence. Biology Bulletin Reviews 12: 240–253.
+Kraichak E, Crespo A, Divakar PK, Leavitt SD, Lumbsch HT. 2017. A
+temporal banding approach for consistent taxonomic ranking
+above the species level. Scientiﬁc Reports 7: 2297.
+Kress WJ, Soltis DE, Kersey PJ, Wegrzyn JL, Leebens‐Mack JH, Gostel
+MR, Liu X, Soltis PS. 2022. Green plant genomes: What we know
+in an era of rapidly expanding opportunities. Proceedings of the
+National Academy of Sciences of the United States of America 19:
+e2115640118.
+Kuzoﬀ RK, Sweere JA, Soltis DE, Soltis PS, Zimmer EA. 1998. The
+phylogenetic potential of entire 26S rDNA sequences in plants.
+Molecular Biology and Evolution 15: 251–263.
+Larridon I, Zuntini AR, Léveillé‐Bourret É, Barrett RL, Starr JR,
+Muasya AM, Villa]verde T, Bauters K, Brewer GE, Bruhl JJ, Costa
+SM. 2021. A new classiﬁcation of Cyperaceae (Poales) supported
+by phylogenomic data. Journal of Systematics and Evolution 59:
+852–895.
+Larson DA, Walker JF, Vargas OM, Smith SA. 2020. A consensus
+phylogenomic approach highlights paleopolyploid and rapid
+radiation in the history of Ericales. American Journal of Botany
+107: 773–789.
+Lewin HA, Richards S, Lieberman Aiden E, Allende ML, Archibald JM,
+Bálint M, Barker KB, Baumgartner B, Belov K, Bertorelle G,
+Blaxter ML, Caio J, Caperello ND, Carlson K, Castilla‐Rubio JC,
+Chaw SM, Cheno L, Childers AK, Coddington JA, Condeu DA,
+Corominas M, Crandall KA, Crawford AJ, DiPalma F, Durbin R,
+Ebenezer TE, Edwards SV, Fedrigo O, Flicek P, Formenti G, Gibbs
+RA, Thomas M, Gilbert MTP, Goldstein MM, Graves JM, Greely
+HT, Grigoriev IV, Hackett KJ, Hall N, Haussler D, Helgen KM,
+Hogg CJ, Isobe S, Jakobsen KS, Janke A, Jarvis ED, Johnson WE,
+Jones SJM, Karlsson EK, Kersey PJ, Kim JH, Kress WJ, Kuraku S,
+
+J. Syst. Evol. 64(5): 845–874, 2026
+
+17596831, 2026, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jse.70096 by Cochrane Russian Federation, Wiley Online Library on [11/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+The Angiosperm Phylogeny Group
+
+The Angiosperm Phylogeny Group
+
+Lawniczak MKN, Leebens‐Mack JH, Li X, Lindblad‐Tohee K, Liu X,
+Lopez JV, Marques‐Bonet T, Mazardu S, Mazet JAK, Mazzoni AJ,
+Myers EW, O'Neill RJ, Paez S, Park H, Robinso GE, Roquet C,
+Ryder OA, Sabir JSM, Shaﬀer HB, Shank TM, Sherkowc JS, Soltis
+PS, Tang B, Leho Teder J, Uliano‐Silvan M, Wang K, Wei X,
+Wetzer R, Wilson JL, Xun Xu X, Yang H, Yoder AD, Zhang G. 2022.
+The earth BioGenome project 2020: Starting the clock.
+Proceedings of the National Academy of Sciences of the United
+States of America 119: e2115635118.
+Lexer C, Joseph J, van Loo M, Prenner G, Heinze B, Chase MW,
+Kirkup D. 2009. The use of digital image‐based morphometrics to
+study the phenotypic mosaic in taxa with porous genomes.
+TAXON 58: 349–364.
+Li PW, Lu YB, Antonelli A, Zhu ZJ, Wang W, Qin XM, Yang XR, Zhang
+Q. 2025. Sliding‐window phylogenetic analyses uncover complex
+interplastomic recombination in the tropical Asian‐American
+disjunct plant genus Hedyosmum (Chloranthaceae). The New
+Phytologist 246: 2405–2015.
+Li HT, Luo Y, Gan L, Ma PF, Gao LM, Yang JB, Cai J, Gitzendanner MA,
+Fritsch PW, Zhang T, Jin JJ, Zeng CX, Wang H, Yu WB, Zhang R,
+van der Bank M, Olmstead RG, Hollingsworth PM, Chase MW,
+Soltis DE, Soltis PS, Yi TS, Li DZ. 2021. Plastid phylogenomic
+insights into relationships of all ﬂowering plant families. BMC
+Biology 19: 232.
+Li YF, Luo L, Liu Y, He Q, Yu NN, Gaowa N, Yi ZQ, Wang JJ, Han W,
+Peng T, Ho BC. 2024. The Bryophyte Phylogeny Group: A
+revised familial classiﬁcation system based on plastid
+phylogenomic data. Journal of Systematics and Evolution 62:
+577–788.
+Li HT, Yi TS, Gao LM, Ma PF, Zhang T, Yang JB, Gitzendanner MA,
+Fritsch PW, Cai J, Luo Y, Wang H, van der Bank M, Zhang SD,
+Wang QF, Wang J, Zhang ZR, Fu CN, Yang J, Hollingsworth PM,
+Chase MW, Soltis DE, Soltis PS, Li DZ. 2019. Origin of
+angiosperms and the puzzle of the Jurassic gap. Nature Plants
+5: 461–470.
+Lin D, Shao B, Gao Z, Li J, Li Z, Li T, Huang W, Zhong X, Xu C, Chase
+MW, Jin X. 2025. Phylogenomics of angiosperms based on
+mitochondrial genes: Insights into deep node relationships. BMC
+Biology 23: 45.
+Lin Q, Braukmann TW, Soto Gomez M, Mayer JLS, Pinheiro F, Merckx
+VSFT, Stefanovic S, Graham SW. 2022. Mitochondrial genomic
+data are eﬀective at placing mycoheterotrophic lineages in plant
+phylogeny. New Phytologist 236: 1908–1921.
+Liu B, Tan YH, Liu S, Olmstead RG, Min DZ, Chen ZD, Joshee N, Vaidya
+BN, Chung RC, Li B. 2020. Phylogenetic relationships of
+Cyrtandromoea and Wightia revisited: A new tribe in Phrymaceae
+and a new family in Lamiales. Journal of Systematics and
+Evolution 58: 1–17.
+Legume Phylogeny Working Group (LPWG), Azani N, Babineau M,
+Bailey CD, Banks H, Barbosa AR, Pinto RB, Boatwright JS, Borges
+LM, Brown GK, Bruneau A, Candido E, Cardoso D, Chung KF,
+Clark RP, Conceição A, Crisp M, Cubas P, Delgado‐Salinas A,
+Dexter KG, Doyle JJ, Duminil J, Egan AN, de la Estrella M, Falcão
+MJ, Filatov DA, Fortuna‐Perez AP, Fortunato RH, Gagnon E,
+Gasson P, Rando JG, de Azevedo Tozzi A, Gunn B, Harris D,
+Haston E, Hawkins JA, Herendeen PS, Hughes CE, Iganci J, Javadi
+F, Kanu SA, Kazempour‐Osaloo S, Kite GC, Klitgaard BB,
+Kochanovski FJ, Koenen E, Kovar L, Lavin M, le Roux M, Lewis
+GP, de Lima HC, López‐Roberts MC, Mackinder B, Maia VH,
+Malécot V, Mansano VF, Marazzi B, Mattapha S, Miller JT,
+Mitsuyuki C, Moura T, Murphy DJ, Nageswara‐Rao M, Nevado B,
+Neves D, Ojeda DI, Pennington RT, Prado DE, Prenner G, de
+Queiroz LP, Ramos G, Filardi F, Ribeiro PG, de Lourdes Rico‐Arce
+M, Sanderson MJ, Santos‐Silva J, São‐Mateus W, Silva M, Simon
+
+J. Syst. Evol. 64(5): 845–874, 2026
+
+MF, Sinou C, Snak C, de Souza ÉR, Sprent J, Steele KP, Steier JE,
+Steeves R, Stirton CH, Tagane S, Torke BM, Toyama H, da Cruz
+DT, Vatanparast M, Wieringa JJ, Wink M, Wojciechowski MF,
+Yahara T, Yi T, Zimmerman E. 2017. A new subfamily classiﬁcation
+of the Leguminosae based on a taxonomically comprehensive
+phylogeny: The Legume Phylogeny Working Group (LPWG).
+Taxon 66: 44–77.
+Lücking R. 2019. Stop the abuse of time! Strict temporal banding is
+not the future of rank‐based classiﬁcations in fungi (including
+lichens) and other organisms. Critical Reviews in Plant Sciences
+38: 199–253.
+Luebert F, Cecchi L, Frohlich MW, Gottschling M, Guilliams CM,
+Hasenstab‐Lehman KE, Hilger HH, Miller JS, Mittelbach M,
+Nazaire M, Nepi M. 2016. Familial classiﬁcation of the
+Boraginales. Taxon 65: 502–522.
+Luna JA, Richardson JE, Nishii K, Clark JL, Möller M. 2019. The familial
+placement of Cyrtandromoea. Systematic Botany 44: 616–630.
+Mabberley DJ. 2016. On the identity of Rumphia L., the last remaining
+puzzle in Van. Rheede′s Hortus Malabaricus (1678–1693). Journal
+of Japanese Botany 91(Suppl): 326–329.
+Mabberley DJ. 2017. Mabberley′s plant‐book. 4th edition. New York:
+Cambridge University Press.
+Magallón S, Gómez‐Acevedo S, Sánchez‐Reyes LL, HernándezHernández T. 2015. A metacalibrated time‐tree documents the
+early rise of ﬂowering plant phylogenetic diversity. New
+Phytologist 207: 437–453.
+Mandel JR, Dikow RB, Siniscalchi CM, Thapa R, Watson LE, Funk VA.
+2019. A fully resolved backbone phylogeny reveals numerous
+dispersals and explosive diversiﬁcations throughout the history
+of Asteraceae. Proceedings of the National Academy of Sciences
+USA 116: 14083–14088.
+Molinari‐Novoa EA. 2016. Two new lamiid families for the Americas.
+Weberbauerella 1: 1–4.
+Morales‐Briones DF, Kadereit G, Tefarikis DT, Moore MJ, Smith SA,
+Brockington SF, Timoneda A, Yim WC, Cushman JC, Yang Y. 2021.
+Disentangling sources of gene tree discordance in phylogenomic
+data sets: Testing ancient hybridizations in Amaranthaceae sl.
+Systematic Biology 70: 219–235.
+Naumann J, Salomo K, Der JP, Wafula EK, Bolin JF, Maass E, Frenzke
+L, Samain MS, Neinhuis C, DePamphilis CW, Wanke S. 2013.
+Single‐copy nuclear genes place haustorial Hydnoraceae within
+Piperales and reveal a Cretaceous origin of multiple parasitic
+angiosperm lineages. PloS One 8: e79204.
+Nickrent DL, Soltis DE. 1995. A comparison of angiosperm
+phylogenies from nuclear 18S rDNA and rbcL sequences. Annals
+of the Missouri Botanical Garden 82: 208–234.
+Nickrent DL, Anderson F, Kuijt J. 2019. Inﬂorescence evolution in
+Santalales: Integrating morphological characters and molecular
+phylogenetics. American Journal of Botany 106: 402–414.
+Nickrent DL, Malécot V, Vidal‐Russell R, Der JP. 2010. A revised
+classiﬁcation of Santalales. Taxon 59: 538–558.
+One Thousand Plant Transcriptomes Initiative. 2019. One thousand
+plant transcriptomes and the phylogenomics of green plants.
+Nature 574: 679–685.
+Oxelman B, Backlund B, Bremer B. 1999. Relationships of
+Buddlejaceae s.l. investigated using parsimony jackknife and
+branch support analysis of chloroplast ndhF and rbcL sequence
+data. Systematic Botany 24: 164–182.
+Palmer JD. 1987. Chloroplast DNA evolution and biosystematic uses
+of chloroplast DNA variation. The American Naturalist 30: S6–S29.
+Pandey AK, Kasana S. 2021. Plant systematics. New York: CRC Press.
+
+www.jse.ac.cn
+
+17596831, 2026, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jse.70096 by Cochrane Russian Federation, Wiley Online Library on [11/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+860
+
+Pérez‐Escobar OA, Bogarín D, Przelomska NAS, Ackerman JD,
+Balbuena JA, Bellot S, Bühlmann RP, Cabrera B, Cano JA,
+Charitonidou M, Chomicki G, Clements MA, Cribb P, Fernández
+M, Flanagan NS, Gravendeel B, Hágsater E, Halley JM, Hu AQ,
+Jaramillo C, Mauad AV, Müntz MO, Leitch IJ, Li L, Negrão R, Oses
+L, Phillips C, Rincon M, Salazar GA, Simpson L, Smidt E, SolanoGomez R, Parra‐Sánchez E, Tremblay RL, van den Berg C, Tamayo
+BSV, Zuluaga A, Zuntini AR, Chase MW, Fay MF, Condamine FL,
+Forest F, Nargar K, Renner SS, Baker WJ, Antonelli A. 2024. The
+origin and species of orchids. New Phytologist 242: 700–716.
+Pillon Y, Crayn D, Streiﬀ SJR, de Vos JM. 2024. A suprageneric
+classiﬁcation of Oxalidales. Swainsona 38: 153–160.
+POWO. 2025. Plants of the World online. Facilitated by the Royal
+Botanic Gardens, Kew. [online]. Available from https://powo.
+science.kew.org/ [retrieved 10 June 2025].
+Pteridophyte Phylogeny Group (PPG). 2016. A community‐derived
+classiﬁcation for extant lycophytes and ferns. Journal of
+Systematics and Evolution 54: 563–603.
+de Queiroz K, Cantino P, Gauthier J. 2020. Phylonyms: A companion to
+the PhyloCode. London: CRC Press.
+Refulio‐Rodríguez NF, Olmstead R. 2014. Phylogeny of Lamiidae.
+American Journal of Botany 101: 287–299.
+Reveal JL. 2011. Summary of recent systems of angiosperm
+classiﬁcation. Kew Bulletin 66: 5–48.
+Reveal JL. 2012. An outline of a classiﬁcation system for extant
+ﬂowering plants. Phytoneuron 37: 1–221.
+Ritland K, Clegg MT. 1987. Evolutionary analyses of plant DNA
+sequences. American Naturalist 130: S74–S100.
+
+861
+
+Smith SA, Moore MJ, Brown JW, Yang Y. 2015. Analysis of
+phylogenomic datasets reveals conﬂict, concordance, and gene
+duplications with examples from animals and plants. BMC
+Evolutionary Biology 15: 1–5.
+Smith SA, Walker‐Hale N, Walker JF, Brown JW. 2020. Phylogenetic
+conﬂicts, combinability, and deep phylogenomics in plants.
+Systematic Biology 69: 579–592.
+Soltis DE, Soltis PS, Chase MW, Mort ME, Albach DC, Zanis M,
+Savolainen V, Hahn WH, Hoot SB, Fay MF, Axtell M. 2000.
+Angiosperm phylogeny inferred from 18S rDNA, rbcL, and atpB
+sequences. Botanical Journal of the Linnean Society 133: 381–461.
+Soltis DE, Soltis PS, Nickrent DL, Johnson LA, Hahn WJ, Hoot SB,
+Sweere JA, Kuzoﬀ RK, Kron KA, Chase MW, Swensen SM. 1997.
+Angiosperm phylogeny inferred from 18S ribosomal DNA
+sequences. Annals of the Missouri Botanical Garden 1: 1–49.
+Soltis DE, Smith S, Cellinese N, Refulio‐Rodríguez NF, Olmstead R,
+Crawley S, Black C, Diouf D, Hilu K, Latvis M, Wurdack K. 2011.
+Inferring angiosperm phylogeny: A 17‐gene analysis. American
+Journal of Botany 98: 704–730.
+Som A. 2015. Causes, consequences and solutions of phylogenetic
+incongruence. Brieﬁngs in Bioinformatics 16: 536–548.
+Soto Gomez M, Lin Q, Klimpert NJ, Lam VK, Viruel J, Merckx VS,
+Rudall PJ, Graham SW. 2025. Placing very long branch taxa in the
+plant tree of life: A case study with Dioscoreales mycoheterotrophs. bioRxiv. https://doi.org/10.1101/2025.09.22.677722
+Spichiger RE, SavolainenV, Figeat M. 2004. Systematic botany of
+ﬂowering plants: A new phytogenetic approach of the angiosperms of the temperate and tropical regions. London: CRC Press.
+Steenwyk JL, Li Y, Zhou X, Shen XX, Rokas A. 2023. Incongruence in
+the phylogenomics era. Nature Reviews Genetics 24: 834–850.
+
+Robson NKB. 1962. The taxonomic position of Ficalhoa laurifolia
+Hiern. In: Fernandes A ed. Comptes Rendus de la IVe Réunion
+de l′Association pour l′étude taxonomique de la ﬂore d′
+Afrique tropicale (AETFAT). Lisbon: Junta de Investigações do
+Ultramar.
+
+Stull GW, Pham KK, Soltis PS, Soltis DE. 2023. Deep reticulation: The
+long legacy of hybridization in vascular plant evolution. The Plant
+Journal 114: 743–766.
+
+Savolainen V, Chase MW, Morton CM, Hoot SB, Soltis DE, Bayer C,
+Fay MF, De Bruijn AY, Sullivan S, Qiu YL. 2000a. Phylogenetics of
+ﬂowering plants based upon a combined analysis of plastid atpB
+and rbcL gene sequences. Systematic Biology 49: 306–362.
+
+Stull GW, Soltis PS, Soltis DE, Gitzendanner MA, Smith SA. 2020.
+Nuclear phylogenomic analyses of asterids conﬂict with
+plastome trees and support novel relationships among major
+lineages. American Journal of Botany 107: 790–805.
+
+Savolainen V, Fay MF, Albach DC, Backlund A, van der Bank M,
+Cameron KM, Johnson SA, Lledó MD, Pintaud JC, Powell M,
+Sheahan MC, Soltis DE, Soltis PS, Weston P, Whitten WM,
+Wurdack KJ, Chase MW. 2000b. Phylogeny of the eudicots: A
+nearly complete familial analysis based on rbcL gene sequences.
+Kew Bulletin 55: 257–309.
+
+Su HJ, Hu JM, Anderson FE, Der JP, Nickrent DL. 2015. Phylogenetic
+relationships of Santalales with insights into the origins of
+holoparasitic Balanophoraceae. Taxon 64: 491–506.
+
+Schäferhoﬀ B, Müller KF, Borsch T. 2009. Caryophyllales phylogenetics: Disentangling Phytolaccaceae and Molluginaceae and
+description of Microteaceae as a new isolated family.
+Willdenowia 39: 209–228.
+Shepeleva EA, Schelkunov MI, Hroneš M, Sochor M, Dančák M,
+Merckx VS, Kikuchi IA, Chantanaorrapint S, Suetsugu K, Tsukaya
+H, Mar SS. 2020. Phylogenetics of the mycoheterotrophic genus
+Thismia (Thismiaceae: Dioscoreales) with a focus on the Old
+World taxa: Delineation of novel natural groups and insights into
+the evolution of morphological traits. Botanical Journal of the
+Linnean Society 193: 287–315.
+Shipunov A, Carr S, Furniss S, Pay K, Pirani JR. 2020. First phylogeny
+of bitterbush family, Picramniaceae (Picramniales). Plants 9: 284.
+Simmons MP, Lombardi JA, Biral L. 2023. Classiﬁcation of the
+Celastrales based on integration of genomic, morphological, and
+Sanger‐sequence characters. Systematic Botany 48: 283–299.
+Singhal S, Derryberry GE, Bravo GA, Derryberry EP, Brumﬁeld RT,
+Harvey MG. 2021. The dynamics of introgression across an avian
+radiation. Evolution Letters 5: 568–581.
+
+www.jse.ac.cn
+
+Sun M, Soltis DE, Soltis PS, Zhu X, Burleigh JG, Chen Z. 2015. Deep
+phylogenetic incongruence in the angiosperm clade Rosidae.
+Molecular Phylogenetics and Evolution 83: 156–166.
+Sun P, Lu Z, Wang Z, Wang S, Zhao K, Mei D, Yang J, Yang Y, Renner
+SS, Liu J. 2024. Subgenome‐aware analyses reveal the genomic
+consequences of ancient allopolyploid hybridizations throughout
+the cotton family. Proceedings of the National Academy of
+Sciences of the United States of America 121: e2313921121.
+Sun YX, Moore MJ, Zhang S, Soltis PS, Soltis DE, Zhao T, Meng A, Li X,
+Li J, Wang H. 2016. Phylogenomic and structural analyses of 18
+complete plastomes across nearly all families of early‐diverging
+eudicots, including an angiosperm‐wide analysis of IR gene
+content evolution. Molecular Phylogenetics and Evolution 96:
+93–101.
+Swanepoel W, Chase MW, Christenhusz MJ, Maurin O, Forest F, van
+Wyk AE. 2020. From the frying pan: An unusual dwarf shrub from
+Namibia turns out to be a new brassicalean family. Phytotaxa
+439: 171–185.
+Thomas SK, Liu X, Du ZY, Dong Y, Cummings A, Pokorny L, Xiang QY,
+Leebens‐Mack JH. 2021. Comprehending Cornales: Phylogenetic
+reconstruction of the order using the Angiosperms353 probe set.
+American Journal of Botany 108: 1112–1121.
+
+J. Syst. Evol. 64(5): 845–874, 2026
+
+17596831, 2026, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jse.70096 by Cochrane Russian Federation, Wiley Online Library on [11/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+The Angiosperm Phylogeny Group
+
+The Angiosperm Phylogeny Group
+
+Thulin M, Moore AJ, El‐Seedi H, Larsson A, Christin PA, Edwards EJ.
+2016. Phylogeny and generic delimitation in Molluginaceae, new
+pigment data in Caryophyllales, and the new family Corbichoniaceae. Taxon 65: 775–793.
+Turland NJ, Wiersema JH, Barrie FR, Greuter W, Hawksworth DL,
+Herendeen PS, Knapp S, Kusber WH, Li DZ, Marhold K, May TW
+eds. 2018. International Code of Nomenclature for algae, fungi,
+and plants (Shenzhen Code). Adopted by the Nineteenth
+International Botanical Congress. Shenzhen, China: July 2017,
+Regnum Vegetabile. Glashütten: Koeltz. 159
+Valleau J. 2004. Plant name changes: Good science, angry growers
+and confused gardeners. Acta Horticulturae 634: 63–66.
+Vasile MA, Böhnert T, Jeiter J, Cardoso D, Moonlight PW, Weigend
+M. 2025. An updated phylogeny of Boraginales based on the
+Angiosperms353 probe set: A roadmap for understanding
+morphological evolution. Annals of Botany 136: 77–97.
+Vences M, Guayasamin JM, Miralles A, De La Riva I. 2013. To name or
+not to name: Criteria to promote economy of change in
+supraspeciﬁc Linnean classiﬁcation schemes. Zootaxa 3636:
+201–244.
+Walker JF, Yang Y, Moore MJ, Mikenas J, Timoneda A, Brockington
+SF, Smith SA. 2017. Widespread paleopolyploidy, gene tree
+conﬂict, and recalcitrant relationships among the carnivorous
+Caryophyllales. American Journal of Botany 104: 858–867.
+Wang HX, Morales‐Briones DF, Moore MJ, Wen J, Wang HF. 2021. A
+phylogenomic perspective on gene tree conﬂict and character
+evolution in Caprifoliaceae using target enrichment data, with
+Zabelioideae recognized as a new subfamily. Journal of Systematics and Evolution 59: 897–914.
+Wang N, Yang Y, Moore MJ, Brockington SF, Walker JF, Brown JW,
+Liang B, Feng T, Edwards C, Mikenas J, Olivieri J. 2019. Evolution
+of Portulacineae marked by gene tree conﬂict and gene family
+expansion associated with adaptation to harsh environments.
+Molecular Biology and Evolution 36: 112–126.
+Wang Y, Li YD, Wang S, Tihelka E, Engel MS, Cai C. 2025. Modeling
+compositional heterogeneity resolves deep phylogeny of
+ﬂowering plants. Plant Diversity 471: 13–20.
+Weber A. 2013. Pair‐ﬂowered cymes in the Lamiales: Structure,
+distribution and origin. Annals of Botany 112: 1577–1595.
+Weber A, Clark JL, Möller M. 2013. A new formal classiﬁcation of
+Gesneriaceae. Selbyana 31: 68–94.
+Weitzman AL, Dressler S, Stevens PF. 2004. Ternstroemiaceae. In:
+Kubitzki K ed. The families and genera of vascular plants. Berlin:
+Springer. 6: 450–460.
+Wikström N, Savolainen V, Chase MW. 2001. Evolution of the
+angiosperms: Calibrating the family tree. Proceedings of the
+Royal Society of London, Series B: Biological Sciences 268:
+2211–2220.
+Xia Z, Li CC, Wen J, Wang YZ. 2021. Rehmannieae or Rehmanniaceae?
+Evidence from plastome sequences and ﬂoral morphology.
+Botanical Journal of the Linnean Society 196: 145–162.
+Xia Z, Wang YZ, Smith JF. 2009. Familial placement and relations
+of Rehmannia and Triaenophora (Scrophulariaceae s.l.)
+inferred from ﬁve gene regions. American Journal of Botany
+96: 519–530.
+Xia Z, Wen J, Gao Z. 2019. Does the enigmatic Wightia belong to
+Paulowniaceae (Lamiales)? Frontiers in Plant Science 10: 528.
+Xiang Y, Zhang T, Zhao Y, Dong H, Chen H, Hu Y, Huang CH, Xiang J,
+Ma H. 2024. Angiosperm‐wide analysis of fruit and ovary
+evolution aided by a new nuclear phylogeny supports
+association of the same ovary type with both dry and ﬂeshy
+fruits. Journal of Integrative Plant Biology 66: 228–251.
+
+J. Syst. Evol. 64(5): 845–874, 2026
+
+Xu Z, Folk RA, Gitzendanner MA, Hu GW, Soltis PS, Soltis DE, Wang
+QF. 2024. Re‐examining the placement of Hydrostachys using a
+large‐scale phylogenetic approach. Taxon 73: 237–248.
+Yang JB, Li DZ, Li HT. 2014. Highly eﬀective sequencing whole
+chloroplast genomes of angiosperms by nine novel universal
+primer pairs. Molecular Ecology Resources 14: 1024–1031.
+Yang L, Su D, Chang X, Foster CS, Sun L, Huang CH, Zhou X, Zeng L,
+Ma H, Zhong B. 2020. Phylogenomic insights into deep
+phylogeny of angiosperms based on broad nuclear gene
+sampling. Plant Communications 1: 100027.
+Yao G, Jin JJ, Li HT, Yang JB, Mandala VS, Croley M, Mostow R,
+Douglas NA, Chase MW, Christenhusz MJ, Soltis DE. 2019. Plastid
+phylogenomic insights into the evolution of Caryophyllales.
+Molecular Phylogenetics and Evolution 134: 74–86.
+Yu CC, Mo ZQ, Lu JY, Hu JJ, Yang JB, Li SF, Jia LB. 2025. Revisiting the
+molecular circumscription of Sladeniaceae sensu lato (Ericales):
+Insights from phylogenetic discordance. American Journal of
+Botany 112: e70141.
+Zeng L, Zhang Q, Sun R, Kong H, Zhang N, Ma H. 2014. Resolution of
+deep angiosperm phylogeny using conserved nuclear genes and
+estimates of early divergence times. Nature Communications
+5: 4956.
+Zeng LP, Zhang N, Zhang Q, Endress PK, Huang J, Ma H. 2017.
+Resolution of deep eudicot phylogeny and their temporal
+diversiﬁcation using nuclear genes from transcriptomic and
+genomic datasets. New Phytologist 214: 1338–1354.
+Zhang G, Ma H. 2024. Nuclear phylogenomics of angiosperms and
+insights into their relationships and evolution. Journal of
+Integrative Plant Biology 66: 546–578.
+Zhang C, Huang CH, Liu M, Hu Y, Panero JL, Luebert F, Gao T, Ma H.
+2021. Phylotranscriptomic insights into Asteraceae diversity,
+polyploidy, and morphological innovation. Journal of Integrative
+Plant Biology 63: 1273–1293.
+Zhang C, Zhang T, Luebert F, Xiang Y, Huang CH, Hu Y, Rees M,
+Frohlich MW, Qi J, Weigend M, Ma H. 2020. Asterid
+phylogenomics/phylotranscriptomics uncover morphological
+evolutionary histories and phylogenetic placement for numerous
+whole genome duplications. Molecular Biology and Evolution 37:
+3188–3210.
+Zhang G, Hu Y, Huang M, Huang WC, Liu D, Zhang D, Hu H, Downing
+JL, Liu ZJ, Ma H. 2023. Comprehensive phylogenetic analyses of
+Orchidaceae using nuclear genes and evolutionary insights into
+epiphytism. Journal of Integrative Plant Biology 65: 1204–1225.
+Zhang G, Yang J, Zhang C, Jiao B, Panero JL, Cai J, Zhang ZR, Gao LM,
+Gao T, Ma H. 2024. Nuclear phylogenomics of Asteraceae with
+increased sampling provides new insights into convergent
+morphological and molecular evolution. Plant Communications
+5: 100851.
+Zhang L, Zhu X, Zhao Y, Guo J, Zhang T, Huang W, Huang J, Hu Y,
+Huang C‐H, Ma H. 2022. Phylotranscriptomics resolves the
+phylogeny of Pooideae and uncovers factors for their adaptive
+evolution. Molecular Biology Evolution 39: msac026.
+Zhang N, Wen J, Zimmer EA. 2016. Another look at the phylogenetic
+position of the grape order Vitales: Chloroplast phylogenomics
+with an expanded sampling of key lineages. Molecular
+Phylogenetics and Evolution 101: 216–223.
+Zhao H, Lu L, Su J, Chen Z. 2015. Phylogeny of Stixeae and
+Borthwickiaceae based on morphological and molecular data.
+Chinese Bulletin of Botany 50: 473. [in Chinese with an English
+abstract].
+Zhao Y, Yu D, Kuo W, Huang J, Guo J, Sun M, Hu Y, Soltis DE, Soltis
+PS, Ma H, Huang CH. 2025. Nuclear phylogenomics provide
+
+www.jse.ac.cn
+
+17596831, 2026, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jse.70096 by Cochrane Russian Federation, Wiley Online Library on [11/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+862
+
+evidence to clarify key morphological evolution and wholegenome duplication across rosids. Journal of Integrative Plant
+Biology 67: 2704–2730.
+Zhao Y, Zhang R, Jiang KW, Qi J, Hu Y, Guo J, Zhu R, Zhang T, Egan
+AN, Yi TS, Huang CH. 2021. Nuclear phylotranscriptomics and
+phylogenomics support numerous polyploidization events and
+hypotheses for the evolution of rhizobial nitrogen‐ﬁxing
+symbiosis in Fabaceae. Molecular Plant 14: 748–773.
+Zhu XY, Chase MW, Qiu YL, Kong HZ, Dilcher DL, Li JH, Chen ZD.
+2007. Mitochondrial matR sequences help to resolve deep
+
+863
+
+phylogenetic relationships in rosids. BMC Evolutionary Biology
+7: 217.
+Zuntini AR, Carruthers T, Maurin O, Bailey PC, Leempoel K, Brewer G,
+Epitawalage N, Françoso E, Gallego‐Paramo B, McGinnie C,
+Negrão R. 2024. Phylogenomics and the rise of the angiosperms.
+Nature 629: 843–850.
+Zurawski G, Clegg MT. 1987. Evolution of higher‐plant chloroplast
+DNA‐coded genes: Implications for structure‐function and
+phylogenetic studies. Annual Review of PIant Physiology 38:
+391–418.
+
+Appendix A
+APG V Classiﬁcation
+Classiﬁcation of angiosperms (APG V)
+Phylogenetically organized by orders arranged in a phylogenetic sequence; families alphabetically listed in orders. Families
+published since 2016 are included as bracketed synonyms if not accepted here.
+*changed circumscription of a family or newly added families since APG IV (2016).
+†newly added or recircumscribed orders since APG IV (2016).
+‡new relationship of major clades (not aﬀecting circumscription of orders).
+Families with single quotation marks, for example, ‘Dioscoreaceae,’ are noted not to be monophyletic in the circumscription used
+here and await more deﬁnitive phylogenetic analyses before formal classiﬁcation is settled.
+Amborellales Melikyan et al.
+
+Laurales Juss. ex Bercht. & J.Presl
+
+Amborellaceae Pichon, nom. cons.
+
+Atherospermataceae R.Br.
+Calycanthaceae Lindl., nom. cons.
+Gomortegaceae Reiche, nom. cons.
+Hernandiaceae Blume, nom. cons.
+Lauraceae Juss., nom. cons.
+Monimiaceae Juss., nom. cons.
+Siparunaceae Schodde
+
+Nymphaeales Salisb. ex Bercht. & J.Presl
+Cabombaceae Rich. ex A.Rich., nom. cons.
+Hydatellaceae U.Hamann
+Nymphaeaceae Salisb., nom. cons.
+Austrobaileyales Takht. ex Reveal
+Austrobaileyaceae Croizat, nom. cons.
+Schisandraceae Blume, nom. cons.
+Trimeniaceae Gibbs, nom. cons.
+MAGNOLIIDS
+‡Chloranthales Mart.
+Chloranthaceae R.Br. ex Sims, nom. cons.
+Canellales Cronquist
+Canellaceae Mart., nom. cons.
+Winteraceae R.Br. ex Lindl., nom. cons.
+Piperales Bercht. & J.Presl
+Aristolochiaceae Juss., nom. cons
+Piperaceae Giseke, nom. cons.
+Saururaceae Rich. ex T.Lestib., nom. cons.
+Magnoliales Juss. ex Bercht. & J.Presl
+Annonaceae Juss., nom. cons.
+Degeneriaceae I.W.Bailey & A.C.Sm., nom. cons.
+Eupomatiaceae Orb., nom. cons.
+Himantandraceae Diels, nom. cons.
+Magnoliaceae Juss., nom. cons.
+Myristicaceae R.Br., nom. cons.
+
+www.jse.ac.cn
+
+MONOCOTS
+Acorales Mart.
+Acoraceae Martinov
+Alismatales R.Br. ex Bercht. & J.Presl
+Alismataceae Vent., nom. cons.
+Aponogetonaceae Planch., nom. cons.
+Araceae Juss., nom. cons.
+Butomaceae Mirb., nom. cons.
+Cymodoceaceae Vines, nom. cons.
+Hydrocharitaceae Juss., nom. cons.
+Juncaginaceae Rich., nom. cons.
+Maundiaceae Nakai
+Posidoniaceae Vines, nom. cons.
+Potamogetonaceae Bercht. & J.Presl, nom. cons
+Ruppiaceae Horan., nom. cons.
+Scheuchzeriaceae F.Rudolphi, nom. cons.
+Toﬁeldiaceae Takht.
+Zosteraceae Dumort., nom. cons.
+Petrosaviales Takht.
+Petrosaviaceae Hutch., nom. cons.
+Dioscoreales Mart.
+‘Dioscoreaceae’ R.Br., nom. cons. (including pro tem.
+
+J. Syst. Evol. 64(5): 845–874, 2026
+
+17596831, 2026, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jse.70096 by Cochrane Russian Federation, Wiley Online Library on [11/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+The Angiosperm Phylogeny Group
+
+The Angiosperm Phylogeny Group
+
+Afrothismiaceae Cheek & Soto Gomez, Taccaceae
+Dumort. Thismiaceae J.G.Agardh.)
+Burmanniaceae Blume, nom. cons.
+Nartheciaceae Fr. ex Bjurzon
+Pandanales R.Br. ex Bercht. & J.Presl
+Cyclanthaceae Poit. ex A.Rich., nom. cons.
+Pandanaceae R.Br., nom. cons.
+Stemonaceae Caruel, nom. cons.
+Triuridaceae Gardner, nom. cons.
+Velloziaceae J.Agardh, nom. cons.
+Liliales Perleb
+Alstroemeriaceae Dumort., nom. cons.
+Campynemataceae Dumort.
+Colchicaceae DC., nom. cons.
+Corsiaceae Becc., nom. cons.
+Liliaceae Juss., nom. cons.
+Melanthiaceae Batsch ex Borkh., nom. cons.
+Petermanniaceae Hutch., nom. cons.
+Philesiaceae Dumort., nom. cons.
+Ripogonaceae Conran & Cliﬀord
+Smilacaceae Vent., nom. cons.
+Asparagales Link
+Amaryllidaceae J.St.‐Hil., nom. cons.
+Asparagaceae Juss., nom. cons.
+Asphodelaceae Juss., nom. cons.
+Asteliaceae Dumort.
+Blandfordiaceae R.Dahlgren & Cliﬀord
+Boryaceae M.W.Chase et al.
+Doryanthaceae R.Dahlgren & Cliﬀord
+Hypoxidaceae R.Br., nom. cons.
+Iridaceae Juss., nom. cons.
+Lanariaceae H.Huber ex R.Dahlgren
+Orchidaceae Juss., nom. cons.
+*Tecophilaeaceae Leyb., nom. cons. (including Ixioliriaceae
+Nakai)
+Xeronemataceae M.W.Chase et al.
+Arecales Bromhead
+Arecaceae Bercht. & J.Presl, nom. cons., nom. alt.
+(= Palmae Juss., nom. cons., nom. alt.)
+Dasypogonaceae Dumort.
+
+Strelitziaceae Hutch., nom. cons.
+Zingiberaceae Martinov, nom. cons.
+Poales Small
+Bromeliaceae Juss., nom. cons.
+Cyperaceae Juss., nom. cons.
+Ecdeiocoleaceae D.W.Cutler & Airy Shaw
+Eriocaulaceae Martinov, nom. cons.
+Flagellariaceae Dumort., nom. cons.
+Joinvilleaceae Toml. & A.C.Sm.
+Juncaceae Juss., nom. cons.
+Mayacaceae Kunth, nom. cons.
+Poaceae Barnhart, nom. cons., nom. alt. (= Gramineae
+Juss., nom. cons., nom. alt.)
+Rapateaceae Dumort., nom. cons.
+Restionaceae R.Br., nom. cons
+Thurniaceae Engl., nom. cons.
+Typhaceae Juss., nom. cons.
+Xyridaceae C.Agardh, nom. cons.
+CERATOPHYLLIDS
+‡Ceratophyllales Link
+Ceratophyllaceae Gray, nom. cons.
+EUDICOTS
+Ranunculales Juss. ex Bercht. & J.Presl
+Berberidaceae Juss., nom. cons.
+Circaeasteraceae Hutch., nom. cons.
+Eupteleaceae K.Wilh., nom. cons.
+Lardizabalaceae R.Br., nom. cons.
+Menispermaceae Juss., nom. cons.
+Papaveraceae Juss., nom. cons.
+Ranunculaceae Juss., nom. cons.
+Proteales Juss. ex Bercht. & J.Presl
+Nelumbonaceae A.Rich., nom. cons.
+Platanaceae T.Lestib., nom. cons.
+Proteaceae Juss., nom. cons.
+Sabiaceae Blume, nom. cons.
+Trochodendrales Takht. ex Cronquist
+Trochodendraceae Eichler, nom. cons.
+Buxales Takht. ex Reveal
+
+Commelinales Mirb. ex Bercht. & J.Presl
+Commelinaceae Mirb., nom. cons.
+Haemodoraceae R.Br., nom. cons.
+Hanguanaceae Airy Shaw
+Philydraceae Link, nom. cons.
+Pontederiaceae Kunth, nom. cons.
+Zingiberales Griseb.
+Cannaceae Juss., nom. cons.
+Costaceae Nakai
+Heliconiaceae Vines
+Lowiaceae Ridl., nom. cons.
+Marantaceae R.Br., nom. cons.
+Musaceae Juss., nom. cons.
+
+J. Syst. Evol. 64(5): 845–874, 2026
+
+Buxaceae Dumort., nom. cons.
+CORE EUDICOTS
+Gunnerales Takht. ex Reveal
+Gunneraceae Meisn., nom. cons.
+Myrothamnaceae Nied., nom. cons.
+Dilleniales DC. ex Bercht. & J.Presl
+Dilleniaceae Salisb., nom. cons.
+SUPERROSIDS
+‡Vitales Juss. ex Bercht. & J.Presl
+Vitaceae Juss., nom. cons.
+
+www.jse.ac.cn
+
+17596831, 2026, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jse.70096 by Cochrane Russian Federation, Wiley Online Library on [11/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+864
+
+865
+
+‡Saxifragales Bercht. & J.Presl
+
+Fabales Bromhead
+
+Altingiaceae Lindl., nom. cons.
+Aphanopetalaceae Doweld
+Cercidiphyllaceae Engl., nom. cons.
+Crassulaceae J.St.‐Hil., nom. cons.
+Cynomoriaceae Endl. ex Lindl., nom. cons.
+Daphniphyllaceae Müll.Arg., nom. cons.
+Grossulariaceae DC., nom. cons.
+Haloragaceae R.Br., nom. cons.
+Hamamelidaceae R.Br., nom. cons.
+Iteaceae J.Agardh, nom. cons.
+Paeoniaceae Raf., nom. cons.
+Penthoraceae Rydb. ex Britton, nom. cons.
+Peridiscaceae Kuhlm., nom. cons.
+Saxifragaceae Juss., nom. cons.
+Tetracarpaeaceae Nakai
+
+Fabaceae Lindl., nom. cons., nom. alt. (= Leguminosae
+Juss., nom. cons., nom. alt.)
+Polygalaceae Hoﬀmanns. & Link, nom. cons.
+Quillajaceae D.Don
+Surianaceae Arn., nom. cons.
+
+ROSIDS
+
+Rosales Bercht. & J.Presl
+
+[‡rosids not in fabid or malvid clades]
+
+Barbeyaceae Rendle, nom. cons.
+Cannabaceae Martinov, nom. cons.
+Dirachmaceae Hutch.
+Elaeagnaceae Juss., nom. cons.
+Moraceae Gaudich., nom. cons.
+Rhamnaceae Juss., nom. cons.
+Rosaceae Juss., nom. cons.
+Ulmaceae Mirb., nom. cons.
+Urticaceae Juss., nom. cons.
+
+‡Crossosomatales Takht. ex Reveal
+Aphloiaceae Takht.
+Crossosomataceae Engl., nom. cons.
+Geissolomataceae A.DC., nom. cons.
+Guamatelaceae S.H.Oh & D.Potter
+Stachyuraceae J.Agardh, nom. cons.
+Staphyleaceae Martinov, nom. cons.
+Strasburgeriaceae Tiegh., nom. cons.
+‡Geraniales Juss. ex Bercht. & J.Presl
+Francoaceae A.Juss., nom. cons.
+Geraniaceae Juss., nom. cons.
+‡Zygophyllales Link
+Krameriaceae Dumort., nom. cons.
+Zygophyllaceae R.Br., nom. cons.
+‡Myrtales Juss. ex Bercht. & J.Presl
+Alzateaceae S.A.Graham
+Combretaceae R.Br., nom. cons.
+Crypteroniaceae A.DC., nom. cons.
+Lythraceae J.St.‐Hil., nom. cons.
+Melastomataceae Juss., nom. cons.
+Myrtaceae Juss., nom. cons.
+Onagraceae Juss., nom. cons.
+Penaeaceae Sweet ex Guill., nom. cons.
+Vochysiaceae A.St.‐Hil., nom. cons.
+‡FABIDS
+Fagales Engl.
+Betulaceae Gray, nom. cons.
+Casuarinaceae R.Br., nom. cons.
+Fagaceae Dumort., nom. cons.
+Juglandaceae DC. ex Perleb, nom. cons.
+Myricaceae Rich. ex Kunth, nom. cons.
+Nothofagaceae Kuprian.
+Ticodendraceae Gómez‐Laur. & L.D.Gómez
+
+www.jse.ac.cn
+
+†Cucurbitales Juss. ex Bercht. & J.Presl (excluding
+Apodanthaceae Tiegh. ex Takht.)
+Anisophylleaceae Ridl.
+Begoniaceae C.Agardh, nom. cons.
+Coriariaceae DC., nom. cons.
+Corynocarpaceae Engl., nom. cons.
+Cucurbitaceae Juss., nom. cons.
+Datiscaceae Dumort., nom. cons.
+Tetramelaceae Airy Shaw
+
+‡MALVIDS
+Picramniales Doweld
+Picramniaceae Fernando & Quinn
+‡Celastrales Link
+Celastraceae R.Br., nom. cons.
+Lepidobotryaceae J.Léonard, nom. cons.
+[unplaced to order]
+Huaceae A.Chev.
+‡Malpighiales Juss. ex Bercht. & J.Presl
+Achariaceae Harms, nom. cons.
+Balanopaceae Benth. & Hook.f., nom. cons.
+Bonnetiaceae L.Beauvis. ex Nakai
+Calophyllaceae J.Agardh
+Caryocaraceae Voigt
+Centroplacaceae Doweld & Reveal
+Chrysobalanaceae R.Br., nom. cons.
+Clusiaceae Lindl., nom. cons., nom. alt. (= Guttiferae Juss.,
+nom. cons., nom. alt.)
+Ctenolophonaceae Exell & Mendonça
+Dichapetalaceae Baill., nom. cons.
+Elatinaceae Dumort., nom. cons.
+Erythroxylaceae Kunth, nom. cons.
+*Euphorbiaceae Juss., nom. cons. (including Peraceae
+Klotzsch)
+Euphroniaceae Marc.‐Berti
+Goupiaceae Miers
+
+J. Syst. Evol. 64(5): 845–874, 2026
+
+17596831, 2026, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jse.70096 by Cochrane Russian Federation, Wiley Online Library on [11/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+The Angiosperm Phylogeny Group
+
+The Angiosperm Phylogeny Group
+
+Humiriaceae A.Juss., nom. cons.
+Hypericaceae Juss., nom. cons.
+Irvingiaceae Exell & Mendonça, nom. cons.
+Ixonanthaceae Planch. ex Miq., nom. cons.
+Lacistemataceae Mart., nom. cons.
+Linaceae DC. ex Perleb, nom. cons.
+Lophopyxidaceae H.Pfeiﬀ.
+Malpighiaceae Juss., nom. cons.
+Ochnaceae DC., nom. cons.
+Pandaceae Engl. & Gilg, nom. cons.
+Passiﬂoraceae Juss. ex Roussel, nom. cons.
+Phyllanthaceae Martinov, nom. cons.
+Picrodendraceae Small, nom. cons.
+Podostemaceae Rich. ex Kunth, nom. cons.
+Putranjivaceae Meisn.
+*Raﬄesiaceae Dumort., nom. cons. (including
+Apodanthaceae Tiegh. ex Takht.)
+Rhizophoraceae Pers., nom. cons.
+Salicaceae Mirb., nom. cons.
+Trigoniaceae A.Juss., nom. cons.
+Violaceae Batsch, nom. cons.
+Huerteales Doweld
+Dipentodontaceae Merr., nom. cons.
+Gerrardinaceae M.H.Alford
+Petenaeaceae Christenh. et al.
+Tapisciaceae Takht.
+‡Oxalidales Bercht. & J.Presl (excluding Huaceae A.Chev.)
+Brunelliaceae Engl., nom. cons.
+Cephalotaceae Dumort., nom. cons.
+Connaraceae R.Br., nom. cons.
+Cunoniaceae R.Br., nom. cons.
+Elaeocarpaceae Juss., nom. cons.
+Oxalidaceae R.Br., nom. cons.
+Sapindales Juss. ex Bercht. & J. Presl
+Anacardiaceae R.Br., nom. cons.
+Biebersteiniaceae Schnizl.
+Burseraceae Kunth, nom. cons.
+Kirkiaceae Takht.
+Meliaceae Juss., nom. cons.
+Nitrariaceae Lindl.
+Rutaceae Juss., nom. cons.
+Sapindaceae Juss., nom. cons.
+Simaroubaceae DC., nom. cons.
+Brassicales Bromhead
+Akaniaceae Stapf, nom. cons.
+Brassicaceae Burnett, nom. cons., nom. alt. (= Cruciferae
+Juss., nom. cons., nom. alt.)
+Capparaceae Juss., nom. cons.
+Caricaceae Dumort., nom. cons.
+Cleomaceae Bercht. & J.Presl
+Emblingiaceae Airy Shaw
+Gyrostemonaceae A.Juss., nom. cons.
+Koeberliniaceae Engl., nom. cons.
+Limnanthaceae R.Br., nom. cons.
+Moringaceae Martinov, nom. cons.
+
+J. Syst. Evol. 64(5): 845–874, 2026
+
+Pentadiplandraceae Hutch. & Dalziel
+Resedaceae Martinov, nom. cons. (including Borthwickia
+W.W.Sm., Forchhammeria Liebm., Stixaceae Doweld)
+*Salvadoraceae Lindl., nom. cons. (including Bataceae
+Mart. ex Perleb, nom. cons.)
+Setchellanthaceae Iltis
+Tovariaceae Pax, nom. cons.
+Tropaeolaceae Juss. ex DC., nom. cons.
+*Tiganophytaceae Swanepoel et al.
+Malvales Juss. ex Bercht. & J.Presl
+Bixaceae Kunth, nom. cons.
+Cistaceae Juss., nom. cons. (including Pakaraimaea Maguire
+& P.S.Ashton)
+Cytinaceae A.Rich.
+Dipterocarpaceae Blume, nom. cons.
+Malvaceae Juss., nom. cons.
+Muntingiaceae C.Bayer et al.
+Neuradaceae Kostel., nom. cons.
+Sarcolaenaceae Caruel, nom. cons.
+Sphaerosepalaceae Tiegh. ex Bullock
+Thymelaeaceae Juss., nom. cons.
+[non‐rosid, non‐asterid orders]
+‡Santalales R.Br. ex Bercht. & J.Presl
+*Balanophoraceae Rich., nom. cons. (including
+Mystropetalaceae Hook.f.)
+*Erythropalaceae Planch. ex Miq., nom. cons.
+Loranthaceae Juss., nom. cons.
+Misodendraceae J.Agardh, nom. cons.
+*Olacaceae R.Br., nom. cons. (excluding Erythropalaceae
+Planch. ex Miq., Strombosiaceae Tiegh.; including
+Aptandraceae Miers, Coulaceae van Tieghem,
+Octoknemaceae Tiegh., nom. cons., Ximeniaceae
+Horaninow).
+Opiliaceae Valeton, nom. cons.
+*Santalaceae R.Br., nom. cons. (including
+Amphorogynaceae Nickrent & Der, Cervantesiaceae
+Nickrent & Der, Comandraceae Nickrent & Der,
+Nanodeaceae Nickrent & Der, Thesiaceae Vest,
+Viscaceae Batsch).
+Schoepﬁaceae Blume
+*Strombosiaceae Tiegh.
+‡Caryophyllales Juss. ex Bercht. & J.Presl
+Achatocarpaceae Heimerl, nom. cons.
+Aizoaceae Martinov, nom. cons.
+Amaranthaceae Juss., nom. cons.
+Anacampserotaceae Eggli & Nyﬀeler
+Ancistrocladaceae Planch. ex Walp., nom. cons.
+Asteropeiaceae Takht. ex Reveal & Hoogland
+Barbeuiaceae Nakai
+Basellaceae Raf., nom. cons.
+Cactaceae Juss., nom. cons.
+Caryophyllaceae Juss., nom. cons.
+Didiereaceae Radlk., nom. cons.
+Dioncophyllaceae Airy Shaw, nom. cons.
+Droseraceae Salisb., nom. cons.
+Drosophyllaceae Chrtek et al.
+
+www.jse.ac.cn
+
+17596831, 2026, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jse.70096 by Cochrane Russian Federation, Wiley Online Library on [11/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+866
+
+*Frankeniaceae Desv., nom. cons. (including Tamaricaceae
+Link, nom. cons.)
+Gisekiaceae Nakai
+Halophytaceae S.Soriano
+Kewaceae Christenh.
+Limeaceae Shipunov ex Reveal
+Lophiocarpaceae Doweld & Reveal (including
+Corbichoniaceae Thulin)
+Macarthuriaceae Christenh.
+Microteaceae Schäferhoﬀ & Borsch
+Molluginaceae Bartl., nom. cons.
+Montiaceae Raf.
+Nepenthaceae Dumort, nom. cons.
+Nyctaginaceae Juss., nom. cons.
+Petiveriaceae C.Agardh
+Physenaceae Takht.
+*Phytolaccaceae R.Br., nom. cons. (including
+Agdestidaceae Nakai and Sarcobataceae Behnke)
+Plumbaginaceae Juss., nom. cons.
+Polygonaceae Juss., nom. cons.
+Portulacaceae Juss., nom. cons.
+Rhabdodendraceae Prance
+Simmondsiaceae Tiegh.
+Stegnospermataceae Nakai
+Talinaceae Doweld
+SUPERASTERIDS
+Berberidopsidales Doweld
+Aextoxicaceae Engl. & Gilg, nom. cons.
+Berberidopsidaceae Takht.
+ASTERIDS
+Cornales Link
+Cornaceae Bercht. & J.Presl, nom. cons.
+Curtisiaceae Takht.
+Grubbiaceae Endl. ex Meisn., nom. cons.
+Hydrangeaceae Dumort., nom. cons.
+Hydrostachyaceae Engl., nom. cons.
+Loasaceae Juss., nom. cons.
+Nyssaceae Juss. ex Dumort., nom. cons.
+Ericales Bercht. & J.Presl
+Actinidiaceae Gilg & Werderm., nom. cons.
+Balsaminaceae A.Rich., nom. cons.
+Clethraceae Klotzsch, nom. cons.
+Cyrillaceae Lindl., nom. cons.
+Diapensiaceae Lindl., nom. cons.
+Ebenaceae Gürke, nom. cons.
+Ericaceae Juss., nom. cons.
+Fouquieriaceae DC., nom. cons.
+Lecythidaceae A.Rich., nom. cons.
+Marcgraviaceae Bercht. & J.Presl, nom. cons.
+Mitrastemonaceae Makino, nom. cons.
+*Pentaphylacaceae Engl., nom. cons. (including
+Sladeniaceae Airy Shaw)
+Polemoniaceae Juss., nom. cons.
+Primulaceae Batsch ex Borkh., nom. cons.
+Roridulaceae Martinov, nom. cons.
+Sapotaceae Juss., nom. cons.
+
+www.jse.ac.cn
+
+867
+
+Sarraceniaceae Dumort., nom. cons.
+Styracaceae DC. & Spreng., nom. cons.
+Symplocaceae Desf., nom. cons.
+Tetrameristaceae Hutch.
+Theaceae Mirb., nom. cons.
+‡LAMIIDS
+†Cardiopteridales Takht.
+Cardiopteridaceae Blume, nom. cons.
+Stemonuraceae Kårehed
+Garryales Mart.
+Eucommiaceae Engl., nom. cons.
+Garryaceae Lindl., nom. cons.
+†Aquifoliales Senft (excluding Cardiopteridaceae Blume,
+Stemonuraceae Kårehed)
+Aquifoliaceae Bercht. & J.Presl, nom. cons.
+*Helwingiaceae Decne. (including Phyllonomaceae Small)
+†Icacinales Tiegh.
+Icacinaceae Miers, nom. cons. (excluding Cassinopsis Sond.,
+now in Metteniusaceae H.Karst. ex Schnizl.)
+Vahliales Doweld
+Vahliaceae Dandy
+Solanales Juss. ex Bercht. & J.Presl
+Convolvulaceae Juss., nom. cons.
+Hydroleaceae R.Br.
+Montiniaceae Nakai, nom. cons.
+Solanaceae Juss., nom. cons.
+Sphenocleaceae T.Baskerv., nom. cons.
+Boraginales Juss. ex Bercht. & J.Presl
+Boraginaceae Juss., nom. cons. (including Coldeniaceae
+J.S.Mill. & Gottschling, Namaceae Molinari)
+Gentianales Juss. ex Bercht. & J.Presl
+Apocynaceae Juss., nom. cons.
+Gelsemiaceae L.Struwe & V.A.Albert
+Gentianaceae Juss., nom. cons.
+Loganiaceae R.Br. ex Mart., nom. cons.
+Rubiaceae Juss., nom. cons.
+Lamiales Bromhead
+Acanthaceae Juss., nom. cons.
+Bignoniaceae Juss., nom. cons.
+Byblidaceae Domin, nom. cons.
+Carlemanniaceae Airy Shaw
+*Gesneriaceae Rich. & Juss., nom. cons. (including
+Calceolariaceae Olmstead, Peltantheraceae Molinari‐Novoa)
+Lamiaceae Martinov, nom. cons., nom. alt. (= Labiatae
+Juss., nom. cons., nom. alt.)
+Lentibulariaceae Rich., nom. cons.
+Linderniaceae Borsch et al.
+Martyniaceae Horan., nom. cons.
+Oleaceae Hoﬀmanns. & Link, nom. cons.
+*Orobanchaceae Vent., nom. cons. (including Mazaceae
+
+J. Syst. Evol. 64(5): 845–874, 2026
+
+17596831, 2026, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jse.70096 by Cochrane Russian Federation, Wiley Online Library on [11/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+The Angiosperm Phylogeny Group
+
+The Angiosperm Phylogeny Group
+
+Reveal, Paulowniaceae Nakai, Phrymaceae Schauer,
+nom. cons., Rehmanniaceae G.Kunkel ex Reveal,
+Wightiaceae Bo Li et al.)
+Pedaliaceae R.Br., nom. cons.
+Plantaginaceae Juss., nom. cons.
+Plocospermataceae Hutch.
+Schlegeliaceae Reveal
+Scrophulariaceae Juss., nom. cons.
+Stilbaceae Kunth, nom. cons.
+Tetrachondraceae Wettst.
+Thomandersiaceae Sreem.
+Verbenaceae J.St.Hil., nom. cons.
+
+Calyceraceae R.Br. ex Rich., nom. cons.
+Goodeniaceae R.Br., nom. cons.
+Menyanthaceae Dumort., nom. cons.
+Pentaphragmataceae J.Agardh, nom. cons.
+Phellinaceae Takht.
+Rousseaceae DC.
+Stylidiaceae R.Br., nom. cons.
+[asterid, but unplaced to order]
+Columelliaceae D.Don, nom. cons.
+Escalloniales Link
+
+‡CAMPANULIDS
+
+Escalloniaceae R.Br. ex Dumort., nom. cons.
+
+†Oncothecales Doweld
+
+Paracryphiales Takht. ex Reveal
+
+Oncothecaceae Kobuski ex Airy Shaw
+
+Paracryphiaceae Airy Shaw
+
+†Metteniusales Takht.
+
+Dipsacales Juss. ex Bercht. & J.Presl
+
+Metteniusaceae H.Karst. ex Schnizl. (including
+Cassinopsis Sond.)
+
+Caprifoliaceae Juss., nom. cons.
+*Viburnaceae Raf., nom. cons. (Adoxaceae E.Mey, nom.
+cons.; sensu APG II, 2003)
+
+†Bruniales Dumort. (excluding Columelliaceae D.Don,
+nom. cons)
+Bruniaceae R.Br. ex DC., nom. cons.
+Asterales Lin
+Alseuosmiaceae Airy Shaw
+Argophyllaceae Takht.
+Asteraceae Bercht. & J.Presl, nom. cons., nom. alt.
+(= Compositae Giseke, nom. cons., nom. alt.)
+Campanulaceae Juss., nom. cons.
+
+J. Syst. Evol. 64(5): 845–874, 2026
+
+Apiales Nakai
+Apiaceae Lindl., nom. cons., nom. alt. (= Umbelliferae Juss.,
+nom. cons., nom. alt.)
+Araliaceae Juss., nom. cons.
+Griseliniaceae Takht., nom. cons.
+Myodocarpaceae Doweld
+Pennantiaceae J.Agardh
+Pittosporaceae R.Br., nom. cons.
+Torricelliaceae Hu
+
+www.jse.ac.cn
+
+17596831, 2026, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jse.70096 by Cochrane Russian Federation, Wiley Online Library on [11/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+868
+
+869
+
+Appendix B
+Linear classiﬁcation of ﬂowering plants (APG V)
+Numbers in square brackets are those of APG IV (2016).
+1. Amborellales Melikyan et al.
+1. [1]. Amborellaceae Pichon, nom. cons.
+2. Nymphaeales Salisb. ex Bercht. & J.Presl
+2. [2]. Hydatellaceae U.Hamann
+3. [3]. Cabombaceae Rich. ex A.Rich., nom. cons.
+4. [4]. Nymphaeaceae Salisb., nom. cons.
+3. Austrobaileyales Takht. ex Reveal
+5. [5]. Austrobaileyaceae Croizat, nom. cons.
+6. [6]. Trimeniaceae Gibbs, nom. cons.
+7. [7]. Schisandraceae Blume, nom. cons.
+
+31. [31]. Butomaceae Mirb., nom. cons.
+32. [32]. Hydrocharitaceae Juss., nom. cons.
+33. [34]. Aponogetonaceae Planch., nom. cons.
+34. [33]. Scheuchzeriaceae F.Rudolphi, nom. cons.
+35. [35]. Juncaginaceae Rich., nom. cons.
+36. [36]. Maundiaceae Nakai
+37. [39]. Posidoniaceae Vines, nom. cons.
+38. [40]. Ruppiaceae Horan., nom. cons.
+39. [41]. Cymodoceaceae Vines, nom. cons.
+40. [37]. Zosteraceae Dumort., nom. cons.
+41. [38]. Potamogetonaceae Bercht. & J.Presl, nom. cons.
+11. Petrosaviales Takht.
+
+MAGNOLIIDS
+
+42. [42]. Petrosaviaceae Hutch., nom. cons.
+
+4. Chloranthales Mart.
+
+12. Dioscoreales Mart.
+
+8. [26]. Chloranthaceae R.Br. ex Sims, nom. cons.
+
+9. [8]. Canellaceae Mart., nom. cons.
+10. [9]. Winteraceae R.Br. ex Lindl., nom. cons.
+
+43. [43]. Nartheciaceae Fr. ex Bjurzon
+44. [44]. Burmanniaceae Blume, nom. cons.
+45. [45]. ‘Dioscoreaceae’ R.Br., nom. cons. (including pro
+tem. Afrothismiaceae Cheek & Soto Gomez,
+Taccaceae Dumort., Thismiaceae J.G.Agardh)
+
+6. Piperales Bercht. & J.Presl
+
+13. Pandanales R.Br. ex Bercht. & J.Presl
+
+11. [12]. Aristolochiaceae Juss., nom. cons.
+12. [10]. Saururaceae Rich. ex T.Lestib., nom. cons.
+13. [11]. Piperaceae Giseke, nom. cons.
+
+46. [47]. Velloziaceae J.Agardh, nom. cons.
+47. [46]. Triuridaceae Gardner, nom. cons.
+48. [48]. Stemonaceae Caruel, nom. cons.
+49. [49]. Cyclanthaceae Poit. ex A.Rich., nom. cons.
+50. [50]. Pandanaceae R.Br., nom. cons.
+
+5. Canellales Cronq.
+
+7. Magnoliales Juss. ex Bercht. & J.Presl
+14.
+15.
+16.
+17.
+18.
+19.
+
+[13]. Myristicaceae R.Br., nom. cons.
+[15]. Degeneriaceae I.W.Bailey & A.C.Sm., nom. cons.
+[16]. Himantandraceae Diels, nom. cons.
+[14]. Magnoliaceae Juss., nom. cons.
+[17]. Eupomatiaceae Orb., nom. cons.
+[18]. Annonaceae Juss., nom. cons.
+
+8. Laurales Juss. ex Bercht. & J.Presl
+20. [19]. Calycanthaceae Lindl., nom. cons.
+21. [20]. Siparunaceae Schodde
+22. [21]. Gomortegaceae Reiche, nom. cons.
+23. [22]. Atherospermataceae R.Br.
+24. [23]. Hernandiaceae Blume, nom. cons.
+25. [24]. Monimiaceae Juss., nom. cons.
+26. [25]. Lauraceae Juss., nom. cons.
+MONOCOTS
+9. Acorales Mart.
+27. [27]. Acoraceae Martinov
+10. Alismatales R.Br. ex Bercht. & J.Presl
+28. [29]. Toﬁeldiaceae Takht.
+29. [28]. Araceae Juss., nom. cons.
+30. [30]. Alismataceae Vent., nom. cons.
+
+www.jse.ac.cn
+
+14. Liliales Perleb
+51. [51]. Campynemataceae Dumort.
+52. [52]. Corsiaceae Becc., nom. cons.
+53. [53]. Melanthiaceae Batsch ex Borkh., nom. cons.
+54. [54]. Petermanniaceae Hutch, nom. cons.
+55. [55]. Alstroemeriaceae Dumort., nom. cons.
+56. [56]. Colchicaceae DC., nom. cons.
+57. [57]. Philesiaceae Dumort., nom. cons.
+58. [58]. Ripogonaceae Conran & Cliﬀord
+59. [59]. Smilacaceae Vent., nom. cons.
+60. [60]. Liliaceae Juss., nom. cons.
+15. Asparagales Link
+61. [61]. Orchidaceae Juss., nom. cons.
+62. [62]. Boryaceae M.W.Chase et al.
+63. [63]. Blandfordiaceae R.Dahlgren & Cliﬀord
+64. [64]. Asteliaceae Dumort.
+65. [65]. Lanariaceae H.Huber ex R.Dahlgren
+66. [66]. Hypoxidaceae R.Br., nom. cons.
+67. [67]. Doryanthaceae R.Dahlgren & Cliﬀord
+68. [69]. Tecophilaeaceae Leyb., nom. cons. (including
+Ixioliriaceae Nakai)
+69. [70]. Iridaceae Juss., nom. cons.
+70. [71]. Xeronemataceae M.W.Chase et al.
+
+J. Syst. Evol. 64(5): 845–874, 2026
+
+17596831, 2026, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jse.70096 by Cochrane Russian Federation, Wiley Online Library on [11/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+The Angiosperm Phylogeny Group
+
+The Angiosperm Phylogeny Group
+
+71. [72]. Asphodelaceae Juss., nom. cons. prop.
+72. [73]. Amaryllidaceae J.St.‐Hil., nom. cons.
+73. [74]. Asparagaceae Juss., nom. cons.
+16. Arecales Bromhead
+
+22. Proteales Juss. ex Bercht. & J.Presl
+111.
+112.
+113.
+114.
+
+[112]. Sabiaceae Blume, nom. cons.
+[113]. Nelumbonaceae A.Rich., nom. cons.
+[114]. Platanaceae T.Lestib., nom. cons.
+[115]. Proteaceae Juss., nom. cons.
+
+74. [75]. Dasypogonaceae Dumort.
+75. [76]. Arecaceae Bercht. & J.Presl, nom. cons., nom. alt.
+(= Palmae Juss., nom. cons., nom. alt.)
+
+115. [116]. Trochodendraceae Eichler, nom. cons.
+
+17. Commelinales Mirb. ex Bercht. & J.Presl
+
+24. Buxales Takht. ex Reveal
+
+76. [80]. Pontederiaceae Kunth, nom. cons.
+77. [81]. Haemodoraceae R.Br., nom. cons.
+78. [79]. Philydraceae Link, nom. cons.
+79. [77]. Hanguanaceae Airy Shaw
+80. [78]. Commelinaceae Mirb., nom. cons.
+
+116. [117]. Buxaceae Dumort., nom. cons.
+
+18. Zingiberales Griseb.
+81. [85]. Musaceae Juss., nom. cons.
+82. [83]. Lowiaceae Ridl., nom. cons.
+83. [82]. Strelitziaceae Hutch., nom. cons.
+84. [84]. Heliconiaceae Vines
+85. [86]. Cannaceae Juss., nom. cons.
+86. [87]. Marantaceae R.Br., nom. cons.
+87. [88]. Costaceae Nakai
+88. [89]. Zingiberaceae Martinov, nom. cons.
+19. Poales Small
+89. [90]. Typhaceae Juss., nom. cons.
+90. [91]. Bromeliaceae Juss., nom. cons.
+91. [92]. Rapateaceae Dumort., nom. cons.
+92. [96]. Thurniaceae Engl., nom. cons.
+93. [97]. Juncaceae Juss., nom. cons.
+94. [98]. Cyperaceae Juss., nom. cons.
+95. [95]. Mayacaceae Kunth, nom. cons.
+96. [94]. Eriocaulaceae Martinov, nom. cons.
+97. [93]. Xyridaceae C.Agardh, nom. cons.
+98. [99]. Restionaceae R.Br., nom. cons.
+99. [100]. Flagellariaceae Dumort., nom. cons.
+100. [102]. Ecdeiocoleaceae D.W.Cutler & Airy Shaw
+101. [101]. Joinvilleaceae Toml. & A.C.Sm.
+102. [103]. Poaceae Barnhart, nom. cons., nom. alt.
+(= Gramineae Juss., nom. cons., nom. alt.)
+CERATOPHYLLIDS
+20. Ceratophyllales Link
+103. [104]. Ceratophyllaceae Gray, nom. cons.
+EUDICOTS
+21. Ranunculales Juss. ex Bercht. & J.Presl
+104. [105]. Eupteleaceae K.Wilh., nom. cons.
+105. [106]. Papaveraceae Juss., nom. cons.
+106. [107]. Circaeasteraceae Hutch., nom. cons.
+107. [108]. Lardizabalaceae R.Br., nom. cons.
+108. [109]. Menispermaceae Juss., nom. cons.
+109. [110]. Berberidaceae Juss., nom. cons.
+110. [111]. Ranunculaceae Juss., nom. cons.
+
+J. Syst. Evol. 64(5): 845–874, 2026
+
+23. Trochodendrales Takht. ex Cronq.
+
+CORE EUDICOTS
+25. Gunnerales Takht. ex Reveal
+117. [118]. Myrothamnaceae Nied., nom. cons.
+118. [119]. Gunneraceae Meisn., nom. cons.
+26. Dilleniales DC. ex Bercht. & J.Presl
+119. [120]. Dilleniaceae Salisb., nom. cons.
+SUPERROSIDS
+27. Vitales Juss. ex Bercht. & J.Presl
+120. [136]. Vitaceae Juss., nom. cons.
+28. Saxifragales Bercht. & J.Presl
+121. [135]. Cynomoriaceae Endl. ex Lindl., nom. cons.
+122. [121]. Peridiscaceae Kuhlm., nom. cons.
+123. [122]. Paeoniaceae Raf., nom. cons.
+124. [126]. Daphniphyllaceae Müll.Arg., nom. cons.
+125. [125]. Cercidiphyllaceae Engl., nom. cons.
+126. [123]. Altingiaceae Lindl., nom. cons.
+127. [124]. Hamamelidaceae R.Br., nom. cons.
+128. [127]. Iteaceae J.Agardh, nom. cons.
+129. [128]. Grossulariaceae DC., nom. cons.
+130. [129]. Saxifragaceae Juss., nom. cons.
+131. [132]. Tetracarpaeaceae Nakai
+132. [131]. Aphanopetalaceae Doweld
+133. [133]. Penthoraceae Rydb. ex Britton, nom. cons.
+134. [134]. Haloragaceae R.Br., nom. cons.
+135. [130]. Crassulaceae J.St.‐Hil., nom. cons.
+ROSIDS
+[rosids not in fabid or malvid clades]
+29. Crossosomatales Takht. ex Reveal
+136. [223]. Aphloiaceae Takht.
+137. [224]. Geissolomataceae A.DC., nom. cons.
+138. [225]. Strasburgeriaceae Tiegh., nom. cons.
+139. [227]. Guamatelaceae S.H.Oh & D.Potter
+140. [228]. Stachyuraceae J.Agardh, nom. cons.
+141. [229]. Crossosomataceae Engl., nom. cons.
+142. [226]. Staphyleaceae Martinov, nom. cons.
+30. Geraniales Juss. ex Bercht. & J.Presl
+143. [213]. Francoaceae A.Juss., nom. cons.
+144. [212]. Geraniaceae Juss., nom. cons.
+
+www.jse.ac.cn
+
+17596831, 2026, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jse.70096 by Cochrane Russian Federation, Wiley Online Library on [11/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+870
+
+871
+
+31. Zygophyllales Link
+
+38. Celastrales Link
+
+145. [137]. Krameriaceae Dumort., nom. cons.
+146. [138]. Zygophyllaceae R.Br., nom. cons.
+
+184. [167]. Lepidobotryaceae J.Léonard, nom. cons.
+185. [168]. Celastraceae R.Br., nom. cons.
+
+32. Myrtales Juss. ex Bercht. & J.Presl
+
+[unplaced to order]
+
+147. [214]. Combretaceae R.Br., nom. cons.
+148. [215]. Lythraceae J.St.‐Hil., nom. cons.
+149. [216]. Onagraceae Juss., nom. cons.
+150. [220]. Crypteroniaceae A.DC., nom. cons.
+151. [221]. Alzateaceae S.A.Graham
+152. [222]. Penaeaceae Sweet ex Guill., nom. cons.
+153. [219]. Melastomataceae Juss., nom. cons.
+154. [217]. Vochysiaceae A.St.‐Hil., nom. cons.
+155. [218]. Myrtaceae Juss., nom. cons.
+
+186. [169]. Huaceae A.Chev.
+
+FABIDS
+33. Fagales Engl.
+156. [152]. Nothofagaceae Kuprian.
+157. [154]. Myricaceae Rich. ex Kunth, nom. cons.
+158. [155]. Juglandaceae DC. ex Perleb, nom. cons.
+159. [156]. Casuarinaceae R.Br., nom. cons.
+160. [157]. Ticodendraceae Gómez‐Laur. & L.D.Gómez
+161. [158]. Betulaceae Gray, nom. cons.
+162. [153]. Fagaceae Dumort., nom. cons.
+34. Fabales Bromhead
+163. [141]. Surianaceae Arn., nom. cons.
+164. [142]. Polygalaceae Hoﬀmanns. & Link, nom. cons.
+165. [139]. Quillajaceae D.Don
+166. [140]. Fabaceae Lindl., nom. cons., nom. alt.
+(= Leguminosae Juss., nom. cons., nom. alt.)
+35. Cucurbitales Juss. ex Bercht. & J.Presl (excluding
+Apodanthaceae Tiegh. ex Takht.)
+167. [161]. Corynocarpaceae Engl., nom. cons.
+168. [160]. Anisophylleaceae Ridl.
+169. [162]. Coriariaceae DC., nom. cons.
+170. [163]. Cucurbitaceae Juss., nom. cons.
+171. [165]. Datiscaceae Dumort., nom. cons.
+172. [164]. Tetramelaceae Airy Shaw
+173. [166]. Begoniaceae C.Agardh, nom. cons.
+36. Rosales Bercht. & J.Presl
+174. [145]. Dirachmaceae Hutch.
+175. [144]. Barbeyaceae Rendle, nom. cons.
+176. [146]. Elaeagnaceae Juss., nom. cons.
+177. [147]. Rhamnaceae Juss., nom. cons.
+178. [148]. Ulmaceae Mirb., nom. cons.
+179. [149]. Cannabaceae Martinov, nom. cons.
+180. [150]. Moraceae Gaudich., nom. cons.
+181. [151]. Urticaceae Juss., nom. cons.
+182. [143]. Rosaceae Juss., nom. cons.
+MALVIDS
+37. Picramniales Doweld
+183. [230]. Picramniaceae Fernando & Quinn
+
+www.jse.ac.cn
+
+40. Malpighiales Juss. ex Bercht. & J.Presl
+187. [206]. Raﬄesiaceae Dumort., nom. cons. (including
+Apodanthaceae Tiegh. ex Takht.)
+188. [178]. Ctenolophonaceae Exell & Mendonça
+189. [176]. Pandaceae Engl. & Gilg, nom. cons.
+190. [198]. Humiriaceae A.Juss., nom. cons.
+191. [177]. Irvingiaceae Exell & Mendonça, nom. cons.
+192. [181]. Ochnaceae DC., nom. cons.
+193. [182]. Bonnetiaceae L.Beauvis. ex Nakai
+194. [183]. Clusiaceae Lindl., nom. cons., nom. alt.
+(= Guttiferae Juss., nom. cons., nom. alt.)
+195. [184]. Calophyllaceae J.Agardh
+196. [185]. Podostemaceae Rich. ex Kunth, nom. cons.
+197. [186]. Hypericaceae Juss., nom. cons.
+198. [187]. Caryocaraceae Voigt, nom. cons.
+199. [188]. Lophopyxidaceae H.Pfeiﬀ.
+200. [189]. Putranjivaceae Meisn.
+201. [190]. Centroplacaceae Doweld & Reveal
+202. [191]. Elatinaceae Dumort., nom. cons.
+203. [192]. Malpighiaceae Juss., nom. cons.
+204. [208]. Linaceae DC. ex Perleb, nom. cons.
+205. [209]. Ixonanthaceae Planch. ex Miq., nom. cons.
+206. [179]. Rhizophoraceae Pers., nom. cons.
+207. [180]. Erythroxylaceae Kunth, nom. cons.
+208. [193]. Balanopaceae Benth. & Hook.f., nom. cons.
+209. [194]. Trigoniaceae A.Juss., nom. cons.
+210. [195]. Dichapetalaceae Baill., nom. cons.
+211. [196]. Euphroniaceae Marc.‐Berti
+212. [197]. Chrysobalanaceae R.Br., nom. cons.
+213. [201]. Goupiaceae Miers
+214. [199]. Achariaceae Harms, nom. cons.
+215. [203]. Lacistemataceae Mart., nom. cons.
+216. [204]. Salicaceae Mirb., nom. cons.
+217. [202]. Passiﬂoraceae Juss. ex Roussel, nom. cons.
+218. [200]. Violaceae Batsch, nom. cons.
+219. [210]. Picrodendraceae Small, nom. cons.
+220. [211]. Phyllanthaceae Martinov, nom. cons.
+221. [207]. Euphorbiaceae Juss., nom. cons. (including
+Peraceae Klotzsch)
+41. Huerteales Doweld
+222. [231]. Gerrardinaceae M.H.Alford
+223. [232]. Petenaeaceae Christenh. et al.
+224. [233]. Tapisciaceae Takht.
+225. [234]. Dipentodontaceae Merr., nom. cons.
+39. Oxalidales Bercht. & J.Presl (excluding Huaceae A.Chev.)
+226. [170]. Connaraceae R.Br., nom. cons.
+227. [171]. Oxalidaceae R.Br., nom. cons.
+228. [174]. Cephalotaceae Dumort., nom. cons.
+229. [172]. Cunoniaceae R.Br., nom. cons.
+
+J. Syst. Evol. 64(5): 845–874, 2026
+
+17596831, 2026, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jse.70096 by Cochrane Russian Federation, Wiley Online Library on [11/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+The Angiosperm Phylogeny Group
+
+The Angiosperm Phylogeny Group
+
+230. [175]. Brunelliaceae Engl., nom. cons.
+231. [173]. Elaeocarpaceae Juss., nom. cons.
+42. Sapindales Juss. ex Bercht. & J.Presl
+232. [235]. Biebersteiniaceae Schnizl.
+233. [236]. Nitrariaceae Lindl.
+234. [240]. Sapindaceae Juss., nom. cons.
+235. [237]. Kirkiaceae Takht.
+236. [238]. Burseraceae Kunth, nom. cons.
+237. [239]. Anacardiaceae R.Br., nom. cons.
+238. [242]. Simaroubaceae DC., nom. cons.
+239. [241]. Rutaceae Juss., nom. cons.
+240. [243]. Meliaceae Juss., nom. cons.
+43. Brassicales Bromhead
+241. [256]. Moringaceae Martinov, nom. cons.
+242. [257]. Caricaceae Dumort., nom. cons.
+243. [254]. Akaniaceae Stapf, nom. cons.
+244. [255]. Tropaeolaceae Juss. ex DC., nom. cons.
+245. [259]. Setchellanthaceae Iltis
+246. [258]. Limnanthaceae R.Br., nom. cons.
+247. [—]. Tiganophytaceae Swanepoel et al.
+248. [262]. Salvadoraceae Lindl., nom. cons. (including
+Bataceae Mart. ex Perleb, nom. cons.)
+249. [260]. Koeberliniaceae Engl., nom. cons.
+250. [263]. Emblingiaceae Airy Shaw
+251. [265]. Pentadiplandraceae Hutch. & Dalziel
+252. [264]. Tovariaceae Pax, nom. cons.
+253. [266]. Gyrostemonaceae A.Juss., nom. cons.
+254. [267]. Resedaceae Martinov, nom. cons. (including
+Borthwickia W.W.Sm., Forchhammeria Liebm.,
+Stixaceae Doweld)
+255. [268]. Capparaceae Juss., nom. cons.
+256. [269]. Cleomaceae Bercht. & J.Presl
+257. [270]. Brassicaceae Burnett, nom. cons. (= Cruciferae
+Juss., nom. cons.)
+44. Malvales Juss. ex Bercht. & J.Presl
+258. [246]. Neuradaceae Kostel., nom. cons.
+259. [244]. Cytinaceae A.Rich.
+260. [249]. Thymelaeaceae Juss., nom. cons.
+261. [245]. Muntingiaceae C.Bayer et al.
+262. [248]. Sphaerosepalaceae Bullock
+263. [250]. Bixaceae Kunth, nom. cons.
+264. [251]. Cistaceae Juss., nom. cons. (including Pakaraimaea
+Maguire & P.S.Ashton)
+265. [252]. Sarcolaenaceae Caruel, nom. cons.
+266. [253]. Dipterocarpaceae Blume, nom. cons.
+267. [247]. Malvaceae Juss., nom. cons.
+[non‐rosid, non‐asterid orders]
+45. Santalales R.Br. ex Bercht. & J.Presl
+268. [—]. Strombosiaceae Tiegh.
+269. [—]. Erythropalaceae Planch. ex Miq., nom. cons.
+270. [273]. Olacaceae R.Br., nom. cons. (excluding
+Erythropalaceae Planch. ex Miq., Strombosiaceae
+Tiegh., including Aptandraceae Miers, Coulaceae van
+Tieghem, Octoknemaceae Tiegh., nom. cons.,
+Ximeniaceae Horaninow)
+
+J. Syst. Evol. 64(5): 845–874, 2026
+
+271. [274]. Opiliaceae Valeton, nom. cons.
+272. [275]. Balanophoraceae Rich., nom. cons. (including
+Mystropetalaceae Hook.f.)
+273. [276]. Santalaceae R.Br., nom. cons. (including
+Amphorogynaceae Nickrent & Der, Cervantesiaceae
+Nickrent & Der, Comandraceae Nickrent & Der,
+Nanodeaceae Nickrent & Der, Thesiaceae Vest,
+Viscaceae Batsch)
+274. [277]. Misodendraceae J.Agardh, nom. cons.
+275. [278]. Schoepﬁaceae Blume
+276. [279]. Loranthaceae Juss., nom. cons.
+46. Caryophyllales Juss. ex Bercht. & J.Presl
+277. [284]. Droseraceae Salisb., nom. cons.
+278. [285]. Nepenthaceae Dumort, nom. cons.
+279. [286]. Drosophyllaceae Chrtek et al.
+280. [287]. Dioncophyllaceae Airy Shaw, nom. cons.
+281. [288]. Ancistrocladaceae Planch. ex Walp., nom. cons.
+282. [280]. Frankeniaceae Desv., nom. cons. (including
+Tamaricaceae Link, nom. cons.)
+283. [282]. Plumbaginaceae Juss., nom. cons.
+284. [283]. Polygonaceae Juss., nom. cons.
+285. [289]. Rhabdodendraceae Prance
+286. [290]. Simmondsiaceae Tiegh.
+287. [291]. Physenaceae Takht.
+288. [292]. Asteropeiaceae Takht. ex Reveal & Hoogland
+289. [294]. Microteaceae Schäferhoﬀ & Borsch
+290. [298]. Stegnospermataceae Nakai
+291. [296]. Achatocarpaceae Heimerl, nom. cons.
+292. [297]. Amaranthaceae Juss., nom. cons.
+293. [295]. Caryophyllaceae Juss., nom. cons.
+294. [299]. Limeaceae Shipunov ex Reveal
+295. [293]. Macarthuriaceae Christenh.
+296. [300]. Lophiocarpaceae Doweld & Reveal (including
+Corbichoniaceae Thulin)
+297. [302]. Barbeuiaceae Nakai
+298. [301]. Kewaceae Christenh.
+299. [304]. Aizoaceae Martinov, nom. cons.
+300. [303]. Gisekiaceae Nakai
+301. [305]. Phytolaccaceae R.Br., nom. cons.
+(including Agdestidaceae Nakai and
+Sarcobataceae Behnke)
+302. [306]. Petiveriaceae C.Agardh
+303. [308]. Nyctaginaceae Juss., nom. cons.
+304. [309]. Molluginaceae Bartl., nom. cons.
+305. [313]. Halophytaceae S.Soriano
+306. [310]. Montiaceae Raf.
+307. [312]. Basellaceae Raf., nom. cons.
+308. [311]. Didiereaceae Radlk., nom. cons.
+309. [314]. Talinaceae Doweld
+310. [316]. Anacampserotaceae Eggli & Nyﬀeler
+311. [315]. Portulacaceae Juss., nom. cons.
+312. [317]. Cactaceae Juss., nom. cons.
+SUPERASTERIDS
+47. Berberidopsidales Doweld
+313. [271]. Aextoxicaceae Engl. & Gilg, nom. cons.
+314. [272]. Berberidopsidaceae Takht.
+
+www.jse.ac.cn
+
+17596831, 2026, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jse.70096 by Cochrane Russian Federation, Wiley Online Library on [11/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+872
+
+ASTERIDS
+48. Cornales Link
+315. [319]. Hydrostachyaceae Engl., nom. cons.
+316. [322]. Curtisiaceae Takht.
+317. [323]. Grubbiaceae Endl. ex Meisn., nom. cons.
+318. [318]. Nyssaceae Juss. ex Dumort., nom. cons.
+319. [324]. Cornaceae Bercht. & J.Presl, nom. cons.
+320. [320]. Hydrangeaceae Dumort., nom. cons.
+321. [321]. Loasaceae Juss., nom. cons.
+49. Ericales Bercht. & J.Presl
+322. [346]. Mitrastemonaceae Makino, nom. cons.
+323. [327]. Tetrameristaceae Hutch.
+324. [326]. Marcgraviaceae Bercht. & J.Presl, nom. cons.
+325. [325]. Balsaminaceae A.Rich., nom. cons.
+326. [330]. Lecythidaceae A.Rich., nom. cons.
+327. [328]. Fouquieriaceae DC., nom. cons.
+328. [329]. Polemoniaceae Juss., nom. cons.
+329. [334]. Ebenaceae Gürke, nom. cons.
+330. [335]. Primulaceae Batsch ex Borkh., nom. cons.
+331. [332]. Pentaphylacaceae Engl., nom. cons.
+332. [333]. Sapotaceae Juss., nom. cons.
+333. [336]. Theaceae Mirb., nom. cons.
+334. [337]. Symplocaceae Desf., nom. cons.
+335. [338]. Diapensiaceae Lindl., nom. cons.
+336. [339]. Styracaceae DC. & Spreng., nom. cons.
+337. [340]. Sarraceniaceae Dumort., nom. cons.
+338. [341]. Roridulaceae Martinov, nom. cons.
+339. [342]. Actinidiaceae Gilg & Werderm., nom. cons.
+340. [343]. Clethraceae Klotzsch, nom. cons.
+341. [344]. Cyrillaceae Lindl., nom. cons.
+342. [345]. Ericaceae Juss., nom. cons.
+LAMIIDS
+52. Cardiopteridales Takht.
+343. [389]. Cardiopteridaceae Blume, nom. cons.
+344. [388]. Stemonuraceae Kårehed
+53. Garryales Mart.
+345. [350]. Eucommiaceae Engl., nom. cons.
+346. [351]. Garryaceae Lindl., nom. cons.
+54. Aquifoliales Senft (excluding Cardiopteridaceae Blume,
+Stemonuraceae Kårehed)
+
+873
+
+353. [363]. Hydroleaceae R.Br.
+354. [359]. Convolvulaceae Juss., nom. cons.
+355. [360]. Solanaceae Juss., nom. cons.
+58. Boraginales Juss. ex Bercht. & J.Presl
+356. [357]. Boraginaceae Juss., nom. cons. (including
+Coldeniaceae J.S.Mill. & Gottschling, Namaceae
+Molinari)
+59. Gentianales Juss. ex Bercht. & J.Presl
+357. [355]. Gelsemiaceae L.Struwe & V.A.Albert
+358. [353]. Gentianaceae Juss., nom. cons.
+359. [354]. Loganiaceae R.Br. ex Mart., nom. cons.
+360. [356]. Apocynaceae Juss., nom. cons.
+361. [352]. Rubiaceae Juss., nom. cons.
+60. Lamiales Bromhead
+362. [364]. Plocospermataceae Hutch.
+363. [365]. Carlemanniaceae Airy Shaw
+364. [366]. Oleaceae Hoﬀmanns. & Link, nom. cons.
+365. [367]. Tetrachondraceae Wettst.
+366. [369]. Gesneriaceae Rich. & Juss., nom. cons. (including
+Calceolariaceae Olmstead, Peltantheraceae MolinariNovoa)
+367. [370]. Plantaginaceae Juss., nom. cons.
+368. [374]. Byblidaceae Domin, nom. cons.
+369. [373]. Linderniaceae Borsch et al.
+370. [371]. Scrophulariaceae Juss., nom. cons.
+371. [372]. Stilbaceae Kunth, nom. cons.
+372. [379]. Lentibulariaceae Rich., nom. cons.
+373. [381]. Thomandersiaceae Sreem.
+374. [376]. Pedaliaceae R.Br., nom. cons.
+375. [377]. Acanthaceae Juss., nom. cons.
+376. [380]. Schlegeliaceae Reveal
+377. [382]. Verbenaceae J.St.Hil., nom. cons.
+378. [375]. Martyniaceae Horan., nom. cons.
+379. [378]. Bignoniaceae Juss., nom. cons.
+380. [387]. Orobanchaceae Vent., nom. cons. (including
+Mazaceae Reveal, Paulowniaceae Nakai, Phrymaceae
+Schauer, Rehmanniaceae G.Kunkel ex Reveal,
+Wightiaceae Bo Li et al.)
+381. [383]. Lamiaceae Martinov, nom. cons. (= Labiatae
+Juss., nom. cons.)
+CAMPANULIDS
+50. Oncothecales Doweld
+
+347. [391]. Helwingiaceae Decne. (including
+Phyllonomaceae Small)
+348. [392]. Aquifoliaceae Bercht. & J.Presl, nom. cons.
+
+382. [347]. Oncothecaceae Kobuski ex Airy Shaw
+
+55. Icacinales Tiegh. (excluding Cassinopsis Sond.,
+Oncothecaceae Kobuski ex Airy Shaw)
+
+383. [349]. Metteniusaceae H.Karst. ex Schnizl
+
+349. [348]. Icacinaceae Miers, nom. cons.
+56. Vahliales Doweld
+350. [358]. Vahliaceae Dandy
+57. Solanales Juss. ex Bercht. & J.Presl
+351. [361]. Montiniaceae Nakai, nom. cons.
+352. [362]. Sphenocleaceae T.Baskerv., nom. cons.
+
+www.jse.ac.cn
+
+51. Metteniusales Takht. (including Cassinopsis Sond.)
+
+61. Bruniales Dumort. (excluding Columelliaceae D.Don)
+384. [406]. Bruniaceae R.Br. ex DC., nom. cons.
+62. Asterales Link
+385. [393]. Rousseaceae DC.
+386. [395]. Pentaphragmataceae J.Agardh, nom. cons.
+387. [394]. Campanulaceae Juss., nom. cons.
+388. [396]. Stylidiaceae R.Br., nom. cons.
+
+J. Syst. Evol. 64(5): 845–874, 2026
+
+17596831, 2026, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jse.70096 by Cochrane Russian Federation, Wiley Online Library on [11/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+The Angiosperm Phylogeny Group
+
+The Angiosperm Phylogeny Group
+
+389. [398]. Phellinaceae Takht.
+390. [397]. Alseuosmiaceae Airy Shaw
+391. [399]. Argophyllaceae Takht.
+392. [400]. Menyanthaceae Dumort., nom. cons.
+393. [401]. Goodeniaceae R.Br., nom. cons.
+394. [402]. Calyceraceae R.Br. ex Rich., nom. cons.
+395. [403]. Asteraceae Bercht. & J.Presl, nom. cons., nom.
+alt. (= Compositae Giseke, nom. cons., nom. alt.)
+
+66. Apiales Nakai
+
+[asterid, unplaced to order]
+
+401. [410]. Pennantiaceae J.Agardh
+402. [411]. Torricelliaceae Hu
+403. [412]. Griseliniaceae Takht., nom. cons.
+404. [413]. Pittosporaceae R.Br., nom. cons.
+405. [414]. Araliaceae Juss., nom. cons.
+406. [415]. Myodocarpaceae Doweld
+407. [416]. Apiaceae Lindl., nom. cons., nom. alt. (=
+Umbelliferae Juss., nom. cons., nom. alt.)
+
+396. [405]. Columelliaceae D.Don, nom. cons.
+
+Incertae sedis
+
+63. Escalloniales Link
+
+Atrichodendron Gagnep.
+Gumillea Ruiz & Pav. (possibly Picramniales or Huerteales)
+Keithia Spreng.
+Poilanedora Gagnep. (possibly Zygophyllales)
+
+397. [404]. Escalloniaceae R.Br. ex Dumort., nom. cons.
+64. Paracryphiales Takht. ex Reveal
+398. [407]. Paracryphiaceae Airy Shaw
+65. Dipsacales Juss. ex Bercht. & J.Presl
+
+Supplementary Material
+
+399. [408]. Viburnaceae Raf., nom. cons [Adoxaceae E.Mey,
+nom. cons.]
+400. [409]. Caprifoliaceae Juss., nom. cons.
+
+The following supplementary material is available online for
+this article at http://onlinelibrary.wiley.com/doi/10.1111/jse.
+70096/suppinfo:
+Data S1. APG V Survey.
+
+J. Syst. Evol. 64(5): 845–874, 2026
+
+www.jse.ac.cn
+
+17596831, 2026, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jse.70096 by Cochrane Russian Federation, Wiley Online Library on [11/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+874
+
+
