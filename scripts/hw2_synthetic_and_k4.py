@@ -33,17 +33,34 @@ STATS_HEADER = [
     "t_count", "ambiguous_count", "gc_percent",
 ]
 
-# Оригинальные данные (для генерации копий).
-ORIG_IR = [
-    ["KU361241", 83896, 108335, 126885, 151324, 24440, 0, 83895, 18549, 99.992],
-    ["KU736960", 83923, 108361, 126869, 151307, 24439, 0, 83922, 18507, 100.0],
-    ["NC_032056", 83863, 108283, 126862, 151282, 24421, 0, 83862, 18578, 99.996],
-]
-ORIG_STATS = [
-    ["KU361241.1", "homework/data/KU361241.1.fasta", 151324, 47065, 28355, 28673, 47231, 0, 37.68602469],
-    ["KU736960.1", "homework/data/KU736960.1.fasta", 151307, 47048, 28368, 28660, 47231, 0, 37.69025888],
-    ["NC_032056.1", "homework/data/NC_032056.1.fasta", 151282, 46924, 28085, 28916, 47357, 0, 37.67863989],
-]
+# Исходные данные читаются из CSV (не прописываются вручную).
+IR_SRC = "homework/structure/ir_boundaries.csv"
+STATS_SRC = "results/hw1/fasta_stats.csv"
+
+
+def read_source_csv(path, header):
+    """Читает исходный CSV в список строк (значения как в файле)."""
+    with open(path, newline="") as f:
+        reader = csv.DictReader(f)
+        return [[row[c] for c in header] for row in reader]
+
+
+IR_INT_COLS = {1, 2, 3, 4, 5, 6, 7, 8}  # ir1_start..ssc_bp (индексы в IR_HEADER)
+STATS_INT_COLS = {2}  # length_bp (индекс в STATS_HEADER)
+
+
+def load_orig():
+    """Возвращает (ORIG_IR, ORIG_STATS) из исходных CSV, числовые столбцы — int."""
+    ir = read_source_csv(IR_SRC, IR_HEADER)
+    stats = read_source_csv(STATS_SRC, STATS_HEADER)
+    for row in ir:
+        for i in IR_INT_COLS:
+            row[i] = int(row[i])
+    for row in stats:
+        for i in STATS_INT_COLS:
+            row[i] = int(row[i])
+    return ir, stats
+
 
 SEEDS = [1, 2, 3, 4, 5]
 COPIES_PER_SEED = 100
@@ -190,6 +207,7 @@ def apply_damage(ir_rows, stats_rows, damage_type, rng):
 
 def run_k4(tmpdir):
     """Эксперимент К4. Возвращает (строки отчёта, all_ok)."""
+    ORIG_IR, ORIG_STATS = load_orig()
     damage_types = ["coord", "lsc", "ssc", "ir_bp", "length"]
     rows_out = []  # (seed, copy, type, full_detected, simple_detected, is_control)
     full_det = {s: 0 for s in SEEDS}
@@ -213,7 +231,7 @@ def run_k4(tmpdir):
             simple_det[seed] += int(simple_d)
             pairs.append((int(full_d), int(simple_d)))
             rows_out.append([seed, copy_no, dtype, int(full_d), int(simple_d), 0])
-        # Корректные контроли: 100 без повреждений.
+        # Корректные контроли: 100 без повреждений (повторения одной исходной таблицы).
         for copy_no in range(COPIES_PER_SEED):
             ir_path = os.path.join(tmpdir, f"k4c_{seed}_{copy_no}_ir.csv")
             stats_path = os.path.join(tmpdir, f"k4c_{seed}_{copy_no}_stats.csv")
@@ -250,19 +268,32 @@ def run_k4(tmpdir):
     full_all_detected = full_det_rate == 1.0
     no_fp = (full_fp_rate == 0.0 and simple_fp_rate == 0.0)
 
+    # Разброс по seed (доля обнаружения полной проверкой на 100 копий каждого seed).
+    per_seed_full = {s: full_det[s] / COPIES_PER_SEED for s in SEEDS}
+    per_seed_simple = {s: simple_det[s] / COPIES_PER_SEED for s in SEEDS}
+    spread_full = max(per_seed_full.values()) - min(per_seed_full.values())
+    spread_simple = max(per_seed_simple.values()) - min(per_seed_simple.values())
+
     lines = []
     lines.append(f"повреждённых копий: {n_damaged} (5 seed x 100, по 20 на тип)")
     lines.append(f"корректных контролей: {n_control}")
-    lines.append(f"доля обнаружения полной проверкой: {full_det_rate:.4f}")
-    lines.append(f"доля обнаружения простой проверкой: {simple_det_rate:.4f}")
+    lines.append("доля обнаружения по seed (полная / простая):")
+    for s in SEEDS:
+        lines.append(f"  seed {s}: полная={per_seed_full[s]:.4f}, простая={per_seed_simple[s]:.4f}")
+    lines.append(f"разброс по seed: полная={spread_full:.4f}, простая={spread_simple:.4f}")
+    lines.append(f"доля обнаружения полной проверкой (всего): {full_det_rate:.4f}")
+    lines.append(f"доля обнаружения простой проверкой (всего): {simple_det_rate:.4f}")
     lines.append(f"ложные срабатывания полной: {full_fp_rate:.4f}, простой: {simple_fp_rate:.4f}")
     lines.append(f"парная разность (полная-простая): среднее={mean_diff:.4f}, "
                  f"95% bootstrap-интервал=[{lo:.4f}, {hi:.4f}] "
                  f"(bootstrap: {BOOTSTRAP_N} повторов, seed {BOOTSTRAP_SEED})")
     lines.append(f"статистическое преимущество (нижняя граница > 0): {stat_adv}")
-    lines.append(f"практическое преимущество (>= {PRACTICAL_THRESHOLD:.2f} п.п.): {pract_adv}")
+    lines.append(f"практическое преимущество (>= {PRACTICAL_THRESHOLD * 100:.0f} п.п.): {pract_adv}")
     lines.append(f"все предусмотренные повреждения отклонены полной проверкой: {full_all_detected}")
     lines.append(f"ложных срабатываний нет: {no_fp}")
+    lines.append("примечание: корректные контроли — повторения одной исходной таблицы; "
+                 "500 повреждений могут содержать одинаковые случаи; это не 500 независимых "
+                 "биологических образцов.")
     all_ok = (full_all_detected and no_fp and stat_adv and pract_adv)
     lines.append(f"ИТОГ: {'ПРОЙДЕН' if all_ok else 'НЕ ПРОЙДЕН'}")
     return rows_out, lines, all_ok
