@@ -1,5 +1,11 @@
+=== ВЕТКА С ОШИБКОЙ: hw2-injected-error ===
+Команда: python3 checks/check_plastome_consistency.py --ir results/hw2/injected_error_ir.csv --no-version-check
+Повреждённая копия: results/hw2/injected_error_ir.csv (KU361241 ir1_start 83896 -> 83897)
+Хэш повреждённой копии (SHA-256): f17c4145caa1bc0fc6f6510f133a2cd99c8bd82d6870f5228830b88a53f6e0f4
+---
 ПРОВЕРКА СОДЕРЖИМОГО: НЕ ПРОЙДЕНА
   - свойство 3: KU361241.1: lsc_bp=83895 != ir1_start-1=83896
   - свойство 4: KU361241.1: IR1_length=24439 != ir_bp=24440
   - свойство 6: KU361241.1: IR1_length=24439 != IR2_length=24440 при ir_copy_length_difference=0
   - свойство 7: KU361241.1: lsc+IR1+ssc+IR2=151323 != length_bp=151324
+exit=1

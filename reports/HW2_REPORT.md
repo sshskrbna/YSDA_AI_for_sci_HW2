@@ -140,40 +140,40 @@ seed 3 — 1.0000/0.2500, seed 4 — 1.0000/0.2200, seed 5 — 1.0000/0.2300. Л
 
 ## 6. Пойманная ошибка
 
-*[порождено: deepseek-v4-flash/latest]*
+*[порождено: AI4Science, модель `deepseek-v4-flash/latest`]*
 
 | Что было не так | Настоящая или внесённая | Чем поймано | Вывод «до» | Вывод «после» |
 |---|---|---|---|---|
 | Сдвиг `ir1_start` образца KU361241 на +1 (83896 → 83897) | внесённая | свойства 3, 4, 6, 7 | `results/hw2/caught_error_before.txt` (код 1) | `results/hw2/verdict_ok.txt` (код 0) |
 
-Как воспроизвести «до» и «после» (оригиналы не изменяются; повреждённая копия создаётся во
-временной папке):
+Ошибка внесена в отдельной ветке `hw2-injected-error` как отдельная повреждённая копия
+`results/hw2/injected_error_ir.csv` (KU361241 `ir1_start` 83896 → 83897). Оригинальные CSV,
+`METHOD.md`, `checks/` и алгоритмы не изменялись; слияние ветки с ошибкой в `main` не делалось.
+Хэш коммита ветки с ошибкой: `ea02e9a` (`ea02e9acfd61477f8385b51176e5a3195b2669e6`).
+
+Как воспроизвести «до» и «после» через `git switch` (полностью исполняемые команды):
 
 ```bash
-# 1. Создать повреждённую копию: сдвиг ir1_start образца KU361241 на +1.
-D=$(mktemp -d)
-python3 -c "
-import csv
-with open('homework/structure/ir_boundaries.csv', newline='') as f:
-    rows = list(csv.DictReader(f))
-for r in rows:
-    if r['sample_id'] == 'KU361241':
-        r['ir1_start'] = str(int(r['ir1_start']) + 1)
-with open('$D/ir_boundaries.csv', 'w', newline='') as f:
-    w = csv.DictWriter(f, fieldnames=rows[0].keys())
-    w.writeheader()
-    w.writerows(rows)
-"
-# 2. «До»: верификатор на повреждённой копии — код 1.
-python3 checks/check_plastome_consistency.py --ir "$D/ir_boundaries.csv" --no-version-check
-echo "до: код $?"   # фактически 1
-# 3. «После»: верификатор на оригинальных данных — код 0.
+# «До»: ветка с намеренной ошибкой, повреждённая копия.
+git switch hw2-injected-error
+python3 checks/check_plastome_consistency.py --ir results/hw2/injected_error_ir.csv --no-version-check
+echo "до: код $?"   # фактически 1 (диагностика свойств 3, 4, 6, 7, не ошибка SHA-256)
+
+# «После»: исправная версия в main.
+git switch main
 python3 checks/check_plastome_consistency.py
 echo "после: код $?"   # фактически 0
-rm -rf "$D"
+python3 scripts/hw2_synthetic_and_k4.py
+echo "после К4: код $?"   # фактически 0
 ```
 
-Фактические коды завершения проверены: «до» — 1, «после» — 0.
+Фактические коды завершения проверены: «до» — 1, «после» — 0 (верификатор и К4).
+SHA-256 повреждённой копии `results/hw2/injected_error_ir.csv`:
+`f17c4145caa1bc0fc6f6510f133a2cd99c8bd82d6870f5228830b88a53f6e0f4`.
+SHA-256 оригинала `homework/structure/ir_boundaries.csv`:
+`3acff4cd2ce48f0c4ed3803a2d7150b516207f4dbf05f7d7eb28e257a453ccee`.
+Полные фактические выводы сохранены в `results/hw2/caught_error_before.txt` и
+`results/hw2/verdict_ok.txt`.
 
 ## 7. Воспроизведение
 
@@ -229,6 +229,7 @@ macOS darwin): верификатор ~0.011 с, синтетика+К4 ~0.354 �
 | `results/hw2/*` (выводы, дерево, журнал) | `[порождено]` | учебный агент AI4Science, модель `deepseek-v4-flash/latest` | сверены с фактическими прогонами и хэшами коммитов |
 | Разделы 1–8 отчёта | `[порождено]` | учебный агент AI4Science, модель `deepseek-v4-flash/latest` | сверены с `results/`, `METHOD.md`, журналом попыток |
 | Раздел 9 (таблица авторства) | `[порождено]` | учебный агент AI4Science, модель `deepseek-v4-flash/latest` | соответствует фактическим файлам и прогонам |
+| Ветка `hw2-injected-error`, `results/hw2/injected_error_ir.csv`, `caught_error_before.txt`, `verdict_ok.txt`, раздел 6 | `[порождено]` | учебный агент AI4Science, модель `deepseek-v4-flash/latest` | фактические прогоны: «до» код 1 (свойства 3, 4, 6, 7), «после» код 0; хэши коммита `ea02e9a` и SHA-256 копий |
 
 Дополнительно: служебная подготовка использовался для подготовки промптов, рецензирования методики и
 независимой проверки результатов. Точная модель служебная подготовка не указывается (не выдумывается). Код
