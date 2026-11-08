@@ -32,7 +32,22 @@ python3 scripts/hw2_synthetic_and_k4.py
 (повреждённая копия `results/hw2/injected_error_ir.csv`); в `main` её нет.
 
 Проверяется согласованность таблиц, а не биологическая правильность определения границ.
-Метка `hw2` пока не создана.
+
+## Воспроизведение по метке `hw2`
+
+Репозиторий: https://github.com/sshskrbna/YSDA_AI_for_sci_HW2.git
+
+```bash
+git clone https://github.com/sshskrbna/YSDA_AI_for_sci_HW2.git ../hw2_check
+cd ../hw2_check
+git checkout hw2
+python3 checks/check_plastome_consistency.py   # ожидается код 0
+python3 scripts/hw2_synthetic_and_k4.py        # ожидается код 0
+```
+
+Правило приёмки: обе команды должны вернуть код 0; К4 должен совпасть с сохранёнными
+числами (полная 1.0000, простая 0.2380, разность 0.7620, интервал [0.7220, 0.7980]).
+Проверка по метке выполняется после её создания и отправки.
 
 ## История
 
